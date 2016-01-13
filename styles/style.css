@@ -72,7 +72,7 @@ p {
 	color: #666;
 }
 h1, h2, h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 200;
 }
 h1 strong, h2 strong, h3 strong {
@@ -104,7 +104,7 @@ h2 .fa {
 Short Codes & Form Elements
 =============================================== */
 .form-group label, .table > thead > tr > th {
-	font-family: "Raleway", sans-serif;
+	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
 	font-weight: normal;
 }
@@ -257,7 +257,8 @@ Bootstrap Navbar
 .navbar-default a.navbar-brand {
 	font-size: 35px;
 	color: #FFF;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poiret One', cursive;
+	text-transform: lowercase;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
 	background: none;
@@ -315,7 +316,7 @@ For Mega Menu
 	font-size: 16px;
 	color: #CCC;
 	padding: 3px 20px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 /* ==============================================
 Banner
@@ -492,7 +493,7 @@ Features
 	color: #333;
 	font-size: 20px;
 	font-weight: normal;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .features .block p {
 	color: #333;
@@ -920,7 +921,7 @@ News & Blog items
 	padding-bottom: 20px;
 }
 .widget-body h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Lato", sans-serif;
 	margin-top: 0;
 	margin-bottom: 5px;
 }
@@ -982,7 +983,7 @@ News & Blog items
 }
 .comment > div h4 {
 	margin: 0;
-	font-family: "Raleway", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 .comment > div p {
 	border-bottom: 1px dashed #CCC;
@@ -1114,7 +1115,7 @@ Subscribe
 	line-height: 28px;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-family: "Raleway", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 /* ==============================================
 Clients
@@ -1188,7 +1189,7 @@ Contact Us
 	line-height: 28px;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-family: "Raleway", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 .contact .btn-default {
 	background: #222;
@@ -1298,7 +1299,7 @@ Sidebar
 }
 .shortcodes > .panel-default > .panel-heading {
 	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 200;
 	padding: 15px 10px;
 	text-transform: uppercase;
@@ -1386,7 +1387,7 @@ Accordion
 	border-color: #222;
 }
 .panel-default > .panel-heading a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
 /* ==============================================
@@ -1452,7 +1453,7 @@ Accordion
 .pricing .btn-default {
 	width: 130px;
 	margin-top: -40px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 /* ==============================================
 404
@@ -1465,7 +1466,7 @@ Accordion
 	line-height: 100px;
 }
 .four_o_four_error li.no {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	padding: 0 30px 20px 30px;
 }
 .four_o_four_error li:nth-child(2) {
