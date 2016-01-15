@@ -207,17 +207,17 @@ Top Head Styles
 	background: rgba(0,0,0,.9);
 }
 .container-fluid {
-	padding-left: 0;
-	padding-right: 0;
+	width: 100%;
 }
 .big_block {
-	padding: 30px 0;
+	padding: 0px 0;
 }
 .top_head {
 	position: relative;
 	line-height: 45px;
-	color: #FFF;
+	color: #F8F8F8;
 	z-index: 99999;
+	background-color: #F8F8F8;
 }
 .top_head i {
 	padding-right: 10px;
@@ -276,7 +276,8 @@ Bootstrap Navbar
 	color: #333333;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .dropdown-menu > li a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-	color: #a52b2b;
+	color: #333333;
+	font-weight: bold;
 }
 .navbar-default .dropdown-menu {
 	background: #F8F8F8;
@@ -290,6 +291,7 @@ Bootstrap Navbar
 	top: 5px;
 	font-size: 16px;
 	color: #666;
+
 }
 /* ==============================================
 For Mega Menu
@@ -1792,9 +1794,9 @@ Desktop Screen
 /* ==============================================
 Desktop and Large Desktop Screen
 =============================================== */
-@media screen and (min-width:992px) {
+@media screen and (min-width:100%) {
 .wrapper > header .container-fluid {
-	margin: 0 50px;
+	margin: 0 0px;
 }
 .wrapper > header .top_head, .wrapper > header .navbar-default {
 	position: absolute;
