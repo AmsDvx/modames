@@ -207,10 +207,11 @@ Top Head Styles
 	background-color: #F8F8F8;
 }
 .container-fluid {
-	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
 }
 .big_block {
-	padding: 0px 0;
+	padding: 80px 0;
 }
 .top_head {
 	position: relative;
@@ -258,6 +259,7 @@ Bootstrap Navbar
 .navbar-default a.navbar-brand {
 	font-size: 35px;
 	color: #333333;
+	background-color: #F8F8F8;
 	font-family: 'Poiret One', cursive;
 	text-transform: lowercase;
 
@@ -278,8 +280,6 @@ Bootstrap Navbar
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .dropdown-menu > li a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
 	color: #333333;
-	font-weight: bold;
-	text-decoration:underline; 
 }
 .navbar-default .dropdown-menu {
 	background: #F8F8F8;
@@ -333,7 +333,7 @@ Banner
 	height: 1000px;
 }
 .slider .parallax_bann {
-	background: url(../images/modames-slider.png) top center fixed;
+	background: url(../images/slider_pic_2.jpg) top center fixed;
 	position: relative;
 	height: 100%;
 }
@@ -387,7 +387,7 @@ Banner
 	color: #333333
 }
 .bann_caption a {
-	margin: 50px;
+	margin: 0 20px;
 	width: 180px;
 	height: 45px;
 	line-height: 45px;
@@ -1712,10 +1712,6 @@ Tablet and Desktop Screen
 .shortcodes {
 	padding: 0 20px 20px 50px;
 }
-.slider .banner .banner_bg img {
-	width: 100%;
-	transform: scale(1, 1) translate(0, 0);
-}
 .blog_items .block .row > div:nth-child(1) {
 	padding-right: 0;
 }
@@ -1800,9 +1796,9 @@ Desktop Screen
 /* ==============================================
 Desktop and Large Desktop Screen
 =============================================== */
-@media screen and (min-width:100%) {
+@media screen and (min-width:992%) {
 .wrapper > header .container-fluid {
-	margin: 0 0px;
+	margin: 0 50px;
 }
 .wrapper > header .top_head, .wrapper > header .navbar-default {
 	position: absolute;
