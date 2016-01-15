@@ -1692,6 +1692,9 @@ Tablet and Desktop Screen
 	background: #282828;
 	border-radius: 0;
 }
+.wrapper > header .navbar>.container-fluid .navbar-brand {
+	padding-left: 40px;
+}
 .wrapper > header .navbar-default.sticky {
 	position: fixed;
 	background: #222;
@@ -1702,11 +1705,11 @@ Tablet and Desktop Screen
 	animation: .3s nav_sticky linear;
 }
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
-	padding-right: 15px;
+	padding-right: 40px;
 }
 .navbar-default .navbar-nav > li:last-child > a {
 	border-radius: 0;
-	padding-right: 0;
+	padding-right: 40px;
 	margin-right: 0;
 }
 .shortcodes {
