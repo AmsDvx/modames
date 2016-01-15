@@ -244,7 +244,7 @@ Bootstrap Navbar
 	z-index: 1004;
 	margin-bottom: 0;
 	background: rgba(0,0,0,0);
-	text-transform: uppercase;
+	text-transform: none;
 }
 .navbar-default .navbar-nav > li > a {
 	margin: 5px;
@@ -256,29 +256,30 @@ Bootstrap Navbar
 }
 .navbar-default a.navbar-brand {
 	font-size: 35px;
-	color: #FFF;
+	color: #333333;
 	font-family: 'Poiret One', cursive;
 	text-transform: lowercase;
+
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-	background: none;
+	background: #F8F8F8;
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .dropdown-menu > li a, .navbar-default .dropdown-menu .dropdown-menu > li a {
-	color: #FFF;
-	background: none;
+	color: #333333;
+	background: #F8F8F8;
 }
 .navbar-default .dropdown-menu > li a {
 	padding: 7px 20px;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-	background: none;
-	color: #a52b2b;
+	background: #F8F8F8;
+	color: #333333;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .dropdown-menu > li a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
 	color: #a52b2b;
 }
 .navbar-default .dropdown-menu {
-	background: #222;
+	background: #F8F8F8;
 	padding: 15px 0;
 }
 .navbar-nav > li.dropdown li.dropdown > a::before {
@@ -296,6 +297,7 @@ For Mega Menu
 .collapse.navbar-collapse {
 	position: relative;
 	z-index: 10000;
+	background:#F8F8F8; 
 }
 .nav > li.mega_drop_down {
 	position: static;
