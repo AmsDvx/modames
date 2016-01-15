@@ -333,7 +333,7 @@ Banner
 	height: 1000px;
 }
 .slider .parallax_bann {
-	background: url(../images/slider_pic_2.jpg) top center fixed;
+	background: url(../images/modames-slider.png) top center fixed;
 	position: relative;
 	height: 100%;
 }
@@ -374,12 +374,17 @@ Banner
 .bann_caption h2 {
 	font-size: 60px;
 	font-weight: 200;
+	color: #333333
 }
 .bann_caption h3 {
 	font-size: 30px;
 	line-height: 40px;
 	font-weight: bold;
 	margin-bottom: 50px;
+	color: #333333
+}
+.bann_caption h4 {
+	color: #333333
 }
 .bann_caption a {
 	margin: 50px;
@@ -394,7 +399,7 @@ Banner
 }
 .bann_caption .btn-default.style_2, .carousel-caption .btn-default.style_2 {
 	border: 1px solid #FFF;
-	background: rgba(255,255,255,.2);
+	background: #FF8B80;
 	color: #FFF;
 }
 .owl_slider, .blog_items .owl-carousel, #blog_carousel {
@@ -1709,7 +1714,6 @@ Tablet and Desktop Screen
 }
 .slider .banner .banner_bg img {
 	width: 100%;
-	animation: 50s zoomEffect infinite;
 	transform: scale(1, 1) translate(0, 0);
 }
 .blog_items .block .row > div:nth-child(1) {
