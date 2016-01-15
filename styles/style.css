@@ -249,7 +249,7 @@ Bootstrap Navbar
 }
 .navbar-default .navbar-nav > li > a {
 	margin: 5px;
-	font-weight: bold;
+	font-weight: normal;
 }
 .navbar-header {
 	position: relative;
@@ -279,6 +279,7 @@ Bootstrap Navbar
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .dropdown-menu > li a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
 	color: #333333;
 	font-weight: bold;
+	text-decoration:underline; 
 }
 .navbar-default .dropdown-menu {
 	background: #F8F8F8;
