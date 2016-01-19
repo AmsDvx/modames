@@ -145,10 +145,7 @@ input.form-control, textarea.form-control {
 	margin: 10px 0;
 	border-bottom: none;
 }
-.nav-tabs, .home_block_1 .tab-content {
-	width: 700px;
-	max-width: 100%;
-}
+
 .nav-tabs > li a:hover {
 	cursor: pointer;
 }
