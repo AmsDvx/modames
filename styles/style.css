@@ -626,9 +626,11 @@ Home_block 2 & 3
 =============================================== */
 .home_block_1 {
 	background: url(../images/about_us.jpg) top center fixed;
+	background-attachment: initial;
 }
 .home_block_2 {
 	background: url(../images/about_us.jpg) top center fixed;
+	background-attachment: initial;
 }
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div {
 	background: rgba(255,255,255,.85);
