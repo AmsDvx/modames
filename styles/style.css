@@ -631,7 +631,12 @@ Home_block 2 & 3
 	background-attachment: initial;
 	background-size : cover;
 }
-.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div {
+.home_block_3 {
+	background: url(../images/modames-bigblock.jpg) top center fixed;
+	background-attachment: initial;
+	background-size : cover;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
 }
 .home_block_1 p {
@@ -1616,7 +1621,7 @@ Mobile and Tablet Screen
 	display: none;
 }
 .blog_items.pull-right,
-.home_block_1 div > div.pull-right,.home_block_2 div > div.pull-right{
+.home_block_1 div > div.pull-right,.home_block_2 div > div.pull-right, .home_block_3 div > div.pull-right{
 	float:none !important;
 }
 }
@@ -1635,6 +1640,9 @@ Mobile Screen
 	background: none;
 }
 .home_block_1 .container-fluid > div.col-md-6.col-sm-8.pull-right {
+	float: none !important;
+}
+.home_block_3 .container-fluid > div.col-md-6.col-sm-8.pull-right {
 	float: none !important;
 }
 .dropdown-nested > a:focus,.dropdown-nested > a:active{
@@ -1757,13 +1765,16 @@ Tablet Screen
 .features > div > div:nth-child(4) {
 	border-left: none;
 }
-.home_block_1 .container-fluid > div > div.pull-right, .home_block_2 .container-fluid > div > div.pull-right {
+.home_block_1 .container-fluid > div > div.pull-right, .home_block_2 .container-fluid > div > div.pull-right, .home_block_3 .container-fluid > div > div.pull-right {
 	float: none !important;
 }
 .home_block_1 .container-fluid > div > div {
 	padding: 20px 0 5px 0;
 }
 .home_block_2 .container-fluid > div > div {
+	padding: 5px 0 20px 0;
+}
+.home_block_3 .container-fluid > div > div {
 	padding: 5px 0 20px 0;
 }
 .services > div a {
@@ -1821,7 +1832,10 @@ Desktop and Large Desktop Screen
 .home_block_2 .big_block {
 	float: right;
 }
-.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div {
+.home_block_3 .big_block {
+	float: right;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	padding: 0 15px;
 }
 .slider {
@@ -1857,7 +1871,7 @@ Large Desktop Screen
 .slider .banner .bann_caption, .owl-carousel .bann_caption {
 	top: 170px;
 }
-.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div {
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div  {
 	padding: 0 30px;
 }
 .workprocess .container-fluid .icon:before {
@@ -1881,7 +1895,7 @@ Large Desktop Screen
 Custom Screens
 =============================================== */
 @media screen and (min-width:992px) and (max-width:1500px){
-.home_block_1 .big_block,.home_block_2 .big_block{
+.home_block_1 .big_block,.home_block_2 .big_block, .home_block_3 .big_block{
 	width:100%;
 }
 }
