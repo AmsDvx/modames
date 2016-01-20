@@ -1,0 +1,380 @@
+/* ==============================================
+@Author: Inventive Templates
+@URL: http://inventivetemplates.com
+
+Styles contents are outlined below
+ 
+1. Default Styles
+2. Short Codes & Form Elements
+3. Top Head Styles
+4. Bootstrap Navbar
+5. For Mega Menu
+6. Banner
+7. Features
+8. Features_2 & Features_3
+9. Home_block 2 & 3
+10. Counters
+11. Services
+12. Workprocess
+13. Model Box
+14. Gallery
+15. News & Blog items
+16. Testimonials
+17. Team
+18. Subscribe
+19. Clients
+20. Contact Us
+21. Map
+22. Footer
+23. Sidebar
+24. Accordion
+25. Pricing
+26. 404
+27. Breadcrumb
+28. waypoints
+29. Buy_now
+	
+Responsive Styles
+30. Mobile and Tablet Screen
+31. Mobile Screen
+32. Tablet and Desktop Screen
+33. Tablet Screen
+34. Desktop Screen
+35. Desktop and Large Desktop Screen
+36. Large Desktop Screen
+37. Custom Screens
+	
+Animations
+38. Animations
+
+/* ==============================================
+Default Styles
+=============================================== */
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
+.wrapper {
+	font: 14px/23px 'Lato', sans-serif;
+}
+/* ==============================================
+Short Codes & Form Elements
+=============================================== */
+.form-group label, .table > thead > tr > th {
+	font-family: "Lato", sans-serif;
+}
+
+/* ==============================================
+Top Head Styles
+=============================================== */
+.wrapper > header {
+	background-color: #F8F8F8;
+}
+.big_block {
+	padding: 100px 0;
+}
+.top_head {
+	color: #F8F8F8;
+	background-color: #F8F8F8;
+}
+.top_head a {
+	color: #F8F8F8;
+}
+.top_head .popover {
+	background-color: #F8F8F8;
+}
+
+/* ==============================================
+Bootstrap Navbar
+=============================================== */
+.navbar-default a.navbar-brand {
+	color: #333333;
+	background-color: #F8F8F8;
+	font-family: 'Poiret One', cursive;
+	text-transform: lowercase;
+}
+.navbar-default {
+	text-transform: none;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: normal;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background: #F8F8F8;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .dropdown-menu > li a, .navbar-default .dropdown-menu .dropdown-menu > li a {
+	color: #333333;
+	background: #F8F8F8;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	background: #F8F8F8;
+	color: #333333;
+}
+.navbar-default .dropdown-menu {
+	background: #F8F8F8;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .dropdown-menu > li a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #333333;
+}
+.nav-tabs, .home_block_1 .tab-content {
+	width: 0;
+	max-width: 0;
+}
+/* ==============================================
+For Mega Menu
+=============================================== */
+.mega-menu .nav-header {
+	font-family: 'Lato', sans-serif;
+}
+.collapse.navbar-collapse {
+	background:#F8F8F8; 
+}
+
+/* ==============================================
+Banner
+=============================================== */
+.bann_caption h2 {
+	color: #333333
+}
+.bann_caption h3 {
+	color: #333333
+}
+.bann_caption h4 {
+	color: #333333
+}
+.bann_caption .btn-default.style_2, .carousel-caption .btn-default.style_2 {
+	background: #FF8B80;
+}
+.slider .banner .banner_bg img {
+	animation: none;
+
+.bann_caption a {
+	margin: 0 20px;
+}
+.slider .banner .banner_bg {
+	width: none;
+	transform: scale(0, 0) translate(0, 0);
+}
+
+/* ==============================================
+Features
+=============================================== */
+.features .block h4 {
+	font-family: 'Lato', sans-serif;
+}
+.description p {
+	font-size: 16px;
+	line-height: 10px;
+}
+
+/* ==============================================
+Home_block 2 & 3
+=============================================== */
+.home_block_1_2 {
+	background: url(../images/modames-homeblock1.jpg) top center fixed;
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: right;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg) top center fixed;
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: left;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg) top center fixed;
+	background-attachment: initial;
+	background-size : cover;
+	background-size : 50%;
+	background-position: right;
+
+.home_block_2 .btn-default {
+	margin-right: 20px;
+}
+
+
+/* ==============================================
+News & Blog items
+=============================================== */
+.widget-body h4 {
+	font-family: "Lato", sans-serif;
+}
+.comment > div h4 {
+	font-family: "Lato", sans-serif;
+}
+
+/* ==============================================
+Subscribe
+=============================================== */
+.subscribe a.btn-default {
+	font-family: "Lato", sans-serif;
+}
+
+/* ==============================================
+Contact Us
+=============================================== */
+.contact .btn-default {
+	font-family: "Lato", sans-serif;
+}
+/* ==============================================
+Footer
+=============================================== */
+.wrapper > footer {
+	background: #FDC85C;
+	color: white;
+}
+.social_icons a i {
+	margin: 0px 0px 0px 0px;
+}
+
+footer .social_icons a i {
+	border: none !important;
+	color: #FFF;
+}
+.wrapper > footer hr {
+	border-color: none;
+}
+.wrapper > footer p {
+	color: white;
+}
+.foot_nav li {
+	display: none;
+}
+.foot_nav.style_2 li {
+	line-height: 30px;
+	text-align: left;
+}
+.foot_nav.style_2 li a {
+	border: none;
+	color: white;
+}
+.foot_nav.style_2 li a:hover {
+	text-decoration: underline;
+}
+/* ==============================================
+Sidebar
+=============================================== */
+
+.shortcodes > .panel-default > .panel-heading {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ==============================================
+Accordion
+=============================================== */
+.panel-default > .panel-heading a {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ==============================================
+ Pricing 
+=============================================== */
+.pricing .btn-default {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ==============================================
+404
+=============================================== */
+.four_o_four_error li.no {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/* ==============================================
+Tablet and Desktop Screen
+=============================================== */
+.wrapper > header .navbar>.container-fluid .navbar-brand {
+	padding-left: 40px;
+}
+.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
+	padding-right: 40px;
+}
+.navbar-default .navbar-nav > li:last-child > a {
+	padding-right: 40px;
+}
+
+/* ==============================================
+Tablet Screen
+=============================================== */
+.home_block_1 .container-fluid > div > div {
+	padding: 5px 0 20px 0;
+}
+.home_block_2 .container-fluid > div > div {
+	padding: 20px 0 5px 0;
+}
+.home_block_3 .container-fluid > div > div {
+	padding: 5px 0 20px 0;
+}
+/* ==============================================
+Mobile and Tablet Screen
+=============================================== */
+.home_block_1 .container-fluid > div > div h2.text-right {
+	text-align: left;
+}
+/* ==============================================
+Mobile Screen
+=============================================== */
+.home_block_2 .container-fluid > div.col-md-6.col-sm-12.col-md-offset0.pull-right {
+	float: none !important;
+}
+
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+.home_block_1 .big_block {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
