@@ -208,7 +208,7 @@ Top Head Styles
 	padding-right: 0;
 }
 .big_block {
-	padding: 80px 0;
+	padding: 30px 0;
 }
 .top_head {
 	position: relative;
@@ -642,7 +642,7 @@ Home_block 2 & 3
 	background-position: right;
 }
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
-	background: rgba(255,255,255,100);
+	background: rgba(255,255,255,80);
 }
 .home_block_2 p {
 	color: #333;
