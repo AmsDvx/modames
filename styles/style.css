@@ -1261,8 +1261,8 @@ Map
 Footer
 =============================================== */
 .wrapper > footer {
-	background: #222;
-	color: #DDD;
+	background: #FDC85C;
+	color: white;
 }
 .wrapper > footer h3 {
 	margin-bottom: 20px;
@@ -1274,7 +1274,7 @@ Footer
 	width: 35px;
 	height: 35px;
 	line-height: 35px;
-	margin: 10px 10px 20px 10px;
+	margin: 0px 0px 0px 0px;
 	color: #333;
 	-moz-transition: all .3s ease;
 	-webkit-transition: all .3s ease;
@@ -1286,29 +1286,29 @@ Footer
 	margin-left: 0;
 }
 footer .social_icons a i {
-	border: 1px solid #DDD;
+	border: none !important;
 	color: #FFF;
 }
-.wrapper > footer hr {
-	border-color: #333;
-}
 .wrapper > footer p {
-	color: #555;
+	color: white;
 	padding-top: 10px;
 }
 .foot_nav li {
-	display: inline;
 	padding: 0 10px;
 }
 .foot_nav li a {
 	color: #FFF;
 }
 .foot_nav.style_2 li {
-	line-height: 50px;
+	line-height: 30px;
+	text-align: left;
 }
 .foot_nav.style_2 li a {
 	padding: 10px;
-	border: 1px solid #333;
+	color: white
+}
+.foot_nav.style_2 li a:hover {
+	text-decoration: underline;
 }
 /* ==============================================
 Sidebar
