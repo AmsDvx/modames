@@ -622,28 +622,33 @@ Features_2 & Features_3
 Home_block 2 & 3
 =============================================== */
 .home_block_1 {
-	background: url(../images/modames-bigblock.jpg) top center fixed;
+	background: url(../images/modames-homeblock1.jpg) top center fixed;
 	background-attachment: initial;
-	background-size : cover;
+	background-size : 50%;
+	background-position: right;
 }
 .home_block_2 {
-	background: url(../images/modames-bigblock.jpg) top center fixed;
+	background: url(../images/modames-homeblock2.jpg) top center fixed;
 	background-attachment: initial;
 	background-size : cover;
+	background-size : 50%;
+	background-position: left;
 }
 .home_block_3 {
-	background: url(../images/modames-bigblock.jpg) top center fixed;
+	background: url(../images/modames-homeblock3.jpg) top center fixed;
 	background-attachment: initial;
 	background-size : cover;
+	background-size : 50%;
+	background-position: right;
 }
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
 }
-.home_block_1 p {
+.home_block_2 p {
 	color: #333;
 	margin: 0;
 }
-.home_block_1 .btn-default {
+.home_block_2 .btn-default {
 	margin-right: 20px;
 }
 .list {
@@ -1607,7 +1612,7 @@ Mobile and Tablet Screen
 .owl-theme .owl-controls .owl-page span {
 	background: #444;
 }
-.home_block_2 .container-fluid > div > div h2.text-right {
+.home_block_1 .container-fluid > div > div h2.text-right {
 	text-align: left;
 }
 .service_bg > div > div.services_title {
@@ -1639,10 +1644,7 @@ Mobile Screen
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
 	background: none;
 }
-.home_block_1 .container-fluid > div.col-md-6.col-sm-8.pull-right {
-	float: none !important;
-}
-.home_block_3 .container-fluid > div.col-md-6.col-sm-8.pull-right {
+.home_block_2 .container-fluid > div.col-md-6.col-sm-8.pull-right {
 	float: none !important;
 }
 .dropdown-nested > a:focus,.dropdown-nested > a:active{
@@ -1769,10 +1771,10 @@ Tablet Screen
 	float: none !important;
 }
 .home_block_1 .container-fluid > div > div {
-	padding: 20px 0 5px 0;
+	padding: 5px 0 20px 0;
 }
 .home_block_2 .container-fluid > div > div {
-	padding: 5px 0 20px 0;
+	padding: 20px 0 5px 0;
 }
 .home_block_3 .container-fluid > div > div {
 	padding: 5px 0 20px 0;
@@ -1829,7 +1831,7 @@ Desktop and Large Desktop Screen
 .modal-dialog {
 	margin-top: 100px;
 }
-.home_block_2 .big_block {
+.home_block_1 .big_block {
 	float: right;
 }
 .home_block_3 .big_block {
@@ -1896,7 +1898,7 @@ Custom Screens
 =============================================== */
 @media screen and (min-width:992px) and (max-width:1500px){
 .home_block_1 .big_block,.home_block_2 .big_block, .home_block_3 .big_block{
-	width:100%;
+	width: 100%;
 }
 }
 @media screen and (min-width:1400px) {
