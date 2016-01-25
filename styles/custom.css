@@ -113,6 +113,14 @@ Banner
 .slider .banner .banner_bg img {
 	animation: none;
 }
+/*punchline slider*/
+.bann_caption h4 {
+	color: #333333
+}
+/*Slide button*/
+.bann_caption .btn-default.style_2, .carousel-caption .btn-default.style_2 {
+	background: #FF8B80;
+}
 
 /* ==============================================
 Tablet and Desktop Screen
