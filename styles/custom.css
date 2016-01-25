@@ -93,7 +93,6 @@ Bootstrap Navbar
 	background: #F8F8F8;
 	text-transform: none;
 	font-weight: normal;
-	margin: 5px 40px 5px 40px;
 }
 
 /* ==============================================
@@ -104,12 +103,29 @@ For Mega Menu
 	color: #333333;
 }
 
+/* ==============================================
+Banner
+=============================================== */
+.slider .banner .banner_bg img {
+	animation: none;
+}
 
 /* ==============================================
 Tablet and Desktop Screen
 =============================================== */
 .navbar-default .navbar-nav > li:last-child > a {
 	padding-right: 40px;
+}
+
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+@media screen and (min-width:992px) {
+.wrapper > header .container-fluid {
+	margin: 0 0px;
+}
+.wrapper > header .navbar-default {
+	top: 0px;
 }
 
 
