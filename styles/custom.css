@@ -208,6 +208,46 @@ Desktop and Large Desktop Screen
 }
 
 
+/* ==============================================
+Footer
+=============================================== */
+/*Footer size*/
+.big_block{
+	padding:30px;
+}
+
+/*Text footer*/
+.wrapper > footer {
+	background: #FDC85C;
+	color: white;
+}
+.wrapper > footer p, .wrapper > footer a {
+	background: #FDC85C;
+	color: #333333;
+}
+footer .social_icons a i {
+	border: none !important;
+}
+.wrapper > footer a:hover {
+	text-decoration: underline;
+}
+.foot_nav.style_2 li a {
+    border: none;
+}
+.h6, h6 {
+	font: 14px 'Lato', sans-serif;
+	color:#333333;
+}
+
+/*Footer links*/
+.foot_nav li {
+	display: block;
+}
+
+
+
+
+
 
 
 
