@@ -141,7 +141,6 @@ Home_block 2 & 3
 .home_block_3 {
 	background: url(../images/modames-homeblock3.jpg);
 	background-attachment: initial;
-	background-size : cover;
 	background-size : 50%;
 	background-position: right;
 }
@@ -149,16 +148,24 @@ Home_block 2 & 3
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
 }
-
+/* ==============================================
+Mobile and Tablet Screen
+=============================================== */
+@media screen and (max-width:991px) {
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div{
+	text-align: center;
+}
+/*background texte blocs etapes */
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	background: rgba(255,255,255,.80);
+}
+}
 /* ==============================================
 Mobile Screen
 =============================================== */
 /*background texte blocs etapes */
 @media screen and (max-width:767px) {
-/*background texte blocs etapes */
-.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
-	background: rgba(255,255,255,.70);
-}
+
 }
 /* ==============================================
 Tablet and Desktop Screen
@@ -167,6 +174,20 @@ Tablet and Desktop Screen
 	padding-right: 40px;
 }
 
+/* ==============================================
+Tablet Screen
+=============================================== */
+@media screen and (min-width:768px) and (max-width:991px) {
+.home_block_1 .container-fluid > div > div {
+	padding: 20px 0 20px 0;
+}
+.home_block_2 .container-fluid > div > div {
+	padding: 20px 0 20px 0;
+}
+.home_block_3 .container-fluid > div > div {
+	padding: 20px 0 20px 0;
+}
+}
 /* ==============================================
 Desktop and Large Desktop Screen
 =============================================== */

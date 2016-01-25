@@ -1601,7 +1601,7 @@ Mobile and Tablet Screen
 	display: none;
 }
 .blog_items.pull-right,
-.home_block_1 div > div.pull-right,.home_block_2 div > div.pull-right{
+.home_block_1 div > div.pull-right,.home_block_2 div > div.pull-right, {
 	float:none !important;
 }
 }
@@ -1747,9 +1747,7 @@ Tablet Screen
 .home_block_1 .container-fluid > div > div.pull-right, .home_block_2 .container-fluid > div > div.pull-right {
 	float: none !important;
 }
-.home_block_1 .container-fluid > div > div {
-	padding: 20px 0 5px 0;
-}
+
 .home_block_2 .container-fluid > div > div {
 	padding: 5px 0 20px 0;
 }
