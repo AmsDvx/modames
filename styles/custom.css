@@ -119,6 +119,10 @@ Bootstrap Navbar
 	width: 0;
 	max-width: 0;
 }
+.nav-tabs, .home_block_1 .tab-content {
+	width: 700px;
+	max-width: 100%
+}
 /* ==============================================
 For Mega Menu
 =============================================== */
@@ -187,6 +191,10 @@ Home_block 2 & 3
 	background-size : cover;
 	background-size : 50%;
 	background-position: right;
+
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	background: rgba(255,255,255,100);
+}
 
 .home_block_2 .btn-default {
 	margin-right: 20px;
@@ -307,16 +315,29 @@ Tablet Screen
 .home_block_3 .container-fluid > div > div {
 	padding: 5px 0 20px 0;
 }
+.home_block_1 .container-fluid > div > div.pull-right, .home_block_2 .container-fluid > div > div.pull-right, .home_block_3 .container-fluid > div > div.pull-right {
+	float: none !important;
+}
+.home_block_3 .container-fluid > div > div {
+	padding: 5px 0 20px 0;
+}
+
 /* ==============================================
 Mobile and Tablet Screen
 =============================================== */
 .home_block_1 .container-fluid > div > div h2.text-right {
 	text-align: left;
 }
+.home_block_1 div > div.pull-right,.home_block_2 div > div.pull-right, .home_block_3 div > div.pull-right{
+	float:none !important;
+}
 /* ==============================================
 Mobile Screen
 =============================================== */
 .home_block_2 .container-fluid > div.col-md-6.col-sm-12.col-md-offset0.pull-right {
+	float: none !important;
+}
+.home_block_3 .container-fluid > div.col-md-6.col-sm-8.pull-right {
 	float: none !important;
 }
 
@@ -325,6 +346,23 @@ Desktop and Large Desktop Screen
 =============================================== */
 .home_block_1 .big_block {
 	float: right;
+}
+.home_block_3 .big_block {
+	float: right;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	padding: 0 15px;
+}
+
+/* ==============================================
+Large Desktop Screen
+=============================================== */
+
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div  {
+	padding: 0 30px;
+}
+.home_block_1 .big_block,.home_block_2 .big_block, .home_block_3 .big_block{
+	width:100%;
 }
 
 
