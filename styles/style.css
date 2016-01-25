@@ -326,7 +326,7 @@ Banner
 	height: 1000px;
 }
 .slider .parallax_bann {
-	background: url(../images/slider_pic_2.jpg) top center fixed;
+	background: url(../images/modames-slider.jpg) top center fixed;
 	position: relative;
 	height: 100%;
 }
@@ -1238,12 +1238,11 @@ Map
 Footer
 =============================================== */
 .wrapper > footer {
-	background: #FDC85C;
-	color: white;
+	background: #222;
+	color: #DDD;
 }
 .wrapper > footer h3 {
 	margin-bottom: 20px;
-	margin: 0px 0px 0px 0px;
 }
 .social_icons a i {
 	font-size: 20px;
@@ -1264,33 +1263,28 @@ Footer
 	margin-left: 0;
 }
 footer .social_icons a i {
-	border: none !important;
+	border: 1px solid #DDD;
 	color: #FFF;
 }
 .wrapper > footer p {
-	color: white;
+	color: #555;
 	padding-top: 10px;
 }
 .foot_nav li {
-	display: none;
+	display: inline;
 	padding: 0 10px;
 }
 .foot_nav li a {
 	color: #FFF;
 }
 .foot_nav.style_2 li {
-	line-height: 30px;
-	text-align: left;
+	line-height: 50px;
 }
 .foot_nav.style_2 li a {
 	padding: 10px;
-	border: none;
+	border: 1px solid #333;
 	color: white
 }
-.foot_nav.style_2 li a:hover {
-	text-decoration: underline;
-}
-
 /* ==============================================
 Sidebar
 =============================================== */
