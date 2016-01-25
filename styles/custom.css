@@ -125,6 +125,7 @@ Banner
 /* ==============================================
 Home_block 2 & 3
 =============================================== */
+/*background image blocs etapes*/
 .home_block_1 {
 	background: url(../images/modames-homeblock1.jpg);
 	background-attachment: initial;
@@ -144,6 +145,7 @@ Home_block 2 & 3
 	background-size : 50%;
 	background-position: right;
 }
+/*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
 }
@@ -166,6 +168,14 @@ Desktop and Large Desktop Screen
 .wrapper > header .navbar-default {
 	top: 0px;
 }
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+@media screen and (min-width:992px) {
+.wrapper > header .container-fluid {
+	margin: 0 50px;
+}
+
 
 
 
