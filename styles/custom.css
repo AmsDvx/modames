@@ -123,6 +123,32 @@ Banner
 }
 
 /* ==============================================
+Home_block 2 & 3
+=============================================== */
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: right;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-size : 50%;
+	background-position: left;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-size : cover;
+	background-size : 50%;
+	background-position: right;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	background: rgba(255,255,255,100);
+}
+
+/* ==============================================
 Tablet and Desktop Screen
 =============================================== */
 .navbar-default .navbar-nav > li:last-child > a {
