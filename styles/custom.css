@@ -155,9 +155,9 @@ Mobile Screen
 =============================================== */
 /*background texte blocs etapes */
 @media screen and (max-width:767px) {
+/*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
-	background: rgba(255,255,255,70);
-	background-size: 100%;
+	background: rgba(255,255,255,.70);
 }
 }
 /* ==============================================
