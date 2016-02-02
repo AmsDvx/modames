@@ -148,6 +148,22 @@ Home_block 2 & 3
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
 }
+
+/* ==============================================
+ Testimonials
+=============================================== */
+.testimonials{
+	background: none;
+	background-color: #F8F8F8;
+}
+
+.testimonials img {
+	border-radius: 0;
+}
+.style_title_malle{
+	color: #333333;
+}
+
 /* ==============================================
 Mobile and Tablet Screen
 =============================================== */
@@ -227,6 +243,9 @@ Footer
 }
 footer .social_icons a i {
 	border: none !important;
+}
+.appear-animation {
+    opacity: 100;
 }
 .wrapper > footer a:hover {
 	text-decoration: underline;
