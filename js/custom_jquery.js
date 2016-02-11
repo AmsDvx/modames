@@ -148,7 +148,7 @@ jQuery(document).ready(function($) {
 		pagination : true,
 		autoPlay   : true,
 		rewindSpeed : 1000,
-		transitionStyle : "goDown"
+		transitionStyle : "fade"
  	});
 	
 	/* ===============================================
