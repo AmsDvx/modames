@@ -181,6 +181,43 @@ Gallery
 }
 
 /* ==============================================
+Subscribe
+=============================================== */
+.subscribe {
+	background: #F8F8F8;
+	color: #333333;
+}
+.subscribe h6{
+	color:#40B8C7;
+	font-size: 20px;
+	margin-bottom: -15px;
+}
+.subscribe h5{
+	font-size: 20px;
+}
+
+.subscribe input.form-control {
+	background-color: white;
+	color: #333333;
+	border:1px
+}
+.carte-cadeau .bloc{
+	display: inline-block;
+	vertical-align: text-top;
+}
+.carte-cadeau-par{
+	max-width:230px;
+	margin-bottom: 0px;
+}
+.subscribe .icon{
+	height: 80px;
+}
+.subscribe .bloc #gift-text{
+
+}
+
+
+/* ==============================================
 Mobile and Tablet Screen
 =============================================== */
 @media screen and (max-width:991px) {
