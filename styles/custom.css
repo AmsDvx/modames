@@ -57,6 +57,12 @@ h1, h2, h3 {
 .wrapper {
 	font: 14px/23px 'Lato', sans-serif;
 }
+.style_title_modames{
+	color: #333333;
+	font-weight: normal;
+	text-align: center;
+}
+
 
 /* ==============================================
 Short Codes & Form Elements
@@ -160,13 +166,18 @@ Home_block 2 & 3
 .testimonials img {
 	border-radius: 0;
 }
-.style_title_malle{
-	color: #333333;
-	text-transform: none;
-	font-weight: normal;
-}
 .testimonials p{
 	color: #333333;
+}
+
+/* ==============================================
+Gallery
+=============================================== */
+.gallery{
+	padding-top: 30px;
+}
+.gallery p{
+	text-align: center;
 }
 
 /* ==============================================
