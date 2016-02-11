@@ -162,6 +162,11 @@ Home_block 2 & 3
 }
 .style_title_malle{
 	color: #333333;
+	text-transform: none;
+	font-weight: normal;
+}
+.testimonials p{
+	color: #333333;
 }
 
 /* ==============================================
