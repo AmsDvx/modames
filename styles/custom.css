@@ -115,6 +115,9 @@ Bootstrap Navbar
 	text-transform: none;
 	font-weight: normal;
 }
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
 
 /* ==============================================
 For Mega Menu
@@ -188,6 +191,10 @@ Home_block 2 & 3
 .testimonials p{
 	color: #333333;
 }
+.testimonials .owl-theme .owl-controls .owl-page span {
+	border-color: initial;
+	background: #40B8C7;
+}	
 
 /* ==============================================
 Gallery
