@@ -163,6 +163,18 @@ Home_block 2 & 3
 }
 
 /* ==============================================
+ Features
+=============================================== */
+.features{
+	border: none !important;
+}
+.features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
+    border-bottom:none;
+}
+.features > div > div {
+    border-left:none;    
+}
+/* ==============================================
  Testimonials
 =============================================== */
 .testimonials{
