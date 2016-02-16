@@ -137,6 +137,12 @@ Banner
 .bann_caption h4 {
 	color: #333333
 }
+/* ==============================================
+Description bloc
+=============================================== */
+.description{
+	background: #F8F8F8;
+}
 
 /* ==============================================
 Home_block 2 & 3
@@ -170,6 +176,7 @@ Home_block 2 & 3
 =============================================== */
 .features{
 	border: none !important;
+	background-color:#F8F8F8;
 }
 .features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
     border-bottom:none;
@@ -182,7 +189,7 @@ Home_block 2 & 3
 =============================================== */
 .testimonials{
 	background: none;
-	background-color: #F8F8F8;
+	background-color: white;
 }
 
 .testimonials img {
@@ -201,6 +208,7 @@ Gallery
 =============================================== */
 .gallery{
 	padding-top: 30px;
+	background-color: #F8F8F8 ;
 }
 .gallery p{
 	text-align: center;
