@@ -153,18 +153,25 @@ Home_block 2 & 3
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
+	font-weight: lighter;
 }
+.home_block_1 .p{
+
+}
+
 .home_block_2 {
 	background: url(../images/modames-homeblock2.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: left;
+	font-weight: lighter;
 }
 .home_block_3 {
 	background: url(../images/modames-homeblock3.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
+	font-weight: lighter;
 }
 /*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
@@ -177,6 +184,8 @@ Home_block 2 & 3
 .features{
 	border: none !important;
 	background-color:#F8F8F8;
+	padding-top: 30px;
+    padding-bottom: 60px;
 }
 .features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
     border-bottom:none;
@@ -190,6 +199,7 @@ Home_block 2 & 3
 .testimonials{
 	background: none;
 	background-color: white;
+	margin-bottom: 30px;
 }
 
 .testimonials img {
@@ -197,11 +207,16 @@ Home_block 2 & 3
 }
 .testimonials p{
 	color: #333333;
+	font-weight: lighter;
 }
 .testimonials .owl-theme .owl-controls .owl-page span {
 	border-color: initial;
 	background: #40B8C7;
-}	
+}
+.testimonials .style_title_modames{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 
 /* ==============================================
 Gallery
@@ -212,6 +227,12 @@ Gallery
 }
 .gallery p{
 	text-align: center;
+	font-weight: lighter;
+}
+
+.gallery .style_title_modames {
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 /* ==============================================
@@ -250,6 +271,44 @@ Subscribe
 
 }
 
+/* ==============================================
+Footer
+=============================================== */
+/*Footer size*/
+.big_block{
+	padding:30px;
+}
+
+/*Text footer*/
+.wrapper > footer {
+	background: #FDC85C;
+	color: white;
+}
+.wrapper > footer p, .wrapper > footer a {
+	background: #FDC85C;
+	color: #333333;
+}
+footer .social_icons a i {
+	border: none !important;
+}
+.appear-animation {
+    opacity: 100;
+}
+.wrapper > footer a:hover {
+	text-decoration: underline;
+}
+.foot_nav.style_2 li a {
+    border: none;
+}
+.h6, h6 {
+	font: 14px 'Lato', sans-serif;
+	color:#333333;
+}
+
+/*Footer links*/
+.foot_nav li {
+	display: block;
+}
 
 /* ==============================================
 Mobile and Tablet Screen
@@ -311,44 +370,7 @@ Desktop and Large Desktop Screen
 }
 
 
-/* ==============================================
-Footer
-=============================================== */
-/*Footer size*/
-.big_block{
-	padding:30px;
-}
 
-/*Text footer*/
-.wrapper > footer {
-	background: #FDC85C;
-	color: white;
-}
-.wrapper > footer p, .wrapper > footer a {
-	background: #FDC85C;
-	color: #333333;
-}
-footer .social_icons a i {
-	border: none !important;
-}
-.appear-animation {
-    opacity: 100;
-}
-.wrapper > footer a:hover {
-	text-decoration: underline;
-}
-.foot_nav.style_2 li a {
-    border: none;
-}
-.h6, h6 {
-	font: 14px 'Lato', sans-serif;
-	color:#333333;
-}
-
-/*Footer links*/
-.foot_nav li {
-	display: block;
-}
 
 
 
