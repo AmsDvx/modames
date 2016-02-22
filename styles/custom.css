@@ -247,6 +247,7 @@ Subscribe
 .subscribe {
 	background: #F8F8F8;
 	color: #333333;
+	padding: 15px 0;
 }
 .subscribe h6{
 	color:#40B8C7;
@@ -281,9 +282,6 @@ Subscribe
 Footer
 =============================================== */
 /*Footer size*/
-.big_block{
-	padding:30px;
-}
 
 /*Text footer*/
 .wrapper > footer {
@@ -294,8 +292,14 @@ Footer
 	background: #FDC85C;
 	color: #333333;
 }
+.wrapper > footer p{
+	font-size: 0.8em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
 footer .social_icons a i {
 	border: none !important;
+	width: 10px;
 }
 .appear-animation {
     opacity: 100;
@@ -305,6 +309,9 @@ footer .social_icons a i {
 }
 .foot_nav.style_2 li a {
     border: none;
+}
+.foot_nav.style_2 li{
+    line-height: 30px;
 }
 .h6, h6 {
 	font: 14px 'Lato', sans-serif;
@@ -365,6 +372,16 @@ Mobile Screen
 	padding-bottom: 28px;
 }
 }
+/*Footer*/
+@media screen and (max-width:767px) {
+.wrapper > footer {
+	    text-align: -webkit-center;
+}
+footer img{
+	width: 30%;
+
+}
+}
 /* ==============================================
 Tablet and Desktop Screen
 =============================================== */
@@ -410,6 +427,15 @@ Tablet Screen
 	padding-left: 100px;
 	padding-right: 100px;
 }
+/*Footer*/
+.wrapper > footer {
+	    font-size: 0.8em;
+}
+.wrapper > footer h6 {
+	font-size: 0.8em;
+}
+footer img{
+	width: 30%;
 }
 /* ==============================================
 Desktop and Large Desktop Screen
