@@ -98,6 +98,7 @@ Top Head Styles
 }
 .big_block {
 	padding: 30px 0;
+	margin-top: 50px;
 }
 
 /* ==============================================
@@ -133,8 +134,11 @@ Bootstrap Navbar
 For Mega Menu
 =============================================== */
 .collapse.navbar-collapse {
-	background:#F8F8F8;
+	background:#FFFFFF;
 	color: #333333;
+}
+.navbar-default .navbar-nav > li > a {
+	background-color: #FFFFFF;
 }
 
 /* ==============================================
@@ -276,6 +280,22 @@ Subscribe
 }
 .subscribe .bloc #gift-text{
 
+}
+
+/* ==============================================
+Contact Us
+=============================================== */
+.contact {
+	background: none;
+}
+.contact_info li a, .contact_info p {
+	color: #333333;
+}
+.contact_info li {
+	color: #333333;
+}
+.contact_info h3 {
+	color: #333333;
 }
 
 /* ==============================================
