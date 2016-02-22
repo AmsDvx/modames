@@ -378,13 +378,19 @@ Mobile Screen
 	padding-top: 28px;
 	padding-bottom: 28px;
 }
-=======
+
+
+}
+/*Footer*/
+@media screen and (max-width:767px) {
 .wrapper > footer {
 	    text-align: -webkit-center;
 }
-
->>>>>>> Stashed changes
+footer img{
+	width: 30%;
 }
+}
+
 /* ==============================================
 Tablet and Desktop Screen
 =============================================== */
@@ -392,13 +398,6 @@ Tablet and Desktop Screen
 
 .navbar-default .navbar-nav > li:last-child > a {
 	padding-right: 40px;
-}
-/*Footer*/
-.wrapper > footer {
-	    font-size: 0.8em;
-}
-footer img{
-	width: 50%;
 }
 
 }
@@ -439,6 +438,16 @@ Tablet Screen
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	padding-left: 100px;
 	padding-right: 100px;
+}
+/*Footer*/
+.wrapper > footer {
+	    font-size: 0.8em;
+}
+.wrapper > footer h6 {
+	font-size: 0.8em;
+}
+footer img{
+	width: 50%;
 }
 }
 /* ==============================================
