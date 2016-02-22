@@ -251,6 +251,7 @@ Subscribe
 .subscribe {
 	background: #F8F8F8;
 	color: #333333;
+	padding: 15px 0;
 }
 .subscribe h6{
 	color:#40B8C7;
@@ -285,22 +286,27 @@ Subscribe
 Footer
 =============================================== */
 /*Footer size*/
-.big_block{
-	padding:30px;
-}
 
 /*Text footer*/
 .wrapper > footer {
 	background: #FDC85C;
 	color: white;
+	padding: 10px 0;
 }
 .wrapper > footer p, .wrapper > footer a {
 	background: #FDC85C;
 	color: #333333;
 }
+.wrapper > footer p{
+	font-size: 0.8em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
 footer .social_icons a i {
 	border: none !important;
+	width: 10px;
 }
+
 .appear-animation {
     opacity: 100;
 }
@@ -309,6 +315,9 @@ footer .social_icons a i {
 }
 .foot_nav.style_2 li a {
     border: none;
+}
+.foot_nav.style_2 li{
+    line-height: 30px;
 }
 .h6, h6 {
 	font: 14px 'Lato', sans-serif;
@@ -337,6 +346,7 @@ Mobile Screen
 =============================================== */
 /*background texte blocs etapes */
 @media screen and (max-width:767px) {
+<<<<<<< Updated upstream
 .home_block_1 {
 	background: url(../images/modames-homeblock1.jpg);
 	background-attachment: initial;
@@ -368,12 +378,29 @@ Mobile Screen
 	padding-top: 28px;
 	padding-bottom: 28px;
 }
+=======
+.wrapper > footer {
+	    text-align: -webkit-center;
+}
+
+>>>>>>> Stashed changes
 }
 /* ==============================================
 Tablet and Desktop Screen
 =============================================== */
+@media screen and (min-width:768px) {
+
 .navbar-default .navbar-nav > li:last-child > a {
 	padding-right: 40px;
+}
+/*Footer*/
+.wrapper > footer {
+	    font-size: 0.8em;
+}
+footer img{
+	width: 50%;
+}
+
 }
 
 /* ==============================================
