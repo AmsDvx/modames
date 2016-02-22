@@ -378,7 +378,7 @@ Mobile Screen
 	    text-align: -webkit-center;
 }
 footer img{
-	width: 30%;
+	width: 20%;
 
 }
 }
@@ -435,7 +435,8 @@ Tablet Screen
 	font-size: 0.8em;
 }
 footer img{
-	width: 30%;
+	width: 50%;
+}
 }
 /* ==============================================
 Desktop and Large Desktop Screen
@@ -448,6 +449,7 @@ Desktop and Large Desktop Screen
 .wrapper > header .navbar-default {
 	top: 0px;
 }
+}
 /* ==============================================
 Desktop and Large Desktop Screen
 =============================================== */
@@ -455,7 +457,7 @@ Desktop and Large Desktop Screen
 .wrapper > header .container-fluid {
 	margin: 0 0px;
 }
-
+}
 
 
 
