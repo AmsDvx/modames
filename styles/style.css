@@ -1620,7 +1620,7 @@ Mobile Screen
 	background: none;
 }
 .home_block_1 .container-fluid > div.col-md-6.col-sm-8.pull-right {
-	float: none !important;
+	float: left
 }
 .dropdown-nested > a:focus,.dropdown-nested > a:active{
 	color:#FFF !important;

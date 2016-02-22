@@ -82,12 +82,22 @@ Short Codes & Form Elements
 .form-group label, .table > thead > tr > th {
 	font-family: "Lato", sans-serif;
 }
+.nav-tabs, .home_block_1 .tab-content, .nav-tabs, .home_block_2 .tab-content, .nav-tabs, .home_block_3 .tab-content {
+	width: auto;
+	max-width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+}
 
 /* ==============================================
 Top Head Styles
 =============================================== */
 .wrapper > header {
 	background-color: #F8F8F8;
+}
+.big_block {
+	padding: 30px 0;
 }
 
 /* ==============================================
@@ -327,7 +337,37 @@ Mobile Screen
 =============================================== */
 /*background texte blocs etapes */
 @media screen and (max-width:767px) {
-
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_1 .big_block, .home_block_2 .big_block, .home_block_3 .big_block; {
+	background-size : auto;
+}
+.home_block_1 .container-fluid > div > div, .home_block_2 .container-fluid > div > div, .home_block_3 .container-fluid > div > div {
+	padding: 0px;
+}
+.nav-tabs, .home_block_1 .tab-content, .nav-tabs, .home_block_2 .tab-content, .nav-tabs, .home_block_3 .tab-content {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
 }
 /* ==============================================
 Tablet and Desktop Screen
@@ -341,13 +381,37 @@ Tablet Screen
 =============================================== */
 @media screen and (min-width:768px) and (max-width:991px) {
 .home_block_1 .container-fluid > div > div {
-	padding: 20px 0 20px 0;
+	padding: 0px;
 }
 .home_block_2 .container-fluid > div > div {
-	padding: 20px 0 20px 0;
+	padding: 0px;
 }
 .home_block_3 .container-fluid > div > div {
-	padding: 20px 0 20px 0;
+	padding: 0px;
+}
+.home_block_1 {
+	background: url(../images/modames-homeblock1.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_2 {
+	background: url(../images/modames-homeblock2.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	background-position: center;
+}
+.home_block_3 {
+	background: url(../images/modames-homeblock3.jpg);
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	background-size : 100%;
+}
+.home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
+	padding-left: 100px;
+	padding-right: 100px;
 }
 }
 /* ==============================================
