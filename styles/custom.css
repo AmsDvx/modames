@@ -109,11 +109,9 @@ Bootstrap Navbar
 	font-family: 'Poiret One', sans-serif;
 	text-transform: lowercase;
 }
-/*marge Logo modames*/
-.navbar>.container-fluid .navbar-brand {
-    margin-left: 40px;
+.container-fluid .navbar-header{
+	margin-left: 30px;
 }
-
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 	color: #333333;
 }
@@ -137,6 +135,27 @@ For Mega Menu
 }
 .navbar-default .navbar-nav > li > a {
 	background-color: #FFFFFF;
+}
+.navbar-default .container-fluid{
+	margin-top: 10px !important;
+}
+.navbar-right{
+	vertical-align: center
+}
+
+/*Toggle Mobile*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #40B8C7;
+}
+.navbar-default .navbar-toggle{
+	border-color: #40B8C7; 
+}
+.navbar-toggle{
+	background-color: #40B8C7;
+	border:1px solid #40B8C7;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
 }
 
 /* ==============================================
