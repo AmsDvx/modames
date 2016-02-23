@@ -97,7 +97,6 @@ Top Head Styles
 }
 .big_block {
 	padding: 30px 0;
-	margin-top: 50px;
 }
 
 /* ==============================================
@@ -349,12 +348,19 @@ footer .social_icons a i {
 Mobile and Tablet Screen
 =============================================== */
 @media screen and (max-width:991px) {
+.slider .banner .bann_caption{
+	z-index: 10;
+	position: absolute;
+}
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div{
 	text-align: center;
 }
 /*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,.80);
+}
+.features .block{
+	margin: 30px 0;
 }
 }
 /* ==============================================
