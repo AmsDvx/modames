@@ -69,7 +69,8 @@ h1, h2, h3 {
 	border-bottom:1px solid #FF8B80 !important;
 	padding: 6px 20px !important;
 	color: white !important;
-	font-size: 14px !important;
+	font-size: 1em;
+	text-align: center;
 }
 .btn-order:hover{
 	background-color:#FA7569 !important;
@@ -371,6 +372,15 @@ Mobile and Tablet Screen
 	z-index: 10;
 	position: absolute;
 }
+.navbar-collapse .navbar-nav li a{
+	font-size: 0.8em;
+}
+.navbar-collapse .navbar-nav .btn-order{
+	font-size: 0.8em;
+	width: 95%;
+	text-align: center;
+}
+
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div{
 	text-align: center;
 }
