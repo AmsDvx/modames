@@ -334,7 +334,7 @@ Subscribe
 Contact Us
 =============================================== */
 .contact {
-	background: none;
+	background : none;
 }
 .contact_info li a, .contact_info p {
 	color: #333333;
@@ -344,6 +344,24 @@ Contact Us
 }
 .contact_info h3 {
 	color: #333333;
+}
+#contact-description {
+	margin-top: 50px;
+	background-color: #f8f8f8;
+}
+.contact label {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.indicates-required{
+	color:#ffffff;
+}
+.contact input.form-control {
+	background: #F8F8F8;
+}
+.contact textarea.form-control {
+	background: #F8F8F8;
 }
 
 /* ==============================================
@@ -413,6 +431,9 @@ Mobile and Tablet Screen
 .slider .banner .bann_caption{
  	z-index: 10;
  	position: absolute;
+}
+#contact-description {
+	margin-top: 0px;
 }
 }
 /* ==============================================
