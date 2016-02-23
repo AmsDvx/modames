@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangles</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-421.000000, -699.000000)">
+            <g id="comment-ça-marche" sketch:type="MSLayerGroup" transform="translate(-3.000000, 631.000000)">
+                <g id="Triangles" transform="translate(424.000000, 68.000000)" sketch:type="MSShapeGroup">
+                    <path d="M0.359985352,11.6461991 L0.359985352,1.03997803 L8.63998508,6.34308857 L0.359985352,11.6461991 Z" id="Triangle-gauche" fill="#FDC85C"></path>
+                    <path d="M1.70834232,8.05714159 L1.70834232,0 L7.99834228,4.02857079 L1.70834232,8.05714159 Z" id="Triangle-gauche-Copy-2" fill="#FF8B80"></path>
+                    <path d="M3.36000013,11.5929457 L3.36000013,5.64936284 L8,8.62115426 L3.36000013,11.5929457 Z" id="Triangle-gauche-Copy" fill="#40B8C7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
