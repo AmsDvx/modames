@@ -69,11 +69,13 @@ h1, h2, h3 {
 	border-bottom:1px solid #FF8B80 !important;
 	padding: 6px 20px !important;
 	color: white !important;
-	font-size: 14px !important;
+	font-size: 1em;
+	text-align: center;
 }
 .btn-order:hover{
 	background-color:#FA7569 !important;
 }
+<<<<<<< HEAD
 .button{
 	background: #40B8C7 !important;
 	border-radius: 2px !important;
@@ -86,6 +88,8 @@ h1, h2, h3 {
 	background-color:#FDC85C !important;
 }
 
+=======
+>>>>>>> origin/master
 /* ==============================================
 Short Codes & Form Elements
 =============================================== */
@@ -110,7 +114,6 @@ Top Head Styles
 }
 .big_block {
 	padding: 30px 0;
-	margin-top: 50px;
 }
 
 /* ==============================================
@@ -123,11 +126,9 @@ Bootstrap Navbar
 	font-family: 'Poiret One', sans-serif;
 	text-transform: lowercase;
 }
-/*marge Logo modames*/
-.navbar>.container-fluid .navbar-brand {
-    margin-left: 40px;
+.container-fluid .navbar-header{
+	margin-left: 30px;
 }
-
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 	color: #333333;
 }
@@ -151,6 +152,27 @@ For Mega Menu
 }
 .navbar-default .navbar-nav > li > a {
 	background-color: #FFFFFF;
+}
+.navbar-default .container-fluid{
+	margin-top: 10px !important;
+}
+.navbar-right{
+	vertical-align: center
+}
+
+/*Toggle Mobile*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #40B8C7;
+}
+.navbar-default .navbar-toggle{
+	border-color: #40B8C7; 
+}
+.navbar-toggle{
+	background-color: #40B8C7;
+	border:1px solid #40B8C7;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
 }
 
 /* ==============================================
@@ -214,6 +236,9 @@ Home_block 2 & 3
 }
 .features > div > div {
     border-left:none;    
+}
+.features .icon i{
+	color: #FDC85C;
 }
 /* ==============================================
  Testimonials
@@ -359,12 +384,28 @@ footer .social_icons a i {
 Mobile and Tablet Screen
 =============================================== */
 @media screen and (max-width:991px) {
+.slider .banner .bann_caption{
+	z-index: 10;
+	position: absolute;
+}
+.navbar-collapse .navbar-nav li a{
+	font-size: 0.8em;
+}
+.navbar-collapse .navbar-nav .btn-order{
+	font-size: 0.8em;
+	width: 95%;
+	text-align: center;
+}
+
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div{
 	text-align: center;
 }
 /*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,.80);
+}
+.features .block{
+	margin: 30px 0;
 }
 }
 /* ==============================================
@@ -403,6 +444,10 @@ Mobile Screen
 	padding-top: 28px;
 	padding-bottom: 28px;
 }
+.navbar, .top_head{
+	background:white;
+}
+
 }
 /*Footer*/
 @media screen and (max-width:767px) {
@@ -417,10 +462,14 @@ footer img{
 /* ==============================================
 Tablet and Desktop Screen
 =============================================== */
+@media screen and (min-width:768px) {
 /*Marge droite dernière élément menu */
 .navbar-default .navbar-nav > li:last-child > a {
 	padding-right: 40px;
 	margin-right: 40px;
+}
+.navbar, .top_head{
+	background:white;
 }
 /* ==============================================
 Tablet Screen
@@ -490,12 +539,6 @@ Desktop and Large Desktop Screen
 	margin: 0 0px;
 }
 }
-
-
-
-
-
-
 
 
 
