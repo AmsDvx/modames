@@ -411,6 +411,12 @@ footer .social_icons a i {
 }
 
 /*==============================================
+FAQ
+===============================================*/
+.faq_block{
+	display: inline;
+}
+/*==============================================
 Accordion
 ===============================================*/
 .panel.panel-default{
@@ -420,6 +426,28 @@ Accordion
 .panel-group {
 	background-color: #F8F8F8;
 }
+
+/* ==============================================
+Breadcrumb
+=============================================== */
+.breadcrumb_bg {
+	overflow: hidden;
+	text-align: left;
+	color: #FFF;
+	background: #222 url(../images/modames-faq.png) top center fixed;
+	position: relative;
+	background-size: 100%;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+
+.breadcrumb_bg h4 {
+	text-align: left;
+	margin-left: 40px;
+	color: #333333;
+}
+
 
 /*==============================================
 go-top link
