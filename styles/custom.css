@@ -51,17 +51,32 @@ Animations
 /* ==============================================
 Default Styles
 =============================================== */
-h1, h2, h3 {
+/*H1* (ce sont les titres en majuscules + la NL)*/
+h1{
 	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: #333333;
+	font-weight: normal;
+	text-align: center;
+	margin: auto;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	color: #333333;
+	font-weight: normal;
+	text-align: center;
+	text-transform: initial;
+	margin: auto;
+}
+p{
+	font-weight: 300;
+	color: #333333;
 }
 .wrapper {
 	font: 14px/23px 'Lato', sans-serif;
 }
-.style_title_modames{
-	color: #333333;
-	font-weight: normal;
-	text-align: center;
-}
+
 /* Order Button */
 .btn-order{
 	background: #FF8B80 !important;
@@ -71,6 +86,7 @@ h1, h2, h3 {
 	color: white !important;
 	font-size: 1em;
 	text-align: center;
+	font-weight: 300;
 }
 .btn-order:hover{
 	background-color:#FA7569 !important;
@@ -84,6 +100,7 @@ h1, h2, h3 {
 	color: white !important;
 	font-size: 1em;
 	text-align: center;
+	font-weight: 300;
 }
 .button:hover{
 	background-color:#FDC85C !important;
@@ -158,6 +175,7 @@ For Mega Menu
 }
 .navbar-default .navbar-nav > li > a {
 	background-color: #FFFFFF;
+	font-weight: 300;
 }
 .navbar, .top_head {
  	background:white;
@@ -199,7 +217,11 @@ Description bloc
 .description{
 	background: #F8F8F8;
 }
-
+.description p{
+	font-size: 1em;
+	font-weight: 300;
+	margin: 15px 40px;
+}
 /* ==============================================
 Home_block 2 & 3
 =============================================== */
@@ -209,25 +231,32 @@ Home_block 2 & 3
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
-	font-weight: lighter;
 }
 .home_block_2 {
 	background: url(../images/modames-homeblock2.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: left;
-	font-weight: lighter;
 }
 .home_block_3 {
 	background: url(../images/modames-homeblock3.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
-	font-weight: lighter;
 }
 /*background texte blocs etapes */
 .home_block_1 .container-fluid > div, .home_block_2 .container-fluid > div, .home_block_3 .container-fluid > div {
 	background: rgba(255,255,255,100);
+}
+
+.text-etape{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1em;
+	font-weight: 300;
+}
+.home_block_1 .text-etape{
+	margin: 15px;
 }
 
 /* ==============================================
@@ -266,7 +295,9 @@ Home_block 2 & 3
 }
 .testimonials p{
 	color: #333333;
-	font-weight: lighter;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
 }
 .testimonials .owl-theme .owl-controls .owl-page span {
 	border-color: initial;
@@ -286,7 +317,10 @@ Gallery
 }
 .gallery p{
 	text-align: center;
-	font-weight: lighter;
+	font-weight: 300;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
 }
 
 .gallery .style_title_modames {
@@ -327,8 +361,10 @@ Subscribe
 .subscribe .icon{
 	height: 80px;
 }
-.subscribe .bloc #gift-text{
-
+h1.NL {
+	text-transform: none;
+	text-align: left;
+}
 }
 
 /* ==============================================
