@@ -312,8 +312,8 @@ Home_block 2 & 3
 Gallery
 =============================================== */
 .gallery{
-	padding-top: 30px;
 	background-color: #F8F8F8 ;
+	margin-bottom: 0px;
 }
 .gallery p{
 	text-align: center;
@@ -408,7 +408,7 @@ Footer
 
 /*Text footer*/
 .wrapper > footer {
-	background: #FDC85C;
+	background: #FDC85C !important;
 	color: white;
 }
 .wrapper > footer p, .wrapper > footer a {
