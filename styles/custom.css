@@ -358,6 +358,7 @@ Subscribe
 .carte-cadeau-par{
 	max-width:230px;
 	margin-bottom: 0px;
+	text-align: left !important;
 }
 .subscribe .icon{
 	height: 80px;
@@ -366,9 +367,8 @@ h1.NL {
 	text-transform: none;
 	text-align: left;
 }
-
-.subscribe .carte-cadeau{
-	text-align: left;
+p.NL{
+	text-align: left !important;
 }
 
 /* ==============================================
@@ -418,11 +418,11 @@ footer {
 	font-weight: 300;
 }
 
-.wrapper > footer p, .wrapper > footer a {
+footer p, footer a , footer a:hover{
 	background: #FDC85C;
 	color: #333333;
 }
-.wrapper > footer p{
+footer p{
 	font-size: 0.8em;
 	margin-top: 0px;
 	padding-top: 0px;
@@ -434,7 +434,7 @@ footer .social_icons a i {
 .appear-animation {
     opacity: 100;
 }
-.wrapper > footer a:hover {
+footer a:hover {
 	text-decoration: underline;
 }
 .foot_nav.style_2 li a {
