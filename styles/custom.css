@@ -3,7 +3,7 @@
 @URL: http://inventivetemplates.com
 
 Styles contents are outlined below
- 
+
 1. Default Styles
 2. Short Codes & Form Elements
 3. Top Head Styles
@@ -33,7 +33,7 @@ Styles contents are outlined below
 27. Breadcrumb
 28. waypoints
 29. Buy_now
-	
+
 Responsive Styles
 30. Mobile and Tablet Screen
 31. Mobile Screen
@@ -43,7 +43,7 @@ Responsive Styles
 35. Desktop and Large Desktop Screen
 36. Large Desktop Screen
 37. Custom Screens
-	
+
 Animations
 38. Animations
 
@@ -52,15 +52,47 @@ Animations
 Default Styles
 =============================================== */
 /*H1* (ce sont les titres en majuscules + la NL)*/
+
+
+.center {
+	text-align: center!important;
+}
+
+
+
 h1{
 	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
+	font-size: 30px;
+	color: #333333;
+	font-weight: 500;
+	text-align: center;
+	margin: auto;
+	line-height: 40px;
+	color: #333333;
+	text-transform: none;
+}
+
+.bann_caption {
+	top: 240px!important;
+}
+
+.bann_caption h1 {
+	margin-bottom: 30px!important;
+	color: #676767!important;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
 	color: #333333;
 	font-weight: normal;
 	text-align: center;
+	text-transform: initial;
 	margin: auto;
 }
-h2{
+
+
+h3{
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
 	color: #333333;
@@ -69,6 +101,9 @@ h2{
 	text-transform: initial;
 	margin: auto;
 }
+
+
+
 p{
 	font-weight: 300;
 	color: #333333;
@@ -77,13 +112,33 @@ p{
 	font: 14px/23px 'Lato', sans-serif;
 }
 
-/* Order Button */
+
+/* Button */
+.btn-primary{
+	background: #FF8B80!important;
+	border-radius: 2px!important;
+	border: none !important;
+	border-bottom:2px solid #FA7569!important;
+	color: white !important;
+}
+
+.btn-primary:hover{
+	background: #FA7569!important;
+	border-radius: 2px!important;
+	border: none !important;
+	border-bottom:2px solid #DC6F65!important;
+	color: white !important;
+}
+
+
+
+/* Old Order Button after refact
 .btn-order{
 	background: #FF8B80 !important;
 	border-radius: 2px !important;
 	border-bottom:1px solid #FF8B80 !important;
 	padding: 6px 20px !important;
-	color: white !important;
+
 	font-size: 1em;
 	text-align: center;
 	font-weight: 300;
@@ -105,6 +160,7 @@ p{
 .button:hover{
 	background-color:#FDC85C !important;
 }
+*/
 
 /* ==============================================
 Short Codes & Form Elements
@@ -191,7 +247,7 @@ For Mega Menu
  	background-color: #40B8C7;
  }
  .navbar-default .navbar-toggle{
- 	border-color: #40B8C7; 
+ 	border-color: #40B8C7;
  }
  .navbar-toggle{
  	background-color: #40B8C7;
@@ -272,7 +328,7 @@ Home_block 2 & 3
     border-bottom:none;
 }
 .features > div > div {
-    border-left:none;    
+    border-left:none;
 }
 .features .icon i{
 	color: #FDC85C;
@@ -540,6 +596,7 @@ Mobile Screen
 	background-size : 100%;
 	background-position: center;
 }
+
 .home_block_2 {
 	background: url(../images/modames-homeblock2.jpg);
 	background-attachment: initial;
@@ -656,14 +713,3 @@ Desktop and Large Desktop Screen
 	margin: 0 0px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
