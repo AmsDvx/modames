@@ -183,9 +183,6 @@ Top Head Styles
 .wrapper > header {
 	background-color: #F8F8F8;
 }
-.big_block {
-	padding: 30px 0;
-}
  .wrapper > header .navbar-default.sticky{
  	background-color: #FFFFFF
 }
@@ -194,15 +191,10 @@ Top Head Styles
 Bootstrap Navbar
 =============================================== */
 /*Logo modames*/
-.navbar-default a.navbar-brand {
-	color: #333333;
-	background-color: #F8F8F8;
-	font-family: 'Poiret One', sans-serif;
-	text-transform: lowercase;
-}
 /*marge Logo modames*/
 .navbar>.container-fluid .navbar-brand {
-    margin-left: 40px;
+    margin-left: 0px;
+		padding: 4px 0px 0px 0px;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -220,6 +212,10 @@ Bootstrap Navbar
 }
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
+}
+
+.navbar {
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
 }
 
 /* ==============================================
@@ -276,26 +272,26 @@ Description bloc
 .description p{
 	font-size: 1em;
 	font-weight: 300;
-	margin: 15px 40px;
+	margin-top: 40px;
 }
 /* ==============================================
 Home_block 2 & 3
 =============================================== */
 /*background image blocs etapes*/
 .home_block_1 {
-	background: url(../images/modames-homeblock1.jpg);
+	background: url(../images/modames-homeblock1_low.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
 }
 .home_block_2 {
-	background: url(../images/modames-homeblock2.jpg);
+	background: url(../images/modames-homeblock2_low.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: left;
 }
 .home_block_3 {
-	background: url(../images/modames-homeblock3.jpg);
+	background: url(../images/modames-homeblock3_low.jpg);
 	background-attachment: initial;
 	background-size : 50%;
 	background-position: right;
@@ -307,12 +303,12 @@ Home_block 2 & 3
 
 .text-etape{
 	text-align: center;
-	margin-top: 15px;
+	margin: 15px 70px;
 	font-size: 1em;
 	font-weight: 300;
 }
 .home_block_1 .text-etape{
-	margin: 15px;
+	margin: 15px 70px;
 }
 
 /* ==============================================
@@ -322,7 +318,7 @@ Home_block 2 & 3
 	border: none !important;
 	background-color:#F8F8F8;
 	padding-top: 30px;
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 .features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
     border-bottom:none;
@@ -412,7 +408,7 @@ Subscribe
 	vertical-align: text-top;
 }
 .carte-cadeau-par{
-	max-width:230px;
+	max-width:228px;
 	margin-bottom: 0px;
 	text-align: left !important;
 }
@@ -425,6 +421,10 @@ h1.NL {
 }
 p.NL{
 	text-align: left !important;
+}
+
+#gift-text {
+	margin-left: 18px;
 }
 
 /* ==============================================
@@ -482,6 +482,7 @@ footer p{
 	font-size: 0.8em;
 	margin-top: 0px;
 	padding-top: 0px;
+	line-height: 14px;
 }
 footer .social_icons a i {
 	border: none !important;
@@ -531,19 +532,19 @@ Breadcrumb
 =============================================== */
 #cool {
 	overflow: hidden;
-	text-align: left;
+	text-align: center;
 	color: #FFF;
 	background: #222;
 	position: relative;
 	background-size: 100%;
 	padding-bottom: 40px;
 	padding-top: 40px;
-	margin-top: 40px;
+	margin-top: 70px;
 
 }
 
 #cool {
-  background: linear-gradient(270deg, #22d686, #24d3d3, #22d686, #24d3d3);
+  background: linear-gradient(270deg, #fbda97, #FDC85C);
   background-size: 800% 800%;
 
   -webkit-animation: supergradient 20s ease infinite;
@@ -728,10 +729,13 @@ Desktop and Large Desktop Screen
 /*modification marge header*/
 @media screen and (min-width:992px) {
 .wrapper > header .container-fluid {
-	margin: 0 0px;
+	margin-top: 0px;
 }
 .wrapper > header .navbar-default {
 	top: 0px;
+}
+footer img{
+	width: 60%;
 }
 }
 /* ==============================================
