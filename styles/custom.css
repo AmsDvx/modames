@@ -529,17 +529,46 @@ Accordion
 /* ==============================================
 Breadcrumb
 =============================================== */
-.breadcrumb_bg {
+#cool {
 	overflow: hidden;
 	text-align: left;
 	color: #FFF;
-	background: #222 url(../images/modames-faq.png) top center fixed;
+	background: #222;
 	position: relative;
 	background-size: 100%;
 	padding-bottom: 40px;
 	padding-top: 40px;
 	margin-top: 40px;
+
 }
+
+#cool {
+  background: linear-gradient(270deg, #22d686, #24d3d3, #22d686, #24d3d3);
+  background-size: 800% 800%;
+
+  -webkit-animation: supergradient 20s ease infinite;
+  -moz-animation: supergradient 20s ease infinite;
+  animation: supergradient 20s ease infinite;
+}
+
+@-webkit-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 .breadcrumb_bg h4 {
 	text-align: left;
