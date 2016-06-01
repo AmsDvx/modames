@@ -129,6 +129,7 @@ p{
 	border-bottom:2px solid #DC6F65!important;
 	color: white !important;
 }
+
 .btn-default{
 	background: #ffffff;
 	border-radius: 2px;
@@ -223,7 +224,6 @@ Bootstrap Navbar
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
 }
-
 .navbar {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
 }
