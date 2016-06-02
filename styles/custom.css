@@ -273,8 +273,12 @@ Banner
 	animation: none;
 }
 /*punchline slider*/
-.bann_caption h4 {
-	color: #333333
+.bann_caption h3 {
+	color: #ffffff;
+	font-size: 1.7em;
+	line-height: 40px;
+	font-weight: 200;
+	margin-bottom: 50px;
 }
 /* ==============================================
 Description bloc
@@ -329,8 +333,8 @@ Step how it works
 =============================================== */
 .testimonials{
 	background: none;
-	background-color: white;
-	margin-bottom: 30px;
+	background-color: #ffffff;
+	padding: 60px 0;
 }
 
 .testimonials img {
