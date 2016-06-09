@@ -58,8 +58,6 @@ Default Styles
 	text-align: center!important;
 }
 
-
-
 h1{
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
@@ -112,22 +110,40 @@ p{
 /* Button */
 .btn-order{
 	background: #FF8B80!important;
-	border-radius: 2px!important;
+	border-radius: 100px!important;
 	border: none !important;
 	border-bottom:2px solid #FA7569!important;
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
 	color: white !important;
 	padding: 1px 18 !important;
 }
 
 .btn-order:hover{
 	background: #FA7569!important;
-	border-radius: 2px!important;
+	border-radius: 100px!important;
 	border: none !important;
 	border-bottom:2px solid #DC6F65!important;
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
 	color: white !important;
 	text-decoration: none !important;
 }
+.btn-sec-order{
+	background: white!important;
+	border-radius: 100px!important;
+	border: none !important;
+	border-bottom:2px solid #FA7569!important;
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
+	color: #FF8B80 !important;
+}
 
+.btn-sec-order:hover{
+	background: #FA7569!important;
+	border-radius: 100px!important;
+	border: none !important;
+	border-bottom:2px solid #DC6F65!important;
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
+	color: white !important;
+}
 .btn-info{
 	background: #ffffff;
 	border-radius: 2px;
@@ -140,21 +156,7 @@ p{
 	border-color: #FF8B80;
 	color: white;
 }
-.btn-sec-order{
-	background: white!important;
-	border-radius: 2px!important;
-	border: none !important;
-	border-bottom:2px solid #FA7569!important;
-	color: #FF8B80 !important;
-}
 
-.btn-sec-order:hover{
-	background: #FA7569!important;
-	border-radius: 2px!important;
-	border: none !important;
-	border-bottom:2px solid #DC6F65!important;
-	color: white !important;
-}
 
 /* Old Order Button after refact
 .btn-order{
@@ -216,6 +218,9 @@ Bootstrap Navbar
 =============================================== */
 /*Logo modames*/
 /*marge Logo modames*/
+.navbar-brand>img{
+	width: 70%;
+}
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
 		padding: 4px 0px 0px 0px;
@@ -230,15 +235,17 @@ Bootstrap Navbar
 /* Text menu header*/
 .navbar-default .navbar-nav > li > a {
 	color: #333333;
-	background: #F8F8F8;
 	text-transform: none;
 	font-weight: normal;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
 }
-.navbar {
+.navbar-nav {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+.navbar-right {
+	box-shadow: none;
 }
 .wrapper > header .navbar-default.sticky {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
@@ -248,16 +255,11 @@ Bootstrap Navbar
 For Mega Menu
 =============================================== */
 .collapse.navbar-collapse {
-	background:#FFFFFF;
 	color: #333333;
 }
 .navbar-default .navbar-nav > li > a {
-	background-color: #FFFFFF;
 	font-weight: 300;
 }
-.navbar, .top_head {
- 	background:white;
- }
 .navbar-default .container-fluid{
  	margin-top: 10px !important;
  }
@@ -290,17 +292,23 @@ Banner
 	font-weight: 200;
 	margin-bottom: 50px;
 }
-/* ==============================================
-Description bloc
-=============================================== */
-.description{
-	background: #F8F8F8;
+.slide li{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 200;
+	margin:0px 10px 60px 10px;
 }
-.description p{
+.slide .fa{
+	font-size: 0.5em;
+}
+.ancre a{
+	color: white;
 	font-size: 1em;
-	font-weight: 300;
-	margin-top: 40px;
 }
+.ancre .fa{
+	font-size: 25px;
+}
+
 /* ==============================================
 Step how it works
 =============================================== */
@@ -370,6 +378,7 @@ Step how it works
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	max-width: 40%;
+	margin: auto;
 }
 .testimonials .owl-theme .owl-controls .owl-page span {
 	border-color: initial;
@@ -406,41 +415,17 @@ Subscribe
 .subscribe {
 	background: #F8F8F8;
 	color: #333333;
-	padding: 15px 0;
-
+	padding: 10px 0;
+	font-family: 'Lato', sans-serif;
 }
-.subscribe h6{
-	color:#40B8C7;
-	font-size: 20px;
-	margin-bottom: -15px;
-}
-.subscribe h5{
-	font-size: 20px;
-}
-
 .subscribe input.form-control {
 	background-color: white;
 	color: #333333;
-	border:1px
-}
-.carte-cadeau .bloc{
-	display: inline-block;
-	vertical-align: text-top;
-}
-.carte-cadeau-par{
-	max-width:228px;
-	margin-bottom: 0px;
-	text-align: left !important;
+	border:1px;
+	width: 30%;
 }
 .subscribe .icon{
 	height: 80px;
-}
-h1.NL {
-	text-transform: none;
-	text-align: left;
-}
-p.NL{
-	text-align: left !important;
 }
 
 #gift-text {
@@ -503,6 +488,7 @@ footer p{
 	margin-top: 0px;
 	padding-top: 0px;
 	line-height: 14px;
+	font-family: 'Lato', sans-serif;
 }
 footer .social_icons a i {
 	border: none !important;
@@ -530,12 +516,61 @@ footer a:hover {
 	display: block;
 }
 
+
+/*==============================================
+Our history
+===============================================*/
+#team{
+	margin: 80px auto;
+	max-width: 600px
+}
+
+
 /*==============================================
 FAQ
 ===============================================*/
 .faq_block{
 	display: inline;
 }
+
+/*==============================================
+Contact
+===============================================*/
+#contactstyle{
+	background-color: #f8f8f8;
+	margin: auto;
+	max-width: 50%;
+	padding: 10px;
+}
+.boxes{
+	padding: 10px;
+}
+#contactstyle2{
+	background-color: #f8f8f8;
+	margin: 30px 20px;
+	max-width: 20%;
+	padding: 10px;
+}
+#contactstyle3{
+	background-color: #f8f8f8;
+	margin: 30px 20px;
+	max-width: 20%;
+	padding: 10px;
+	color: #333333
+}
+#contactstyle3 a{
+	color: #333333;
+}
+#contactstyle3 a:hover{
+	color: #FF8B80;
+}
+.contactinfo .fa{
+	color: #FF8B80
+}
+.contactinfo li{
+	display: inline-block;
+}
+
 /*==============================================
 Accordion
 ===============================================*/
@@ -611,6 +646,9 @@ a.go-top{
 Mobile and Tablet Screen
 =============================================== */
 @media screen and (max-width:991px) {
+.navbar .navbar-default{
+	background: none !important;
+}
 .navbar-collapse .navbar-nav li a{
  	font-size: 0.8em;
  }
@@ -622,6 +660,7 @@ Mobile and Tablet Screen
  .bann_caption {
  	margin-top: none!important;
  }
+
 /*background texte blocs etapes */
 .slider .banner .bann_caption{
  	z-index: 10;
@@ -636,10 +675,27 @@ Mobile and Tablet Screen
 }
 }
 /* ==============================================
+Little Mobile Screen
+=============================================== */
+@media screen and (max-width:650px) {
+.bann_caption h1{
+	font-size: 20px;
+}
+	.slide li {
+		display: block;
+		font-size: 13px;
+		margin: 0;
+	}
+}
+/* ==============================================
 Mobile Screen
 =============================================== */
-/*Footer*/
 @media screen and (max-width:767px) {
+/*Slider*/
+	.slide li {
+		color: white;
+	}
+/*Footer*/
 .wrapper > footer {
 	    text-align: -webkit-center;
 }
@@ -656,8 +712,12 @@ Tablet and Desktop Screen
 	padding-right: 40px;
 	margin-right: 40px;
 }
-.navbar, .top_head{
- 	background:white;
+.navbar-default {
+ 	background:none;
+}
+/*Slider*/
+.slide li {
+	color: white;
 }
 }
 /* ==============================================

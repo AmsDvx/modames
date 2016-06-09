@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Contact</title>
+<title>Notre histoire</title>
 <meta name="keywords" content="HTML5 Template">
 <meta name="description" content="Inventive - MultiPurpose Responsive HTML5 Template">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,10 +22,6 @@
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
 <!-- Google Font Raleway -->
 <link href="http://fonts.googleapis.com/css?family=Raleway:200,300,600" rel="stylesheet" type="text/css">
-<!-- Google Font Lato -->
-<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<!-- Google Font Poiret One -->
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <!-- bootstrap styles -->
 <link href="styles/bootstrap.min.css" rel="stylesheet">
 <!-- waypoints styles for skills animation -->
@@ -50,12 +46,9 @@
 <link href="styles/theme_style.less" rel="stylesheet/less">
 <!-- Custom styles -->
 <link href="styles/custom.css" rel="stylesheet">
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <section class="wrapper">
-<!--header-->
    <header>
       <!--navbar-->
       <nav class="navbar navbar-default">
@@ -87,54 +80,41 @@
          </div>
       </nav>
    </header>
-   <!--TEST CONTACT -->
-      <section class="big_block">
-   <!-- Begin MailChimp Signup Form -->
-            <div class="row">
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
-                  <p>Une question ? Besoin d'aide ? Vous pouvez nous écrire sur le chat, consulter notre FAQ, ou remplir ce formulaire de contact :</p>
-               </div>
-            </div>
-            <div class="container" id="contactstyle">
-              <form class="form-horizontal" role="form" method="post" action="index.php">
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Prénom / Nom" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                      <?php echo "<p class='text-danger'>$errName</p>";?>
-                   </div>
-                           <div class="col-md-12 col-sm-12 col-xs-12 boxes">
-                             <div class="form-group">
-                               <input type="email" class="form-control" id="email" name="email" placeholder="Votre email" value="<?php echo htmlspecialchars($_POST['email']); ?>">                                  	<?php echo "<p class='text-danger'>$errEmail</p>";?>
-                              <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                              </div>
 
-                           <div class="col-xs-12 boxes">
-                             <div class="form-group">
-                              <textarea class="form-control" rows="4" name="message" placeholder="Votre message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                              <?php echo "<p class='text-danger'>$errMessage</p>";?>
-                            </div>
-                            <div class="form-group">
-                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                            </div>
+<!--OUr history-->
+     <div class="row" id="team">
+<!--About team-->
+        <div class="col-lg-12 col-md-12 center">
+          <h3>Notre histoire...</h3>
+        </div>
+        <div class="col-lg-12 col-md-12 center">
+          <img src="images/team.jpg" alt="team">
+        </div>
+        <div class="col-lg-12 col-md-12 center">
+          <p class="text-center">D’un côté il y a Maud, de l’autre Amélie.....Comme une envie personnelle de consommer la mode autrement. Et si nous n’étions pas les seules Modames ?
+          Entre manque de temps pour faire du shopping, lassées d’avoir toujours les même marques, et à la recherche contsante d’originalité... Les femmes ressentent l’envie de changer, d’arrêter de s’habiller toujours de la même façon tous les matins, mais comment faire ? C’est là que Modames est née.
+          Un nouveau concept pour commander la mode en ligne et l’essayer à domicile avant de l’acheter. Plus besoin de se déplacer pour dénicher  les nouvelles marques tendances et originales ! Mieux, des marques soucieuses de produire des collections de qualité, avec un véritable savoir-faire et une éthique, trop longtemps délaissée par le milieu du prêt-à-porter.
+          La mode arrive directement à vous, et votre styliste est là pour vous dénicher les meilleures tendances de nos créateurs en accord avec vos goûts et votre morphologie.
+          </p>
+        </div>
+<!--About philosophy-->
+        <div class="col-lg-12 col-md-12 center">
+          <h3>Notre philosophie...</h3>
+        </div>
+        <div class="col-lg-12 col-md-12 center">
+          <p class="text-center">Haec ubi latius fama vulgasset missaeque relationes adsiduae Gallum Caesarem permovissent, quoniam magister equitum longius ea tempestate distinebatur, iussus comes orientis Nebridius contractis undique militaribus copiis ad eximendam periculo civitatem amplam et oportunam studio properabat ingenti, quo cognito abscessere latrones nulla re amplius memorabili gesta, dispersique ut solent avia montium petiere celsorum. Haec ubi latius fama vulgasset missaeque relationes adsiduae Gallum Caesarem permovissent, quoniam magister equitum longius ea tempestate distinebatur, iussus comes orientis Nebridius contractis undique militaribus copiis.
+        </div>
+<!--About recruitment-->
+        <div class="col-lg-12 col-md-12 center">
+          <h3>Nous rejoindre</h3>
+        </div>
+        <div class="col-lg-12 col-md-12 center">
+          <p class="text-center">Nous sommes toujours à la recherche de nouveaux talents motivés pour rejoindre notre équipe. Envie de rejoindre notre start-up en plein développement dans une ambiance jeune et dynamique ? Alors, envoies-nous ta candidature !</p>
+        </div>
+    </div>
 
-            </div>
-         </div>
-       </section>
-<!--Coordonnées-->
-      <div class="container">
-         <div class="row">
-           <div class="col-md-12 col-sm-12 center">
-               <ul class="contactinfo">
-                 <li id="contactstyle2"><i class="fa fa-phone"></i> Tel: (+33) 6.01.75.96.16</li>
-                 <li id="contactstyle3"><i class="fa fa-envelope"></i><a href="mailto:contact@modames.com?subject=Question pour l'équipe modames"> contact@modames.com</a></li>
-               </ul>
-           </div>
-         </div>
-      </div>
-   </section>
-   <!-- Formulaire de contact FIN -->
-   <!-- Suppression block BUY NOW -->
-    <!--footer-->
-   <footer id="anchor_footer_1" class="big_block">
+   <!--Footer-->
+       <footer id="anchor_footer_1" class="big_block">
       <div class="container">
             <!--Copyright-->
             <div class="col-md-3 col-sm-3 col-xs-12">
@@ -172,6 +152,8 @@
          </div>
       </div>
    </footer>
+<!--Footer FIN-->
+
 </section>
 <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 
