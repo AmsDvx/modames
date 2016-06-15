@@ -79,7 +79,7 @@ h2{
 	font-family: 'Lato', sans-serif;
 	font-size: 1.4em;
 	color: #333333;
-	font-weight: normal;
+	font-weight: 300;
 	text-align: center;
 	text-transform: initial;
 	margin: auto;
@@ -96,8 +96,6 @@ h3{
 	margin: auto;
 }
 
-
-
 p{
 	font-weight: 300;
 	color: #333333;
@@ -106,14 +104,13 @@ p{
 	font: 14px/23px 'Lato', sans-serif;
 }
 
-
 /* Button */
 .btn-order{
 	background: #FF8B80!important;
 	border-radius: 100px!important;
 	border: none !important;
 	border-bottom:2px solid #FA7569!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 1px rgba(255,139,128,0.84);
 	color: white !important;
 	padding: 1px 18 !important;
 }
@@ -123,9 +120,20 @@ p{
 	border-radius: 100px!important;
 	border: none !important;
 	border-bottom:2px solid #DC6F65!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
+	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 1px rgba(255,139,128,0.84);
 	color: white !important;
 	text-decoration: none !important;
+}
+.btn-header{
+	border-radius: 2px;
+	border-color: rgba(255, 139,128, 0.5);
+	color: rgba(255, 139,128, 0.7) !important;
+	text-decoration: none !important;
+}
+.btn-header:hover{
+	border-radius: 2px;
+	border-color: rgb(255, 139,128) !important;
+	color: rgb(255, 139,128);
 }
 .btn-sec-order{
 	background: white!important;
@@ -145,16 +153,18 @@ p{
 	color: white !important;
 }
 .btn-info{
-	background: #ffffff;
-	border-radius: 2px;
-	border-color: #FF8B80;
-	color: #FF8B80;
+	background: white !important;
+	background-color: white !important;
+	border-radius: 2px !important;
+	border-color: rgba(255, 139,128, 0.5) !important;
+	color: rgba(255, 139,128, 0.7) !important;
 }
 .btn-info:hover{
-	background: #FF8B80;
-	border-radius: 2px;
-	border-color: #FF8B80;
-	color: white;
+	background: white !important;
+	background-color: white !important;
+	border-radius: 2px !important;
+	border-color: rgb(255, 139,128) !important;
+	color: rgb(255, 139,128) !important;
 }
 
 
@@ -301,11 +311,16 @@ Banner
 .slide .fa{
 	font-size: 0.5em;
 }
-.ancre a{
+
+/*Scroll in slider*/
+.btn-scroll{
 	color: white;
 	font-size: 1em;
 }
-.ancre .fa{
+.btn-scroll:hover{
+	color: rgba( 255, 255, 255, 0.7);
+}
+.btn-scroll .fa{
 	font-size: 25px;
 }
 
@@ -323,7 +338,14 @@ Step how it works
 	font-size: 1em;
 	font-weight: 300;
 }
-
+.workprocess .block p{
+		padding: 10px 20px;
+    width: 72%;
+    margin: auto;
+}
+.step{
+	margin-top: 40px;
+}
 /* ==============================================
  Features
 =============================================== */
@@ -377,7 +399,6 @@ Step how it works
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
-	max-width: 40%;
 	margin: auto;
 }
 .testimonials .owl-theme .owl-controls .owl-page span {

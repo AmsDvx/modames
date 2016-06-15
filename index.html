@@ -76,7 +76,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-              <img src="images/blanc.svg">
+              <img class="logo" src="images/blanc.svg">
             </a>
           </div>
 
@@ -86,8 +86,8 @@
                 <li><a href="#">Comment ça marche ?</a></li>
                 <li><a href="./history.html">À propos</a></li>
                 <li><a href="./faq.html">FAQ</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a class="btn btn-order typeform-share" href="https://modames.typeform.com/to/OmDoNr" data-mode="1" target="_blank" role="button">Je commande</a></li>
+                <li><a href="mailto:contact@modames.com?subject=Question pour l'équipe modames">Contact</a></li>
+                <li><a class="btn btn-header typeform-share" href="https://modames.typeform.com/to/OmDoNr" data-mode="1" target="_blank" role="button">Je commande ma malle</a></li>
               </ul>
             </div>
           </div>
@@ -96,7 +96,7 @@
       <!--slider-->
       <section class="slider">
         <div class="banner">
-          <div class="banner_bg"> <img class="img-responsive" src="images/modames-slider.jpg" alt=""/> </div>
+          <div class="banner_bg"> <img class="img-responsive" src="images/modames-slider.jpg" alt=""/></div>
           <div class="bann_caption">
             <div class="container">
               <div class="col-md-12 col-sm-12 center">
@@ -117,8 +117,8 @@
   <!--Ancre how it works-->
                 <div class="col-md-12 col-sm-12 center">
                   <ul class="ancre">
-                    <li><a href="#ancre">COMMENT ÇA MARCHE ?</a></li>
-                    <li><a href="#ancre"><i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                    <li><a class="btn btn-scroll page-scroll" href="#ancre">COMMENT ÇA MARCHE ?</a></li>
+                    <li><a class="btn btn-scroll page-scroll" href="#ancre"><i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
             </div>
@@ -127,7 +127,7 @@
       </section>
       <!--how it works-->
       <section class="workprocess" id="ancre">
-         <div class="big_block" class="step">
+         <div class="big_block">
             <div class="container">
                <h2 class="text-center">EASY AS A PIE</h2>
                <div class="row" style="padding-top: 40px">
@@ -140,7 +140,7 @@
                      </div>
                   <div class="col-md-4 col-sm-4 col-xs-12">
                      <div class="block">
-                      <div class="icon"><img src="images/circle2.png"></div>
+                       <div class="icon"><img src="images/circle2.png"></div>
                         <h3>Votre malle chez vous !</h3>
                         <p class="text-etape">Votre sélection n'attend plus que vous.Pas de pression, disposez d'une semaine pour essayer chez vous.</p>
                      </div>
@@ -154,7 +154,7 @@
                      </div>
             </div>
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
-                      <a class="btn btn-info" href="#" role="button" style="center">En savoir +</a>
+                      <a class="btn btn-info step" href="#" role="button" style="center">En savoir +</a>
                   </div>
          </div>
       </section>
@@ -162,8 +162,7 @@
       <section class="testimonials big_block">
         <div class="container">
           <div class="col-sm-12 col-md-12 center">
-            <h2><img src="images/pinkcircle.svg"> Votre malle</h2>
-            <p>Chaque malle est composée d’une tenue personnalisée par votre styliste en fonction de vos goûts et vos besoins.</p>
+            <h2>VOTRE MALLE</h2>
             <div id="test_carousel" class="owl-carousel owl-theme">
               <div class="item">
                 <div class="details">
@@ -186,8 +185,7 @@
     <section class="gallery">
       <div class="container-fluid">
         <div class="row">
-          <h2 class="style_title_modames"><img src="images/pinkgreycircle.svg"> Nos marques</h2>
-          <p>Notre équipe déniche pour vous des marques de talent et assouvie vos envies d’originalité et de qualité !</p>
+          <h2>NOS MARQUES</h2>
         </div>
         <!--Gallery-->
         <div class="container-fluid" style="margin:15px 0;">
@@ -303,16 +301,14 @@
             <!--Footer links-->
             <div class="col-md-3 col-sm-3 col-xs-12">
               <ul class="foot_nav style_2">
-                <li><a href="index.html">Blog</a></li>
-                <li><a href="index.html">Comment ça marche ?</a></li>
-                <li><a href="services_layout_1.html">FAQ</a></li>
+                <li><a href="index.html">Nous rejoindre</a></li>
+                <li><a href="index.html">Presse</a></li>
               </ul>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-12">
               <ul class="foot_nav style_2">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">Qui sommes-nous ?</a></li>
-                <li><a href="#">Nous rejoindre</a></li>
+                <li><a href="mailto:contact@modames.com?subject=Question pour l'équipe modames">Contact</a></li>
+                <li>+33 6 01 02 03 04</li>
               </ul>
             </div>
             <!--social icons-->
@@ -398,5 +394,8 @@
     });
   });
   </script>
+  <!-- Scrolling Nav JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
 </body>
 </html>
