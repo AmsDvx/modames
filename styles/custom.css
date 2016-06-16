@@ -357,9 +357,8 @@ Step how it works
 .features{
 	border: none !important;
 	background-color:#FF8B80;
-	padding-top: 30px;
-  padding-bottom: 60px;
 }
+
 .features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
     border-bottom:none;
 }
@@ -374,6 +373,8 @@ Step how it works
 }
 .features .benefit{
 	color: #ffffff;
+	font-weight: 200;
+  letter-spacing: 0.05em;
 }
 .features .explain{
 	color: #ffffff;
@@ -391,7 +392,7 @@ Step how it works
 		align-items: center;
 }
 .testimonials{
-	background: #FF8B80;
+	background: white;
 	padding: 60px 0;
 }
 
