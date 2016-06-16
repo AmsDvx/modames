@@ -434,28 +434,41 @@ Gallery
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
-
+/* ==============================================
+Recap
+=============================================== */
+.recap li{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 200;
+	margin:0px 10px 60px 10px;
+}
+.recap .fa{
+	font-size: 0.5em;
+}
 /* ==============================================
 Subscribe
 =============================================== */
 .subscribe {
-	background: #F8F8F8;
+	background: #FFD887;
 	color: #333333;
 	padding: 10px 0;
 	font-family: 'Lato', sans-serif;
 }
-.subscribe input.form-control {
-	background-color: white;
-	color: #333333;
-	border:1px;
-	width: 30%;
-}
+
 .subscribe .icon{
 	height: 80px;
 }
-
-#gift-text {
-	margin-left: 18px;
+.NL{
+	color: #333333;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+}
+.subscribe input.form-news{
+	background: none !important;
+	color: #FDC85C !important;
+	border: none;
+	box-shadow: none;
 }
 
 /* ==============================================
