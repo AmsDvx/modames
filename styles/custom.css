@@ -315,6 +315,11 @@ Banner
 /*Scroll in slider*/
 .btn-scroll{
 	color: white;
+	font-weight: 200;
+
+}
+.ancre a{
+	font-family: "Lato" sans-serif;
 	font-size: 1em;
 }
 .btn-scroll:hover{
@@ -386,8 +391,7 @@ Step how it works
 		align-items: center;
 }
 .testimonials{
-	background: none;
-	background-color: #ffffff;
+	background: #FF8B80;
 	padding: 60px 0;
 }
 
