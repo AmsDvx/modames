@@ -275,18 +275,20 @@ For Mega Menu
  }
 /*Toggle Mobile*/
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
- 	background-color: #40B8C7;
+ 	background-color: #333333;
+	border-color: #333333;
  }
  .navbar-default .navbar-toggle{
- 	border-color: #40B8C7;
+ 	border-color: #none;
  }
  .navbar-toggle{
- 	background-color: #40B8C7;
- 	border:1px solid #40B8C7;
+ 	background-color: #a6a6a6;
+ 	border:1px solid #333333;
  }
  .navbar-default .navbar-toggle .icon-bar{
  	background-color: white;
  }
+
 
 /* ==============================================
 Banner
@@ -459,18 +461,29 @@ Subscribe
 .subscribe .icon{
 	height: 80px;
 }
-.NL{
-	color: #333333;
-	font-family: "Lato", sans-serif;
-	font-weight: 300;
-}
-.subscribe input.form-news{
-	background: none !important;
-	color: #FDC85C !important;
-	border: none;
-	box-shadow: none;
+
+.news{
+	color: #333333 !important;
+	font-family: "Lato", sans-serif !important;
+	font-weight: 200 !important;
+	padding-right: 20px !important;
 }
 
+input{
+	background: none;
+	border: none;
+	color: #333333 !important;
+}
+::-webkit-input-placeholder {
+  color: #f8a700;
+	text-decoration: underline;
+}
+.arrow{
+	background: none;
+	border: none;
+	color: #f8a700 !important;
+	font-size: 20px;
+}
 /* ==============================================
 Contact Us
 =============================================== */
