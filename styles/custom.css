@@ -231,6 +231,7 @@ Bootstrap Navbar
 .navbar-brand>img{
 	width: 70%;
 }
+
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
 		padding: 4px 0px 0px 0px;
@@ -401,20 +402,13 @@ Step how it works
 .testimonials img {
 	border-radius: 0;
 }
-.testimonials p{
-	color: #333333;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-	margin: auto;
-}
+
 .testimonials .owl-theme .owl-controls .owl-page span {
 	border-color: initial;
 	background: #40B8C7;
 }
-.testimonials .style_title_modames{
-	margin-top: 30px;
-	margin-bottom: 10px;
+.carousel-caption{
+	bottom: center;
 }
 
 /* ==============================================
