@@ -390,6 +390,16 @@ Step how it works
 /* ==============================================
  Carousel
 =============================================== */
+.malle h2{
+	margin: 50px 0px 20px 0px !important;
+}
+.carousel{
+	margin: 30px 0 50px 0;
+}
+.carousel .price{
+	margin-top: 20px;
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	margin: auto;
 }
