@@ -388,29 +388,26 @@ Step how it works
 }
 
 /* ==============================================
- Testimonials
+ Carousel
 =============================================== */
-.testimonials .container {
-		display: flex;
-    flex-direction: column;
-		align-items: center;
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	margin: auto;
 }
-.testimonials{
-	background: white;
-	padding: 60px 0;
-}
-
-.testimonials img {
-	border-radius: 0;
-	margin: 60px auto 60px auto;
+.carousel-control{
+	background-image: none !important;
+	background-color: none !important;
+	opacity: 1;
+	top: 50%;
 }
 
-.testimonials .owl-theme .owl-controls .owl-page span {
-	border-color: initial;
-	background: #40B8C7;
+.carousel-control .fa{
+	color:#FF8B80;
+	font-size: 1em;
+	text-shadow: none;
 }
-
-
+.carousel-control .fa:hover{
+	color:#ff6d60;
+}
 /* ==============================================
 Gallery
 =============================================== */
@@ -713,8 +710,8 @@ Mobile and Tablet Screen
  	position: absolute;
 }
 /*Malle section */
-.testimonials .product{
-	width: 80%;
+.carousel .product{
+	width: 60%;
 }
 
 #contact-description {
@@ -737,10 +734,6 @@ Little Mobile Screen
 		font-size: 13px;
 		margin: 0;
 	}
-/*Malle section */
-.testimonials .product{
-	width: 80%;
-}
 
 }
 /* ==============================================
