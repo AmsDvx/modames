@@ -247,7 +247,7 @@ Bootstrap Navbar
 .navbar-default .navbar-nav > li > a {
 	color: #333333;
 	text-transform: none;
-	font-weight: normal;
+	font-size: 0.8em;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
@@ -401,15 +401,14 @@ Step how it works
 
 .testimonials img {
 	border-radius: 0;
+	margin: 60px auto 60px auto;
 }
 
 .testimonials .owl-theme .owl-controls .owl-page span {
 	border-color: initial;
 	background: #40B8C7;
 }
-.carousel-caption{
-	bottom: center;
-}
+
 
 /* ==============================================
 Gallery
@@ -683,7 +682,7 @@ Breadcrumb
 go-top link
 ===============================================*/
 a.go-top{
-	color: #40B8C7;
+	color: #FF8B80;
 	opacity: 100;
 }
 
@@ -712,6 +711,11 @@ Mobile and Tablet Screen
  	z-index: 10;
  	position: absolute;
 }
+/*Malle section */
+.testimonials .product{
+	width: 80%;
+}
+
 #contact-description {
 	margin-top: 0px;
 }
@@ -732,6 +736,11 @@ Little Mobile Screen
 		font-size: 13px;
 		margin: 0;
 	}
+/*Malle section */
+.testimonials .product{
+	width: 80%;
+}
+
 }
 /* ==============================================
 Mobile Screen
