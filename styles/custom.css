@@ -58,7 +58,7 @@ Default Styles
 	text-align: center!important;
 }
 
-h1{
+h1 {
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	color: #333333;
@@ -105,52 +105,41 @@ p{
 }
 
 /* Button */
-.btn-order{
+.btn-order:last-child{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-family: 'Lato', sans-serif;
 	background: #FF8B80!important;
 	border-radius: 100px!important;
+  padding: 10px 40px;
 	border: none !important;
 	border-bottom:2px solid #FA7569!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 1px rgba(255,139,128,0.84);
-	color: white !important;
-	padding: 1px 18 !important;
 }
 
 .btn-order:hover{
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
 	background: #FA7569!important;
 	border-radius: 100px!important;
+	padding: 1px 18 !important;
 	border: none !important;
 	border-bottom:2px solid #DC6F65!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 1px rgba(255,139,128,0.84);
 	color: white !important;
 	text-decoration: none !important;
+
 }
 .btn-header{
 	border-radius: 2px;
 	border-color: rgba(255, 139,128, 0.5);
 	color: rgba(255, 139,128, 0.7) !important;
 	text-decoration: none !important;
+	padding: 1px 18 !important;
 }
 .btn-header:hover{
 	border-radius: 2px;
 	border-color: rgb(255, 139,128) !important;
 	color: rgb(255, 139,128);
 }
-.btn-sec-order{
-	background: white!important;
-	border-radius: 100px!important;
-	border: none !important;
-	border-bottom:2px solid #FA7569!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
-	color: #FF8B80 !important;
-}
-
-.btn-sec-order:hover{
-	background: #FA7569!important;
-	border-radius: 100px!important;
-	border: none !important;
-	border-bottom:2px solid #DC6F65!important;
-	box-shadow: 0px 5px 14px 10px rgba(0,0,0,0.18), 0px 5px 18px 7px rgba(255,139,128,0.84);
-	color: white !important;
 }
 .btn-info{
 	background: white !important;
@@ -250,6 +239,15 @@ Bootstrap Navbar
 	font-size: 0.8em;
 	padding-right: 0;
 }
+.navbar-default .navbar-nav > li:last-child > a{
+	border-radius: 2px;
+	border-color: rgba(255, 139,128, 0.5);
+	color: rgba(255, 139,128, 0.7) !important;
+	text-decoration: none !important;
+	padding: 1px 18 !important;
+	font-weight: 300 !important;
+	padding: 20px 60;
+}
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
 }
@@ -306,6 +304,8 @@ Banner
 	font-weight: 200;
 	margin-bottom: 50px;
 }
+
+
 .slide li{
 	display: inline-block;
 	font-size: 17px;
@@ -425,18 +425,9 @@ Gallery
 	background-color: #ffffff ;
 	margin-bottom: -15px;
 }
-.gallery p{
-	text-align: center;
-	font-weight: 300;
-	color: #333333;
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-}
 
-.gallery .style_title_modames {
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
+
+
 /* ==============================================
 Recap
 =============================================== */
