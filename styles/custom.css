@@ -320,12 +320,12 @@ Banner
 .btn-scroll{
 	color: white;
 	font-weight: 200;
-
 }
 .ancre a{
 	font-family: "Lato" sans-serif;
 	font-size: 1em;
 }
+
 .btn-scroll:hover{
 	color: rgba( 255, 255, 255, 0.7);
 }
@@ -398,6 +398,8 @@ Step how it works
 }
 .carousel .price{
 	margin-top: 20px;
+	font-weight: 300;
+	font-size: 1em;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -411,12 +413,12 @@ Step how it works
 }
 
 .carousel-control .fa{
-	color:#FF8B80;
-	font-size: 1em;
+	color:rgba(255, 139, 128, 0.7);
+	font-size: 4em;
 	text-shadow: none;
 }
 .carousel-control .fa:hover{
-	color:#ff6d60;
+	color:#FF8B80;
 }
 /* ==============================================
 Gallery
@@ -689,6 +691,10 @@ Mobile and Tablet Screen
 .carousel .product{
 	width: 60%;
 }
+.carousel-control .fa{
+	color:#FF8B80;
+	font-size: 2em;
+	text-shadow: none;
 
 #contact-description {
 	margin-top: 0px;
