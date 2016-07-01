@@ -576,48 +576,23 @@ FAQ
 .faq_block{
 	display: inline;
 }
-
-/*==============================================
-Contact
-===============================================*/
-#contactstyle{
-	background-color: #f8f8f8;
-	margin: auto;
-	max-width: 50%;
-	padding: 10px;
-}
-.boxes{
-	padding: 10px;
-}
-#contactstyle2{
-	background-color: #f8f8f8;
-	margin: 30px 20px;
-	max-width: 20%;
-	padding: 10px;
-}
-#contactstyle3{
-	background-color: #f8f8f8;
-	margin: 30px 20px;
-	max-width: 20%;
-	padding: 10px;
-	color: #333333
-}
-#contactstyle3 a{
+.title-faq{
+	font-family: "Lato", sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 20px;
+	font-weight: 300;
 	color: #333333;
 }
-#contactstyle3 a:hover{
-	color: #FF8B80;
+.panel-title > a.collapsed{
+	font-family: "Lato", sans-serif;
+	font-size: 1em;
+	font-weight: 200;
+	color: #333333;
 }
-.contactinfo .fa{
-	color: #FF8B80
-}
-.contactinfo li{
-	display: inline-block;
+.panel-body{
+	font-weight: 200;
 }
 
-/*==============================================
-Accordion
-===============================================*/
 .panel.panel-default{
 	border: none;
 	background-color: #F8F8F8;
