@@ -415,7 +415,7 @@ Step how it works
 
 .carousel-control .fa{
 	color:rgba(255, 139, 128, 0.7);
-	font-size: 4em;
+	font-size: 2em;
 	text-shadow: none;
 }
 .carousel-control .fa:hover{
@@ -592,6 +592,10 @@ FAQ
 	font-weight: 200;
 	color: #333333;
 }
+.panel-default > .panel-heading a{
+		font-family: 'Lato', sans-serif;
+}
+
 .panel-body{
 	font-weight: 200;
 }
@@ -603,6 +607,55 @@ FAQ
 .panel-group {
 	background-color: #F8F8F8;
 }
+#three {
+	padding-top: 80px;
+}
+#four {
+	padding-top: 80px;
+}
+
+.contactinfo{
+	margin-bottom: 60px;
+}
+
+#contactstyle2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #f8f8f8;
+	border-radius: 2px;
+	min-width: 200px;
+	min-height: 40px;
+	max-width: 200px;
+	max-height: 40px;
+	padding: 10px;
+	margin: 10px;
+}
+#contactstyle3{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #f8f8f8;
+	border-radius: 2px;
+	min-width: 200px;
+	min-height: 40px;
+	max-width: 200px;
+	max-height: 40px;
+	padding: 10px;
+	margin: 10px;
+	color: #333333
+}
+#contactstyle2 a{
+	color: #333333;
+}
+#contactstyle2 a:hover{
+	color: #FF8B80;
+}
+.contactinfo .fa{
+	color: #FF8B80
+}
+.contactinfo li{
+	display: inline-block;
+}
+
 
 /* ==============================================
 Breadcrumb
@@ -614,8 +667,8 @@ Breadcrumb
 	background: #222;
 	position: relative;
 	background-size: 100%;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-top: 60px;
 	margin-top: 70px;
 
 }
@@ -700,10 +753,16 @@ Mobile and Tablet Screen
 #contact-description {
 	margin-top: 0px;
 }
+
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
+}
 /*bandeau FAQ*/
 #cool{
 	margin-top: 0px;
 }
+
 }
 /* ==============================================
 Little Mobile Screen
@@ -717,6 +776,10 @@ Little Mobile Screen
 		font-size: 13px;
 		margin: 0;
 	}
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
+}
 
 }
 /* ==============================================
@@ -733,6 +796,10 @@ Mobile Screen
 }
 footer img{
 	width: 20%;
+}
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
 }
 }
 /* ==============================================
@@ -759,6 +826,10 @@ Tablet and Desktop Screen
 .wrapper > header .navbar-default {
 	top: 0px;
 }
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
+}
 }
 /* ==============================================
 Tablet Screen
@@ -774,6 +845,10 @@ Tablet Screen
 }
 footer img{
 	width: 50%;
+}
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
 }
 }
 /* ==============================================
