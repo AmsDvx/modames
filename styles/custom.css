@@ -130,8 +130,8 @@ p{
 }
 .btn-header{
 	border-radius: 2px;
-	border-color: rgba(255, 139,128, 0.5);
-	color: rgba(255, 139,128, 0.7) !important;
+	border-color: rgba(255, 139, 128, 0.5);
+	color: rgba(255, 139, 128, 0.7) !important;
 	text-decoration: none !important;
 	padding: 1px 18 !important;
 }
@@ -589,13 +589,17 @@ FAQ
 .panel-title > a.collapsed{
 	font-family: "Lato", sans-serif;
 	font-size: 1em;
-	font-weight: 200;
+	font-weight: 300;
 	color: #333333;
 }
+
 .panel-default > .panel-heading a{
 		font-family: 'Lato', sans-serif;
-}
 
+}
+#heading_1.panel-heading, #heading_2.panel-heading, #heading_3.panel-heading, #heading_4.panel-heading, #heading_5.panel-heading, #heading_6.panel-heading, #heading_7.panel-heading, #heading_8.panel-heading, #heading_9.panel-heading, #heading_10.panel-heading, #heading_11.panel-heading, #heading_12.panel-heading, #heading_13.panel-heading, #heading_14.panel-heading, #heading_15.panel-heading, #heading_16.panel-heading, #heading_17.panel-heading, #heading_18.panel-heading, #heading_19.panel-heading, #heading_20.panel-heading, #heading_21.panel-heading, #heading_22.panel-heading, #heading_23.panel-heading{
+	color: #ff8b80;
+}
 .panel-body{
 	font-weight: 200;
 }
@@ -621,7 +625,7 @@ FAQ
 #contactstyle2{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	background-color: #f8f8f8;
+	background-color: rgba(248, 248, 248, 0.7) !important;
 	border-radius: 2px;
 	min-width: 200px;
 	min-height: 40px;
@@ -633,7 +637,7 @@ FAQ
 #contactstyle3{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	background-color: #f8f8f8;
+	background-color: rgba(248, 248, 248, 0.7) !important;
 	border-radius: 2px;
 	min-width: 200px;
 	min-height: 40px;
@@ -649,6 +653,13 @@ FAQ
 #contactstyle2 a:hover{
 	color: #FF8B80;
 }
+a#contactstyle4{
+	color: #333333;
+}
+a:hover#contactstyle4{
+	color: #FF8B80;
+}
+
 .contactinfo .fa{
 	color: #FF8B80
 }
@@ -826,10 +837,6 @@ Tablet and Desktop Screen
 .wrapper > header .navbar-default {
 	top: 0px;
 }
-/*FAQ bloc 2*/
-#two {
-	padding-top: 80px;
-}
 }
 /* ==============================================
 Tablet Screen
@@ -845,10 +852,6 @@ Tablet Screen
 }
 footer img{
 	width: 50%;
-}
-/*FAQ bloc 2*/
-#two {
-	padding-top: 80px;
 }
 }
 /* ==============================================
