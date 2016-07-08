@@ -370,16 +370,20 @@ Step how it works
 .features > div > div {
     border-left:none;
 }
-.features .icon i{
+.features i{
 	color: #ffffff;
+	font-size: 1.5em;
+	padding-right: 10px;
 }
 .features .block{
 	margin: 30px 0;
 }
 .features .benefit{
 	color: #ffffff;
-	font-weight: 200;
+	font-weight: 400;
   letter-spacing: 0.05em;
+	font-size: 0.8em;
+	margin: -25px;
 }
 .features .explain{
 	color: #ffffff;
@@ -392,7 +396,7 @@ Step how it works
  Carousel
 =============================================== */
 .malle h2{
-	margin: 50px 0px 20px 0px !important;
+	margin: 80px 0px 20px 0px !important;
 }
 .carousel{
 	margin: 30px 0 50px 0;
