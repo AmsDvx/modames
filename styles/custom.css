@@ -588,12 +588,8 @@ footer a:hover {
 /*==============================================
 HOW IT WORKS PAGE
 ===============================================*/
-.howit .container{
-	display: flex;
-	flex-direction: column;
-}
 .howit{
-	background-color: #F7F8F9none;
+	background-color: #F7F8F9;
 }
 .stepimg{
 	width: 100%;
@@ -837,7 +833,8 @@ Mobile and Tablet Screen
  	margin-top: none!important;
  }
 
-/*background texte blocs etapes */
+ /*=== HOME PAGE ===*/
+/* Background texte blocs etapes */
 .slider .banner .bann_caption{
  	z-index: 10;
  	position: absolute;
@@ -854,12 +851,27 @@ Mobile and Tablet Screen
 #contact-description {
 	margin-top: 0px;
 }
+/*=== HOW IT WORKS PAGE ===*/
+.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
+	background: none;
+}
+p.sp1, p.sp2, p.sp3{
+	text-align: left;
+	max-width: 50%;
+  margin: auto;
+}
 
+h3.sh1, h3.sh2, h3.sh3{
+	text-align: left;
+	max-width: 50%;
+	margin: auto;
+}
+/*=== FAQ PAGE ===*/
 /*FAQ bloc 2*/
 #two {
 	padding-top: 80px;
 }
-/*bandeau FAQ*/
+/*Bandeau FAQ*/
 #cool{
 	margin-top: 0px;
 }
@@ -877,13 +889,29 @@ Little Mobile Screen
 		font-size: 13px;
 		margin: 0;
 	}
-/*FAQ bloc 2*/
+
+/*=== HOW IT WORKS PAGE ===*/
+.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
+	background: none;
+}
+p.sp1, p.sp2, p.sp3{
+	text-align: left;
+	max-width: 70%;
+  margin: auto;
+}
+
+h3.sh1, h3.sh2, h3.sh3{
+	text-align: left;
+	max-width: 70%;
+	margin: auto;
+}
+
+/*=== FAQ PAGE ===*/
+/* FAQ bloc 2 */
 #two {
 	padding-top: 80px;
 }
-/* ==============================================
-Story
-=============================================== */
+/* === Story === */
 img.icon{
 	width: 20%;
 }
@@ -892,24 +920,12 @@ img.icon{
 Mobile Screen
 =============================================== */
 @media screen and (max-width:767px) {
+/*=== HOME PAGE ===*/
 /*Slider*/
 .slide li {
 	color: white;
 }
-/*Footer*/
-.wrapper > footer {
-	    text-align: -webkit-center;
-}
-footer img{
-	width: 20%;
-}
-/*FAQ bloc 2*/
-#two {
-	padding-top: 80px;
-}
-/* ==============================================
-Story
-=============================================== */
+/* Story */
 img.icon{
 	width: 15%;
 }
@@ -918,6 +934,38 @@ p.stories{
 	margin: auto;
 	margin-bottom: 50px;
 }
+/*Footer*/
+.wrapper > footer {
+	    text-align: -webkit-center;
+}
+footer img{
+	width: 20%;
+}
+/*=== HOW IT WORKS PAGE ===*/
+.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
+	background: none;
+}
+p.sp1, p.sp2, p.sp3{
+	text-align: center;
+	max-width: 70%;
+  margin: auto;
+}
+
+h3.sh1, h3.sh2, h3.sh3{
+	text-align: center;
+	max-width: 70%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+img.stepimg{
+	max-width: 50%;
+}
+/*=== FAQ PAGE ===*/
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
+}
+
 }
 /* ==============================================
 Tablet and Desktop Screen
