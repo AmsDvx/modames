@@ -108,32 +108,27 @@ p{
 .btn-order{
 	color: white !important;
 	font-size: 1.2em !important;
+	font-weight: 300;
 	font-family: 'Lato', sans-serif;
-	background: #FF8B80!important;
+	background: #FF8B80 !important;
 	border-radius: 100px!important;
-  padding: 10px 40px;
-	border: none !important;
-	border-bottom:2px solid #FA7569!important;
+  padding: 15px 30px;
 }
 
 .btn-order:hover{
-	font-size: 1.2em;
-	font-family: 'Lato', sans-serif;
-	background: #FA7569!important;
-	border-radius: 100px!important;
-	padding: 1px 18 !important;
-	border: none !important;
-	border-bottom:2px solid #DC6F65!important;
 	color: white !important;
-	text-decoration: none !important;
-
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
 }
 .btn-header{
 	border-radius: 2px;
 	border-color: rgba(255, 139, 128, 0.5);
 	color: rgba(255, 139, 128, 0.7) !important;
 	text-decoration: none !important;
-	padding: 1px 18 !important;
+	padding: 1px 18px !important;
 }
 .btn-header:hover{
 	border-radius: 2px;
@@ -142,18 +137,18 @@ p{
 }
 
 a.btn.btn-how{
-	background: white !important;
-	background-color: white !important;
-	border-radius: 2px !important;
+	background: transparent !important;
+	border-radius: 100px !important;
 	border-color: rgba(255, 139, 128, 0.7) !important;
 	color: rgba(255, 139, 128, 0.7) !important;
+	padding: 15px 30px;
 }
 a.btn.btn-how:hover{
-	background: white !important;
-	background-color: white !important;
-	border-radius: 2px !important;
+	background: transparent !important;
+	border-radius: 100px !important;
 	border-color: rgba(255, 139, 128, 1)!important;
 	color: rgba(255, 139, 128, 1) !important;
+	padding: 15px 30px;
 }
 
 
@@ -356,12 +351,31 @@ Step how it works
 .btn-how{
 	margin-top: 40px;
 }
+/* === Price section === */
+.price{
+	margin-bottom: 80px;
+}
+p.homeprice{
+	max-width: 80%;
+	text-align: center;
+	margin: 50px auto 50px;
+}
+a.link-price{
+	text-align: center;
+	color: #FF8B80;
+	text-decoration: underline;
+}
+a:hover.link-price{
+	text-align: center;
+	color: #ff7366;
+	text-decoration: underline;
+}
 /* ==============================================
  Features
 =============================================== */
 .features{
 	border: none !important;
-	background-color:#FF8B80;
+	background-color:#F7F8F9;
 }
 
 .features > div > div:nth-child(1), .features > div > div:nth-child(2), .features > div > div:nth-child(3) {
@@ -371,7 +385,7 @@ Step how it works
     border-left:none;
 }
 .features i{
-	color: #ffffff;
+	color: #40B8C7;
 	font-size: 1.5em;
 	padding-right: 10px;
 }
@@ -379,18 +393,13 @@ Step how it works
 	margin: 30px 0;
 }
 .features .benefit{
-	color: #ffffff;
+	color: #40B8C7;
 	font-weight: 400;
   letter-spacing: 0.05em;
 	font-size: 0.8em;
 	margin: -25px;
 }
-.features .explain{
-	color: #ffffff;
-}
-.features .block p{
-	color: #ffffff;
-}
+
 
 /* ==============================================
  Carousel
@@ -588,6 +597,37 @@ footer a:hover {
 /*==============================================
 HOW IT WORKS PAGE
 ===============================================*/
+/* EXPLAIN SECTION */
+.explain{
+	margin: 120px auto 80px auto;
+}
+.title-explain-intro{
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+}
+
+.title-explain{
+	font-weight: bold;
+	font-size: 1em;
+	color: #333333
+}
+.undertitle{
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #333333;
+	margin-top: -15px;
+}
+.text-explain{
+	font-weight: 200;
+	font-size: 0.9em;
+	color: #333333
+}
+.explain1, .explain2{
+	margin-bottom: 50px;
+}
+/* STEPS SECTION */
+
 .howit{
 	background-color: #F7F8F9;
 }
@@ -652,6 +692,43 @@ p.sp3{
 }
 h3.sh3{
 	text-align: left;
+}
+
+/* PRICE SECTION */
+#pricebloc.row{
+	margin: 80px auto;
+}
+.title-price{
+	color: #333333;
+	font-weight: bold;
+}
+.text-price{
+	color: #333333;
+	font-weight: 200;
+	font-size: 1em;
+}
+.title-price-intro{
+		color: #333333;
+}
+.text-price-intro{
+	color: #333333;
+	text-align: center;
+	max-width: 50%;
+	margin: 20px auto 50px auto;
+}
+.text-price{
+	margin-top: -15px;
+}
+i#icon-price{
+	color: #40B8C7;
+}
+
+/* RECAP SECTION */
+#lastbloc.row{
+	margin: 80px auto;
+}
+.lastbloc-p2{
+	margin: 50px auto;
 }
 
 /*==============================================
