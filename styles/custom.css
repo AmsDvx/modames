@@ -452,9 +452,11 @@ p.person{
 }
 p.stories{
 	text-align: center;
+	max-width: 60%;
+	margin: auto;
 }
 img.icon{
-	width: 40%;
+	width: 20%;
 }
 i.fa.fa-quote-left{
 color: rgba(51, 51, 51, 0.3)
