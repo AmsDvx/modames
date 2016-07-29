@@ -656,9 +656,11 @@ h2.st1{
 p.sp1{
 	text-align: left;
 	font-weight: 200;
+	font-family: "Lato", sans-serif;
 }
 h3.sh1{
 	text-align: left;
+	font-family: "Lato", sans-serif;
 }
 
 /* step 2 */
@@ -674,9 +676,11 @@ h3.sh1{
 p.sp2{
 	text-align: right;
 	font-weight: 200;
+	font-family: "Lato", sans-serif;
 }
 h3.sh2{
 	text-align: right;
+	font-family: "Lato", sans-serif;
 }
 /* step 3 */
 .row.stepbloc3{
@@ -691,9 +695,11 @@ h3.sh2{
 p.sp3{
 	text-align: left;
 	font-weight: 200;
+	font-family: "Lato", sans-serif;
 }
 h3.sh3{
 	text-align: left;
+	font-family: "Lato", sans-serif;
 }
 
 /* PRICE SECTION */
@@ -736,10 +742,48 @@ i#icon-price{
 /*==============================================
 OUR HISTORY PAGE
 ===============================================*/
+/*=== Banner pictures section ===*/
+.row.banteam{
+	margin-top: 80px;
+	background: #FDC85C;
+	height: 300px;
+}
+h2.title-ban{
+	color: white;
+	margin: 50px;
+}
+.pic-team{
+	max-width: 30%;
+}
+/*=== Text section ===*/
 #team{
 	margin: 80px auto;
-	max-width: 600px
+	max-width: 800px
 }
+h3.title-team{
+	text-align: left;
+}
+p.text-team{
+	text-align: left;
+	font-weight: 100 !important;
+	font-family: 'Lato',sans-serif;
+	font-size: 1em;
+}
+a.link-team{
+	text-align: left;
+	color: #ff8b80;
+}
+/*=== Logo section ===*/
+img.logo-team{
+	max-width: 20%;
+	margin: auto;
+}
+.logohist{
+	background: url(../images/backlogo.png) fixed;
+	height: 150px;
+	background-size: cover;
+}
+
 /*==============================================
 FAQ PAGE
 ===============================================*/
@@ -945,6 +989,7 @@ h3.sh1, h3.sh2, h3.sh3{
 	max-width: 50%;
 	margin: auto;
 }
+
 /*=== FAQ PAGE ===*/
 /*FAQ bloc 2*/
 #two {
@@ -984,7 +1029,12 @@ h3.sh1, h3.sh2, h3.sh3{
 	max-width: 70%;
 	margin: auto;
 }
-
+/*=== HISTORY PAGE ===*/
+.row.banteam{
+	margin-top: 0px;
+	background: #FDC85C;
+	height: 200px;
+}
 /*=== FAQ PAGE ===*/
 /* FAQ bloc 2 */
 #two {
@@ -1039,6 +1089,13 @@ h3.sh1, h3.sh2, h3.sh3{
 img.stepimg{
 	max-width: 50%;
 }
+/*=== HISTORY PAGE ===*/
+.row.banteam{
+	margin-top: 0px;
+	background: #FDC85C;
+	height: 200px;
+}
+
 /*=== FAQ PAGE ===*/
 /*FAQ bloc 2*/
 #two {
@@ -1069,6 +1126,12 @@ Tablet and Desktop Screen
 }
 .wrapper > header .navbar-default {
 	top: 0px;
+}
+/*=== HISTORY PAGE ===*/
+.row.banteam{
+	margin-top: 0px;
+	background: #FDC85C;
+	height: 200px;
 }
 }
 /* ==============================================
