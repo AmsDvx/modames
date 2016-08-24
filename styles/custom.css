@@ -123,6 +123,7 @@ p{
 	background: #ff7366 !important;
 	border-radius: 100px!important;
 }
+
 .btn-header{
 	border-radius: 2px;
 	border-color: rgba(255, 139, 128, 0.5);
@@ -213,7 +214,7 @@ Bootstrap Navbar
 /*Logo modames*/
 /*marge Logo modames*/
 .navbar-brand>img{
-	width: 70%;
+	width: 100%;
 }
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
@@ -233,19 +234,21 @@ Bootstrap Navbar
 	font-size: 0.8em;
 	padding-right: 0;
 }
-.navbar-default .navbar-nav > li:last-child > a{
-	border-radius: 2px;
-	border-color: rgba(255, 139,128, 0.5);
-	color: rgba(255, 139,128, 0.7) !important;
-	text-decoration: none !important;
-	padding: 1px 18 !important;
-	font-weight: 300 !important;
-	padding: 12px 25px;
-    margin-left: 17px;
-}
 .navbar-default .navbar-nav > li > a:hover {
 	text-decoration: underline;
 }
+/*Menu order button*/
+.navbar-default .navbar-nav > li:last-child > a{
+	color: white !important;
+	border-radius: 20px;
+	border-color: white;
+	text-decoration: none !important;
+	font-weight: 300 !important;
+  margin-left: 17px;
+	padding: 5px 20px;
+}
+
+
 .navbar-nav {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
 }
@@ -321,6 +324,7 @@ Banner
 .ancre a{
 	font-family: "Lato" sans-serif;
 	font-size: 1em;
+	text-align: center;
 }
 
 .btn-scroll:hover{
@@ -336,6 +340,9 @@ Step how it works
 .workprocess .container .icon:before{
 	background: none;
 }
+img.icon-first{
+	width: 40%;
+}
 .workprocess .block h3 {
 	padding-top: 20px !important;
 }
@@ -346,13 +353,17 @@ Step how it works
 }
 .workprocess .block p{
 		padding: 10px 20px;
-    width: 72%;
+    width: 90%;
     margin: auto;
 }
 .btn-how{
 	margin-top: 40px;
 }
 /* === Price section === */
+.price .container-fluid{
+	padding: 80px;
+	background: #FF8B80;
+}
 .price{
 	margin-bottom: 80px;
 }
@@ -363,7 +374,7 @@ p.homeprice{
 }
 a.link-price{
 	text-align: center;
-	color: #FF8B80;
+	color: white;
 	text-decoration: underline;
 }
 a:hover.link-price{
@@ -397,7 +408,7 @@ a:hover.link-price{
 	color: #40B8C7;
 	font-weight: 400;
   letter-spacing: 0.05em;
-	font-size: 0.8em;
+	font-size: 1em;
 	margin: -25px;
 }
 
@@ -749,6 +760,46 @@ OUR HISTORY PAGE
 	background: #FDC85C;
 	height: 300px;
 }
+/* Breadcrumb */
+#banteam {
+	text-align: center;
+	color: #FFF;
+	background: #222;
+	position: relative;
+	background-size: 100%;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	margin-top: 70px;
+	max-height: 350px;
+}
+
+#banteam {
+  background: linear-gradient(270deg, #8FD6DE, #5EC3D0, #40B8C7, #0CB0C5);
+  background-size: 800% 800%;
+
+  -webkit-animation: supergradient 20s ease infinite;
+  -moz-animation: supergradient 20s ease infinite;
+  animation: supergradient 20s ease infinite;
+}
+
+@-webkit-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 h2.title-ban{
 	color: white;
 	margin: 50px;
@@ -1006,7 +1057,7 @@ h3.sh1, h3.sh2, h3.sh3{
 Little Mobile Screen
 =============================================== */
 @media screen and (max-width:650px) {
-.bann_caption h1{ 
+.bann_caption h1{
 	font-size: 20px;
 	text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25); /* NICO */
 }
