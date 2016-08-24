@@ -112,7 +112,8 @@ p{
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-  padding: 15px 30px;
+  padding: 5px 20px;
+	margin-top: 12px;
 }
 
 .btn-order:hover{
@@ -122,6 +123,8 @@ p{
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
 }
 
 .btn-header{
@@ -142,14 +145,14 @@ a.btn.btn-how{
 	border-radius: 100px !important;
 	border-color: rgba(255, 139, 128, 0.7) !important;
 	color: rgba(255, 139, 128, 0.7) !important;
-	padding: 15px 30px;
+	padding: 5px 20px;
 }
 a.btn.btn-how:hover{
 	background: transparent !important;
 	border-radius: 100px !important;
 	border-color: rgba(255, 139, 128, 1)!important;
 	color: rgba(255, 139, 128, 1) !important;
-	padding: 15px 30px;
+	padding: 5px 20px;
 }
 
 
@@ -207,7 +210,27 @@ Top Head Styles
  .wrapper > header .navbar-default.sticky{
  	background-color: #FFFFFF
 }
-
+/*How have a different CTA in scrolling menu*/
+.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #FF8B80 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
+.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a:hover {
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
 /* ==============================================
 Bootstrap Navbar
 =============================================== */
@@ -246,8 +269,19 @@ Bootstrap Navbar
 	font-weight: 300 !important;
   margin-left: 17px;
 	padding: 5px 20px;
+	margin-top: 12px;
 }
-
+.navbar-default .navbar-nav > li:last-child > a:hover{
+	color: white !important;
+	background: rgba(255,255,255,0.3);
+	border-radius: 20px;
+	border-color: white;
+	text-decoration: none !important;
+	font-weight: 300 !important;
+  margin-left: 17px;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
 
 .navbar-nav {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
@@ -305,7 +339,6 @@ Banner
 	margin-bottom: 50px;
 }
 
-
 .slide li{
 	display: inline-block;
 	font-size: 17px;
@@ -315,7 +348,33 @@ Banner
 .slide .fa{
 	font-size: 0.5em;
 }
-
+.bann_caption a{
+	margin: 0;
+	width: 150px;
+	padding: 5px 20px;
+	line-height: 0px;
+	height: 0px;
+}
+a#slider-btn.btn.btn-order{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #FF8B80 !important;
+	border-radius: 100px!important;
+  padding: 5px 20px !important;
+	margin-top: 12px !important;
+}
+a#slider-btn.btn.btn-order{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px !important;
+	margin-top: 12px;
+}
 /*Scroll in slider*/
 .btn-scroll{
 	color: white;
@@ -826,6 +885,12 @@ p.text-team{
 a.link-team{
 	text-align: left;
 	color: #ff8b80;
+	text-decoration: underline;
+}
+a.link-team:hover{
+	text-align: left;
+	color: #ff7366;
+	text-decoration: underline;
 }
 /*=== Logo section ===*/
 img.logo-team{
@@ -1179,6 +1244,7 @@ Tablet and Desktop Screen
 .slide li {
 	color: white;
 }
+
 /*Header margin*/
 .wrapper > header .container-fluid {
 	margin-top: 0px;
