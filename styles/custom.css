@@ -414,18 +414,7 @@ a:hover.link-price{
 /* ==============================================
  Fix examples
 =============================================== */
-.fix-ex{
-	margin: 80px;
-}
-.fix-ex2{
-	margin: 80px 0px;
-}
-img.fix1,img.fix3,{
-	margin-left: 0px;
-}
-img.fix2,img.fix4{
-	margin-right: 0px;
-}
+
 
 /* ==============================================
 Gallery
@@ -993,7 +982,7 @@ a:hover#contactstyle4{
 go-top link
 ===============================================*/
 a.go-top{
-	color: #FF8B80;
+	color: #333333;
 	opacity: 100;
 }
 
