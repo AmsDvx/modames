@@ -362,11 +362,8 @@ img.icon-first{
 /* === Price section === */
 .price .container-fluid{
 	padding: 80px;
-	background: #FF8B80;
 }
-.price{
-	margin-bottom: 80px;
-}
+
 p.homeprice{
 	max-width: 80%;
 	text-align: center;
@@ -374,7 +371,7 @@ p.homeprice{
 }
 a.link-price{
 	text-align: center;
-	color: white;
+	color: #FF8B80;
 	text-decoration: underline;
 }
 a:hover.link-price{
@@ -419,9 +416,7 @@ a:hover.link-price{
 .malle h2{
 	margin: 80px 0px 20px 0px !important;
 }
-.carousel{
-	margin: 30px 0 50px 0;
-}
+
 .carousel .price{
 	margin-top: 20px;
 	font-weight: 300;
@@ -458,17 +453,26 @@ Gallery
 /* ==============================================
 Story
 =============================================== */
+#storiesbloc.container-fluid{
+	background: #F7F8F9;
+}
+.carousel{
+	margin: 30px 0 80px 0;
+}
+h2.title-stories{
+	margin-top: 80px;
+}
 p.person{
 	font-size: 0.8em;
 	font-weight: 400;
 }
 p.stories{
 	text-align: center;
-	max-width: 60%;
+	max-width: 50%;
 	margin: auto;
 }
 img.icon{
-	width: 20%;
+	width: 10%;
 }
 i.fa.fa-quote-left{
 color: rgba(51, 51, 51, 0.3)
@@ -1014,6 +1018,7 @@ Mobile and Tablet Screen
  	z-index: 10;
  	position: absolute;
 }
+
 /*Malle section */
 .carousel .product{
 	width: 60%;
@@ -1023,9 +1028,6 @@ Mobile and Tablet Screen
 	font-size: 2em;
 	text-shadow: none;
 
-#contact-description {
-	margin-top: 0px;
-}
 /*=== HOW IT WORKS PAGE ===*/
 .row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
 	background: none;
@@ -1066,7 +1068,9 @@ Little Mobile Screen
 		font-size: 13px;
 		margin: 0;
 	}
-
+	img.icon-first{
+		width: 20%;
+	}
 /*=== HOW IT WORKS PAGE ===*/
 .row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
 	background: none;
@@ -1095,7 +1099,7 @@ h3.sh1, h3.sh2, h3.sh3{
 }
 /* === Story === */
 img.icon{
-	width: 20%;
+	max-width: 20%;
 }
 }
 /* ==============================================
