@@ -362,6 +362,7 @@ img.icon-first{
 /* === Price section === */
 .price .container-fluid{
 	padding: 80px;
+	background: #FF8B80;
 }
 
 p.homeprice{
@@ -371,7 +372,7 @@ p.homeprice{
 }
 a.link-price{
 	text-align: center;
-	color: #FF8B80;
+	color: white;
 	text-decoration: underline;
 }
 a:hover.link-price{
@@ -411,36 +412,13 @@ a:hover.link-price{
 
 
 /* ==============================================
- Carousel
+ Fix examples
 =============================================== */
-.malle h2{
-	margin: 80px 0px 20px 0px !important;
+.fix-ex{
+	margin: 80px;
 }
 
-.carousel .price{
-	margin-top: 20px;
-	font-weight: 300;
-	font-size: 1em;
-}
 
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-	margin: auto;
-}
-.carousel-control{
-	background-image: none !important;
-	background-color: none !important;
-	opacity: 1;
-	top: 50%;
-}
-
-.carousel-control .fa{
-	color:rgba(255, 139, 128, 0.7);
-	font-size: 2em;
-	text-shadow: none;
-}
-.carousel-control .fa:hover{
-	color:#FF8B80;
-}
 /* ==============================================
 Gallery
 =============================================== */
@@ -479,6 +457,25 @@ color: rgba(51, 51, 51, 0.3)
 }
 i.fa.fa-quote-right{
 color: rgba(51, 51, 51, 0.3)
+}
+/*carousel*/
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	margin: auto;
+}
+.carousel-control{
+	background-image: none !important;
+	background-color: none !important;
+	opacity: 1;
+	top: 50%;
+}
+
+.carousel-control .fa{
+	color:rgba(255, 139, 128, 0.7);
+	font-size: 2em;
+	text-shadow: none;
+}
+.carousel-control .fa:hover{
+	color:#FF8B80;
 }
 /* ==============================================
 Recap
@@ -1110,6 +1107,10 @@ Mobile Screen
 /*Slider*/
 .slide li {
 	color: white;
+}
+/* Step */
+img.icon-first{
+	width: 20%;
 }
 /* Story */
 img.icon{
