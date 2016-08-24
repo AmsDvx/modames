@@ -417,7 +417,15 @@ a:hover.link-price{
 .fix-ex{
 	margin: 80px;
 }
-
+.fix-ex2{
+	margin: 80px 0px;
+}
+img.fix1,img.fix3,{
+	margin-left: 0px;
+}
+img.fix2,img.fix4{
+	margin-right: 0px;
+}
 
 /* ==============================================
 Gallery
