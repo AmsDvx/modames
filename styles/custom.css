@@ -707,7 +707,7 @@ HOW IT WORKS PAGE
 	background-color: #F7F8F9;
 }
 .stepimg{
-	width: 100%;
+	width: 80%;
 }
 h2.st1{
 	margin: 80px;
@@ -720,7 +720,7 @@ h2.st1{
 .row.stepbloc1{
 	margin-bottom: 80px;
 }
-.row.stepbloc1{
+#num{
 	background: url("../images/steps/01.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1045,6 +1045,18 @@ a:hover#contactstyle4{
 	margin-left: 40px;
 	color: #333333;
 }
+
+/*==============================================
+FORMS PAGE
+===============================================*/
+.intro-form{
+	margin: 120px auto 80px auto;
+}
+.testquestion{
+	width: 30%;
+}
+
+
 
 
 /*==============================================
