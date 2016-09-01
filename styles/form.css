@@ -3,7 +3,7 @@ body{
   background: #F7F8F9;
 }
 
-/* Question block design design*/
+/* QUESTION BLOC DESIGN*/
 fieldset.row.question-block{
   width: 70%;
   height: 100%;
@@ -12,14 +12,15 @@ fieldset.row.question-block{
   background: white;
   box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.1);
 }
-/* Question design*/
+/* QUESTION DESIGN */
 .question{
   font-size: 1em;
   color: #333333;
   font-weight: 400;
+  display: block;
 }
 
-/* Checkbox checking design*/
+/* CHECKBOX CHECK DESIGN*/
 /*To hide first check */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
@@ -56,7 +57,6 @@ fieldset.row.question-block{
   position: absolute;
   top: 2px; left: 0px;
   font-size: 14px;
-  color: #09ad7e;
   transition: all .2s; /* on prévoit une animation */
 }
 /* for no checked */
@@ -80,7 +80,7 @@ fieldset.row.question-block{
 
 /* for the label*/
 [type="radio"]:not(:checked) + label,
-[type="radio"]:checked + label {
+[type="radio"]:checked + label{
   position: relative;
   padding: 0px 25px 0px 25px;
   cursor: pointer;
@@ -107,7 +107,6 @@ fieldset.row.question-block{
   position: absolute;
   top: 2px; left: 0px;
   font-size: 14px;
-  color: #09ad7e;
   transition: all .2s; /* on prévoit une animation */
 }
 /* for no checked */
@@ -119,4 +118,11 @@ fieldset.row.question-block{
 [type="radio"]:checked + label:after {
   opacity: 1; /* coche opaque */
   transform: scale(1); /* mise à l'échelle 1:1 */
+}
+
+/* MORPHO QUESTION DESIGN */
+/*for image*/
+img.morpho{
+  border: 1px solid #333333;
+  border-radius: 10px;
 }
