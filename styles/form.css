@@ -1,0 +1,122 @@
+/* CSS FOR THE FORM */
+body{
+  background: #F7F8F9;
+}
+
+/* Question block design design*/
+fieldset.row.question-block{
+  width: 70%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 40px;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.1);
+}
+/* Question design*/
+.question{
+  font-size: 1em;
+  color: #333333;
+  font-weight: 400;
+}
+
+/* Checkbox checking design*/
+/*To hide first check */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+/* for the label*/
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding: 0px 25px 0px 25px;
+  cursor: pointer;
+}
+/* :before for the check box */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #999;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+/* design just for the check */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '';
+  border-radius: 6px;
+  width: 17px; height: 17px;
+  background: #ff8b80;
+  position: absolute;
+  top: 2px; left: 0px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s; /* on prévoit une animation */
+}
+/* for no checked */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+/* for checked */
+[type="checkbox"]:checked + label:after {
+  opacity: 1; /* coche opaque */
+  transform: scale(1); /* mise à l'échelle 1:1 */
+}
+
+/* Radio checking design*/
+/*To hide first check */
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+/* for the label*/
+[type="radio"]:not(:checked) + label,
+[type="radio"]:checked + label {
+  position: relative;
+  padding: 0px 25px 0px 25px;
+  cursor: pointer;
+}
+/* :before for the check box */
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #999;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+/* design just for the check */
+[type="radio"]:not(:checked) + label:after,
+[type="radio"]:checked + label:after {
+  content: '';
+  border-radius: 6px;
+  width: 17px; height: 17px;
+  background: #ff8b80;
+  position: absolute;
+  top: 2px; left: 0px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s; /* on prévoit une animation */
+}
+/* for no checked */
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+/* for checked */
+[type="radio"]:checked + label:after {
+  opacity: 1; /* coche opaque */
+  transform: scale(1); /* mise à l'échelle 1:1 */
+}
