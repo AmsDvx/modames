@@ -107,7 +107,7 @@ fieldset.row.question-block{
   position: absolute;
   top: 2px; left: 0px;
   font-size: 14px;
-  transition: all .2s; /* on prévoit une animation */
+  transition: all .2s;
 }
 /* for no checked */
 [type="radio"]:not(:checked) + label:after {
@@ -125,4 +125,60 @@ fieldset.row.question-block{
 img.morpho{
   border: 1px solid #333333;
   border-radius: 10px;
+}
+
+/* COLOUR QUESTION DESIGN */
+/*for color's circles*/
+i#color-black-fa.fa.fa-circle{
+  color: #000000;
+  font-size: 3em;
+}
+
+i#color-red-fa.fa.fa-circle{
+  color: #ff0000;
+  font-size: 3em;
+}
+i#color-green-fa.fa.fa-circle{
+  color: #008000;
+  font-size: 3em;
+}
+i#color-yellow-fa.fa.fa-circle{
+  color: #f8f849;
+  font-size: 3em;
+}
+i#color-pink-fa.fa.fa-circle{
+  color: #ff8b80;
+  font-size: 3em;
+}
+i#color-brown-fa.fa.fa-circle{
+  color: #330000;
+  font-size: 3em;
+}
+i#color-orange-fa.fa.fa-circle{
+  color: #ff6600;
+  font-size: 3em;
+}
+/*for delete left checking*/
+
+#color-black, #color-red[type="checkbox"]:not(:checked) + label:before,
+#color-black, #color-red[type="checkbox"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+}
+#color-red[type="checkbox"]:not(:checked) + label:before,
+#color-red[type="checkbox"]:checked + label:before {
+  position: absolute;
+  left: -9999px;
+}
+#color-green[type="checkbox"]:not(:checked) + label:before,
+#color-green[type="checkbox"]:checked + label:before {
+  position: absolute;
+  left: -9999px;
+}
+/* BRANDS QUESTION DESIGN */
+/*for image*/
+img.brand{
+  border: 1px solid #333333;
+  border-radius: 10px;
+  max-height: 50px;
 }
