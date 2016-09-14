@@ -210,27 +210,7 @@ Top Head Styles
  .wrapper > header .navbar-default.sticky{
  	background-color: #FFFFFF
 }
-/*How have a different CTA in scrolling menu*/
-.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	background: #FF8B80 !important;
-	border-radius: 100px!important;
-	padding: 5px 20px;
-	margin-top: 12px;
-}
-.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a:hover {
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	background: #ff7366 !important;
-	border-radius: 100px!important;
-	padding: 5px 20px;
-	margin-top: 12px;
-}
+
 /* ==============================================
 Bootstrap Navbar
 =============================================== */
@@ -270,6 +250,7 @@ Bootstrap Navbar
   margin-left: 17px;
 	padding: 5px 20px;
 	margin-top: 12px;
+	font-size: 1em;
 }
 .navbar-default .navbar-nav > li:last-child > a:hover{
 	color: white !important;
@@ -281,8 +262,50 @@ Bootstrap Navbar
   margin-left: 17px;
 	padding: 5px 20px;
 	margin-top: 12px;
+	font-size: 1em;
 }
-
+/*Menu order button just for page with white background*/
+.navbar-default .navbar-nav > li:last-child > a#whitemenu{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #FF8B80 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
+.navbar-default .navbar-nav > li:last-child > a:hover#whitemenu{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
+/*How have a different CTA in scrolling menu*/
+.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #FF8B80 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
+.wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a:hover {
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
+	padding: 5px 20px;
+	margin-top: 12px;
+}
 .navbar-nav {
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
 }
