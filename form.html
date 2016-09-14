@@ -552,20 +552,20 @@
                             <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <legend class="question">Les couleurs que vous n'aimez pas porter ?</legend>
-                                  <input id="color-black" type="checkbox" name="color"/>
+                                  <input class="black"id="color-black" type="checkbox" name="color"/>
                                   <label for="color-black"><i class="fa fa-circle" id="color-black-fa" aria-hidden="true"></i></label>
-                                  <input id="color-red" type="checkbox" name="color"/>
+                                  <input class="black" id="color-red" type="checkbox" name="color"/>
                                   <label for="color-red"><i class="fa fa-circle" id="color-red-fa" aria-hidden="true"></i></label>
-                                  <input id="color-green" type="checkbox" name="color"/>
+                                  <input class="black" id="color-green" type="checkbox" name="color"/>
                                   <label for="color-green"><i class="fa fa-circle" id="color-green-fa" aria-hidden="true"></i></label>
-                                  <input id="color-yellow" type="checkbox" name=""/>
+                                  <input class="black" id="color-yellow" type="checkbox" name=""/>
                                   <label for="color-yellow"><i class="fa fa-circle" id="color-yellow-fa" aria-hidden="true"></i></label>
-                                  <input id="color-pink" type="checkbox" name=""/>
+                                  <input class="black" id="color-pink" type="checkbox" name=""/>
                                   <label for="color-pink"><i class="fa fa-circle" id="color-pink-fa" aria-hidden="true"></i></label>
-                                  <input id="color-brown" type="checkbox" name=""/>
+                                  <input class="black" id="color-brown" type="checkbox" name=""/>
                                   <label for="color-brown"><i class="fa fa-circle" id="color-brown-fa" aria-hidden="true"></i></label>
-                                  <input id="color-orange" type="checkbox" name=""/>
-                                  <label for="color-orange"><i class="fa fa-circle" id="color-orange-fa" aria-hidden="true"></i></label>
+                                  <input class="black" id="color-orange" type="checkbox" name=""/>
+                                  <label class="black" for="color-orange"><i class="fa fa-circle" id="color-orange-fa" aria-hidden="true"></i></label>
                               </div>
                               </fieldset>
 
@@ -585,9 +585,9 @@
                                   </select>
                                 </div>
                               </fieldset>
-                              <!--ABOUT COMPLEX-->
-                              <fieldset class="row question-block">
-                              <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <!--ABOUT COMPLEX-->
+                          <fieldset class="row question-block">
+                            <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <legend class="question">Un petit complexe à partager ?</legend>
                                 <div class="form-group">
                                   <label for="complex-text"></label>
@@ -903,197 +903,149 @@
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <legend class="question">Quel est votre budget moyen pour les articles suivants ?</legend>
                                 <!--About accesories budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Accessoires</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="acc1" type="radio" name="acc"/>
-                                    <label for="acc1">Entre 1 et 20€</label>
-                                    <input id="acc2" type="radio" name="acc"/>
-                                    <label for="acc2">Entre 20 et 40€</label>
-                                    <input id="acc3" type="radio" name="acc"/>
-                                    <label for="acc3">Entre 20 et 40€</i></label>
-                                    <input id="acc4" type="radio" name="acc"/>
-                                    <label for="acc4">Entre 40 et 70€</i></label>
-                                    <input id="acc5" type="radio" name="acc"/>
-                                    <label for="acc5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Accessoires</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About jewel budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Bijoux</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="jewel1" type="radio" name="jewel"/>
-                                    <label for="jewel1">Entre 1 et 20€</label>
-                                    <input id="jewel2" type="radio" name="jewel"/>
-                                    <label for="jewel2">Entre 20 et 40€</label>
-                                    <input id="jewel3" type="radio" name="jewel"/>
-                                    <label for="jewel3">Entre 20 et 40€</i></label>
-                                    <input id="jewel4" type="radio" name="jewel"/>
-                                    <label for="jewel4">Entre 40 et 70€</i></label>
-                                    <input id="jewel5" type="radio" name="jewel"/>
-                                    <label for="jewel5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Bijoux</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About pants budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Pantalons</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="pant1" type="radio" name="pant"/>
-                                    <label for="pant1">Entre 1 et 20€</label>
-                                    <input id="pant2" type="radio" name="pant"/>
-                                    <label for="pant2">Entre 20 et 40€</label>
-                                    <input id="pant3" type="radio" name="pant"/>
-                                    <label for="pant3">Entre 20 et 40€</i></label>
-                                    <input id="pant4" type="radio" name="pant"/>
-                                    <label for="pant4">Entre 40 et 70€</i></label>
-                                    <input id="pant5" type="radio" name="pant"/>
-                                    <label for="pant5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Pantalons</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About dresses budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Robes</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="dress1" type="radio" name="dress"/>
-                                    <label for="dress1">Entre 1 et 20€</label>
-                                    <input id="dress2" type="radio" name="dress"/>
-                                    <label for="dress2">Entre 20 et 40€</label>
-                                    <input id="dress3" type="radio" name="dress"/>
-                                    <label for="dress3">Entre 20 et 40€</i></label>
-                                    <input id="dress4" type="radio" name="dress"/>
-                                    <label for="dress4">Entre 40 et 70€</i></label>
-                                    <input id="dress5" type="radio" name="dress"/>
-                                    <label for="dress5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Robes</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About skirts budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Jupes</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="skirt1" type="radio" name="skirt"/>
-                                    <label for="skirt1">Entre 1 et 20€</label>
-                                    <input id="skirt2" type="radio" name="skirt"/>
-                                    <label for="skirt2">Entre 20 et 40€</label>
-                                    <input id="skirt3" type="radio" name="skirt"/>
-                                    <label for="skirt3">Entre 20 et 40€</i></label>
-                                    <input id="skirt4" type="radio" name="skirt"/>
-                                    <label for="skirt4">Entre 40 et 70€</i></label>
-                                    <input id="skirt5" type="radio" name="skirt"/>
-                                    <label for="skirt5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Jupes</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About tops budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Tops</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="top1" type="radio" name="top"/>
-                                    <label for="top1">Entre 1 et 20€</label>
-                                    <input id="top2" type="radio" name="top"/>
-                                    <label for="top2">Entre 20 et 40€</label>
-                                    <input id="top3" type="radio" name="top"/>
-                                    <label for="top3">Entre 20 et 40€</i></label>
-                                    <input id="top4" type="radio" name="top"/>
-                                    <label for="top4">Entre 40 et 70€</i></label>
-                                    <input id="top5" type="radio" name="top"/>
-                                    <label for="top5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Tops</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About t-shirt budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Tee-shirts</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="tshirt1" type="radio" name="tshirt"/>
-                                    <label for="tshirt1">Entre 1 et 20€</label>
-                                    <input id="tshirt2" type="radio" name="tshirt"/>
-                                    <label for="tshirt2">Entre 20 et 40€</label>
-                                    <input id="tshirt3" type="radio" name="tshirt"/>
-                                    <label for="tshirt3">Entre 20 et 40€</i></label>
-                                    <input id="tshirt4" type="radio" name="tshirt"/>
-                                    <label for="tshirt4">Entre 40 et 70€</i></label>
-                                    <input id="tshirt5" type="radio" name="tshirt"/>
-                                    <label for="tshirt5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Tee-shirts</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About shirts / blouses budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Chemises / blouses</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="shirt1" type="radio" name="shirt"/>
-                                    <label for="shirt1">Entre 1 et 20€</label>
-                                    <input id="shirt2" type="radio" name="shirt"/>
-                                    <label for="shirt2">Entre 20 et 40€</label>
-                                    <input id="shirt3" type="radio" name="shirt"/>
-                                    <label for="shirt3">Entre 20 et 40€</i></label>
-                                    <input id="shirt4" type="radio" name="shirt"/>
-                                    <label for="shirt4">Entre 40 et 70€</i></label>
-                                    <input id="shirt5" type="radio" name="shirt"/>
-                                    <label for="shirt5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Chemises / Blouses</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About shoes budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Chaussures</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="shoes1" type="radio" name="shoes"/>
-                                    <label for="shoes1">Entre 1 et 20€</label>
-                                    <input id="shoes2" type="radio" name="shoes"/>
-                                    <label for="shoes2">Entre 20 et 40€</label>
-                                    <input id="shoes3" type="radio" name="shoes"/>
-                                    <label for="shoes3">Entre 20 et 40€</i></label>
-                                    <input id="shoes4" type="radio" name="shoes"/>
-                                    <label for="shoes4">Entre 40 et 70€</i></label>
-                                    <input id="shoes5" type="radio" name="shoes"/>
-                                    <label for="shoes5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Chaussures</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About sweater/pull budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Pulls / Gilets</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="sweater1" type="radio" name="sweater"/>
-                                    <label for="sweater1">Entre 1 et 20€</label>
-                                    <input id="sweater2" type="radio" name="sweater"/>
-                                    <label for="sweater2">Entre 20 et 40€</label>
-                                    <input id="sweater3" type="radio" name="sweater"/>
-                                    <label for="sweater3">Entre 20 et 40€</i></label>
-                                    <input id="sweater4" type="radio" name="sweater"/>
-                                    <label for="sweater4">Entre 40 et 70€</i></label>
-                                    <input id="sweater5" type="radio" name="sweater"/>
-                                    <label for="sweater5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Pulls / Gilets</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About jacket budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Vestes / Blousons</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="jacket1" type="radio" name="jacket"/>
-                                    <label for="jacket1">Entre 1 et 20€</label>
-                                    <input id="jacket2" type="radio" name="jacket"/>
-                                    <label for="jacket2">Entre 20 et 40€</label>
-                                    <input id="jacket3" type="radio" name="jacket"/>
-                                    <label for="jacket3">Entre 20 et 40€</i></label>
-                                    <input id="jacket4" type="radio" name="jacket"/>
-                                    <label for="jacket4">Entre 40 et 70€</i></label>
-                                    <input id="jacket5" type="radio" name="jacket"/>
-                                    <label for="jacket5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Vestes / Blousons</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
                                 <!--About purse budget-->
-                                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <span class="under-question">Sacs</span>
-                                  </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input id="purse1" type="radio" name="purse"/>
-                                    <label for="purse1">Entre 1 et 20€</label>
-                                    <input id="purse2" type="radio" name="purse"/>
-                                    <label for="purse2">Entre 20 et 40€</label>
-                                    <input id="purse3" type="radio" name="purse"/>
-                                    <label for="purse3">Entre 20 et 40€</i></label>
-                                    <input id="purse4" type="radio" name="purse"/>
-                                    <label for="purse4">Entre 40 et 70€</i></label>
-                                    <input id="purse5" type="radio" name="purse"/>
-                                    <label for="purse5">Plus de 70€</i></label>
-                                  </div>
+                                <div class="col-md-4">
+                                <label class="">Sacs</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Entre 1 et 20€</option>
+                                    <option value="2">Entre 20 et 40€</option>
+                                    <option value="3">Entre 20 et 40€</option>
+                                    <option value="4">Entre 40 et 70€</option>
+                                    <option value="5">Plus de 70€</option>
+                                  </select>
+                                </div>
 
                               </div>
                             </fieldset>
@@ -1174,6 +1126,95 @@
                             <label for="rock">Rock</i></label>
                       </div>
                     </fieldset>
+                    <!--ABOUT PIERCED EARS-->
+                    <fieldset class="row question-block">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <legend class="question">Avez-vous les oreilles percées ?</legend>
+                            <input id="yes" type="radio" name="ears"/>
+                            <label for="yes">Oui</label>
+                            <input id="no" type="radio" name="ears"/>
+                            <label for="no">Non</label>
+                      </div>
+                    </fieldset>
+                    <!--ABOUT JEWELRY PREFERENCES-->
+                    <fieldset class="row question-block">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <legend class="question">Vous préférez les accessoires...</legend>
+                            <input id="discret" type="radio" name="ears-pref"/>
+                            <label for="discret">Discrets</label>
+                            <input id="voyant" type="radio" name="ears-pref"/>
+                            <label for="voyant">Voyants</label>
+                      </div>
+                    </fieldset>
+                    <!--ABOUT JEWLERY COLORS-->
+                    <fieldset class="row question-block">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <legend class="question">Quelle est votre couleur de bijoux préférée ?</legend>
+                            <input id="gold" type="checkbox" name="jewel-color"/>
+                            <label for="gold">Or</label>
+                            <input id="silver" type="checkbox" name="jewel-color"/>
+                            <label for="silver">Argent</label>
+                            <input id="brass" type="checkbox" name="jewel-color"/>
+                            <label for="brass">Laiton</i></label>
+                            <input id="tin" type="checkbox" name="jewel-color"/>
+                            <label for="tin">Étain</i></label>
+                            <input id="pink-gold" type="checkbox" name="jewel-color"/>
+                            <label for="pink-gold">Or rose</i></label>
+                      </div>
+                    </fieldset>
+                    <!--ABOUT PATTERNS-->
+                    <fieldset class="row question-block">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <legend class="question">Quels motifs n'aimez-vous pas porter ?</legend>
+                          <input id="pattern-panther" type="checkbox" name=""/>
+                          <label for="pattern-panther"><img class="pattern" src="images/form/pattern/panther.jpg"></label>
+                          <input id="pattern-liberty" type="checkbox" name=""/>
+                          <label for="pattern-liberty"><img class="pattern" src="images/form/pattern/liberty.jpg"></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                          <input id="pattern-vegetal" type="checkbox" name=""/>
+                          <label for="pattern-vegetal"><img class="pattern" src="images/form/pattern/vegetal.jpg"></i></label>
+                      </div>
+                      </fieldset>
+
+                  <!--ABOUT OTHER COMMENTS-->
+                  <fieldset class="row question-block">
+                    <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <legend class="question">Des précisions à nous confier ?</legend>
+                        <div class="form-group">
+                          <label for="complex-text"></label>
+                          <textarea class="form-control" rows="3" id="complex-text" placeholder="Bien que je m'habille très souvent avec des couleurs foncées, j'aimerai dynamiser mon look sans en faire de trop."></textarea>
+                        </div>
+                    </div>
+                  </fieldset>
+                  <!--ABOUT MUM-->
+                  <fieldset class="row question-block">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <legend class="question">Êtes-vous maman ?</legend>
+                          <input id="mum-yes" type="radio" name="mum"/>
+                          <label for="mum-yes">Oui</label>
+                          <input id="mum-no" type="radio" name="mum"/>
+                          <label for="mum-no">Non</label>
+                    </div>
+                  </fieldset>
+                  <!--ABOUT PREGNANCY-->
+                  <fieldset class="row question-block">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <legend class="question">Êtes-vous actuellement enceinte ?</legend>
+                          <input id="pregnancy-yes" type="radio" name="mum"/>
+                          <label for="pregnancy-yes">Oui</label>
+                          <input id="pregnancy-no" type="radio" name="mum"/>
+                          <label for="pregnancy-no">Non</label>
+                    </div>
+                  </fieldset>
     <!--End of form-->
   </div>
 </form>
