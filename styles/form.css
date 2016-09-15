@@ -70,7 +70,7 @@ fieldset.row.question-block{
   transform: scale(1); /* mise à l'échelle 1:1 */
 }
 
-/* Radio checking design*/
+/* RADIO CHECK DESIGN*/
 /*To hide first check */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
@@ -119,6 +119,71 @@ fieldset.row.question-block{
   opacity: 1; /* coche opaque */
   transform: scale(1); /* mise à l'échelle 1:1 */
 }
+/* HAIRCOLOR QUESTION DESIGN */
+/*for font-awesome circle*/
+i#black-hair-fa.fa.fa-circle{
+  color: #000000;
+  font-size: 3em;
+}
+i#brun-hair-fa.fa.fa-circle{
+  color: #78471C;
+  font-size: 3em;
+}
+i#chatain-hair-fa.fa.fa-circle{
+  color: #987E67;
+  font-size: 3em;
+}
+i#blond-hair-fa.fa.fa-circle{
+  color: #F0E880;
+  font-size: 3em;
+}
+i#roux-hair-fa.fa.fa-circle{
+  color: #ED9853;
+  font-size: 3em;
+}
+i#blanc-hair-fa.fa.fa-circle{
+  color: #E8E8E8;
+  font-size: 3em;
+}
+/* EYESCOLOR QUESTION DESIGN */
+/*for font-awesome circle*/
+
+i#marron-eyes-fa.fa.fa-circle{
+  color: #78471C;
+  font-size: 3em;
+}
+i#vert-eyes-fa.fa.fa-circle{
+  color: #538D0F;
+  font-size: 3em;
+}
+i#bleu-eyes-fa.fa.fa-circle{
+  color: #4A90E2;
+  font-size: 3em;
+}
+i#noir-eyes-fa.fa.fa-circle{
+  color: #000000;
+  font-size: 3em;
+}
+/* FONT-AWESOME CIRCLE CHECKING DESIGN */
+/*for delete left checking*/
+.circlecolor[type="radio"]:not(:checked) + label:before,
+.circlecolor[type="radio"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+
+}
+/* design just for the check label after*/
+/* for no checked */
+.circlecolor[type="radio"]:checked + label:after,
+.circlecolor[type="radio"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+.circlecolor[type="radio"]:checked + label{
+  border: 2px solid #ff8b80;
+  border-radius: 100%;
+  padding: 0px 3px;
+}
 
 /* MORPHO QUESTION DESIGN */
 /*for image*/
@@ -158,23 +223,7 @@ i#color-orange-fa.fa.fa-circle{
   color: #ff6600;
   font-size: 3em;
 }
-/*for delete left checking*/
 
-.black[type="checkbox"]:not(:checked) + label:before,
-#color-black, #color-red[type="checkbox"]:checked + label:before{
-  position: absolute;
-  left: -9999px;
-}
-#color-red[type="checkbox"]:not(:checked) + label:before,
-#color-red[type="checkbox"]:checked + label:before {
-  position: absolute;
-  left: -9999px;
-}
-#color-green[type="checkbox"]:not(:checked) + label:before,
-#color-green[type="checkbox"]:checked + label:before {
-  position: absolute;
-  left: -9999px;
-}
 /* BRANDS QUESTION DESIGN */
 /*for image*/
 img.brand{
