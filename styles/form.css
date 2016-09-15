@@ -120,50 +120,33 @@ fieldset.row.question-block{
   transform: scale(1); /* mise à l'échelle 1:1 */
 }
 /* HAIRCOLOR QUESTION DESIGN */
-/*for font-awesome circle*/
-i#black-hair-fa.fa.fa-circle{
-  color: #000000;
+img.haircolor{
+  border-radius: 100%;
+  max-height: 50px;
+}
+/* COLOUR QUESTION DESIGN */
+/*for color's circles*/
+i#black-skin-fa.fa.fa-circle{
+  color: #5C4438;
   font-size: 3em;
 }
-i#brun-hair-fa.fa.fa-circle{
-  color: #78471C;
+i#brown-skin-fa.fa.fa-circle{
+  color: #975A36;
   font-size: 3em;
 }
-i#chatain-hair-fa.fa.fa-circle{
-  color: #987E67;
+i#metis-skin-fa.fa.fa-circle{
+  color: #9E7151;
   font-size: 3em;
 }
-i#blond-hair-fa.fa.fa-circle{
-  color: #F0E880;
+i#white-skin-fa.fa.fa-circle{
+  color: #E1B892;
   font-size: 3em;
 }
-i#roux-hair-fa.fa.fa-circle{
-  color: #ED9853;
+i#pluswhite-skin-fa.fa.fa-circle{
+  color: #FDDBBA;
   font-size: 3em;
 }
-i#blanc-hair-fa.fa.fa-circle{
-  color: #E8E8E8;
-  font-size: 3em;
-}
-/* EYESCOLOR QUESTION DESIGN */
-/*for font-awesome circle*/
 
-i#marron-eyes-fa.fa.fa-circle{
-  color: #78471C;
-  font-size: 3em;
-}
-i#vert-eyes-fa.fa.fa-circle{
-  color: #538D0F;
-  font-size: 3em;
-}
-i#bleu-eyes-fa.fa.fa-circle{
-  color: #4A90E2;
-  font-size: 3em;
-}
-i#noir-eyes-fa.fa.fa-circle{
-  color: #000000;
-  font-size: 3em;
-}
 /* FONT-AWESOME CIRCLE CHECKING DESIGN */
 /*for delete left checking*/
 .circlecolor[type="radio"]:not(:checked) + label:before,
@@ -190,6 +173,31 @@ i#noir-eyes-fa.fa.fa-circle{
 img.morpho{
   border: 1px solid #333333;
   border-radius: 10px;
+}
+/* VIBES QUESTION DESIGN */
+/*for image*/
+img.vibes{
+  width: 100%;
+  border: 1px solid #333333;
+}
+/* IMG CHECKING DESIGN */
+/*for delete left checking*/
+.img-check[type="checkbox"]:not(:checked) + label:before,
+.img-check[type="checkbox"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+
+}
+/* design just for the check label after*/
+/* for no checked */
+.img-check[type="checkbox"]:checked + label:after,
+.img-check[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+.img-check[type="checkbox"]:checked + label{
+  border: 2px solid #ff8b80;
+  padding: 0px 3px;
 }
 
 /* COLOUR QUESTION DESIGN */
