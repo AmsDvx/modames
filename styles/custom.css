@@ -274,6 +274,7 @@ Bootstrap Navbar
 	border-radius: 100px!important;
 	padding: 5px 20px;
 	margin-top: 12px;
+	border-color: #FF8B80;
 }
 .navbar-default .navbar-nav > li:last-child > a:hover#whitemenu{
 	color: white !important;
@@ -284,6 +285,7 @@ Bootstrap Navbar
 	border-radius: 100px!important;
 	padding: 5px 20px;
 	margin-top: 12px;
+	border-color: #ff7366;
 }
 /*How have a different CTA in scrolling menu*/
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
@@ -951,7 +953,7 @@ FAQ PAGE
 }
 
 .panel-default > .panel-heading a{
-		font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 #heading_1.panel-heading, #heading_2.panel-heading, #heading_3.panel-heading, #heading_4.panel-heading, #heading_5.panel-heading, #heading_6.panel-heading, #heading_7.panel-heading, #heading_8.panel-heading, #heading_9.panel-heading, #heading_10.panel-heading, #heading_11.panel-heading, #heading_12.panel-heading, #heading_13.panel-heading, #heading_14.panel-heading, #heading_15.panel-heading, #heading_16.panel-heading, #heading_17.panel-heading, #heading_18.panel-heading, #heading_19.panel-heading, #heading_20.panel-heading, #heading_21.panel-heading, #heading_22.panel-heading, #heading_23.panel-heading{
