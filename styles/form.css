@@ -202,36 +202,74 @@ img.vibes{
 
 /* COLOUR QUESTION DESIGN */
 /*for color's circles*/
+i#color-beige-fa.fa.fa-circle{
+  color: #ECD6AF;
+  font-size: 3em;
+}
+
 i#color-black-fa.fa.fa-circle{
   color: #000000;
   font-size: 3em;
 }
-
-i#color-red-fa.fa.fa-circle{
-  color: #ff0000;
-  font-size: 3em;
-}
-i#color-green-fa.fa.fa-circle{
-  color: #008000;
-  font-size: 3em;
-}
-i#color-yellow-fa.fa.fa-circle{
-  color: #f8f849;
-  font-size: 3em;
-}
-i#color-pink-fa.fa.fa-circle{
-  color: #ff8b80;
+i#color-blue-fa.fa.fa-circle{
+  color: #93BFEB;
   font-size: 3em;
 }
 i#color-brown-fa.fa.fa-circle{
-  color: #330000;
+  color: #975A36;
+  font-size: 3em;
+}
+i#color-bordeaux-fa.fa.fa-circle{
+  color: #6E2639;
+  font-size: 3em;
+}
+img.color-img{
+  border-radius: 100%;
+  max-height: 50px;
+}
+i#color-green-fa.fa.fa-circle{
+  color: #1F5647;
+  font-size: 3em;
+}
+i#color-grey-fa.fa.fa-circle{
+  color: #9D9D96;
+  font-size: 3em;
+}
+i#color-marine-fa.fa.fa-circle{
+  color: #003C79;
   font-size: 3em;
 }
 i#color-orange-fa.fa.fa-circle{
-  color: #ff6600;
+  color: #F9964A;
   font-size: 3em;
 }
-
+i#color-pink-fa.fa.fa-circle{
+  color: #F5B0C1;
+  font-size: 3em;
+}
+i#color-purple-fa.fa.fa-circle{
+  color: #7C6495;
+  font-size: 3em;
+}
+i#color-red-fa.fa.fa-circle{
+  color: #DC241F;
+  font-size: 3em;
+}
+i#color-duck-fa.fa.fa-circle{
+  color: #00626E;
+  font-size: 3em;
+}
+i#color-white-fa.fa.fa-circle{
+  color: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 100%;
+  font-size: 3em;
+  height: 42px;
+}
+i#color-yellow-fa.fa.fa-circle{
+  color: #F0EB7A;
+  font-size: 3em;
+}
 /* BRANDS QUESTION DESIGN */
 /*for image*/
 img.brand{
