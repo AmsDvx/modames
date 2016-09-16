@@ -113,7 +113,7 @@
               <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <label class="question">Date de naissance</label>
                 <select class="form-control" name="">
-                  <option value=""></option>
+                  <option value="">Jour</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -148,7 +148,7 @@
                   <option value="31">31</option>
                 </select>
                 <select class="form-control" name="">
-                  <option value=""></option>
+                  <option value="">Mois</option>
                   <option value="1">Janvier</option>
                   <option value="2">Février</option>
                   <option value="3">Mars</option>
@@ -164,7 +164,7 @@
                 </select>
 
                 <select class="form-control" name="">
-                  <option value=""></option>
+                  <option value="">Année</option>
                   <option value="2003">2003</option>
                   <option value="2002">2002</option>
                   <option value="2001">2001</option>
@@ -306,7 +306,7 @@
                     <option value="199">199</option>
                     <option value="200">200</option>
                   </select>
-                  <span style="display:inline-block">cm</span>
+                  <span>cm</span>
                 </div>
               </div>
               </fieldset>
@@ -369,7 +369,7 @@
                       <option value="89">89</option>
                       <option value="90">90</option>
                     </select>
-                    <span style="display:inline-block">kg</span>
+                    <span>kg</span>
                   </div>
                 </div>
                 </fieldset>
@@ -432,15 +432,15 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">La couleur de vos yeux</legend>
                       <input id="brown-eyes" type="radio" name="eyes"/>
-                      <label for="brown-eyes">Marron</label>
+                      <label class="label-text" for="brown-eyes">Marron</label>
                       <input id="green-eyes" type="radio" name="eyes"/>
-                      <label for="green-eyes">Vert</label>
+                      <label class="label-text" for="green-eyes">Vert</label>
                       <input id="blue-eyes" type="radio" name="eyes"/>
-                      <label for="blue-eyes">Bleu</label>
+                      <label class="label-text" for="blue-eyes">Bleu</label>
                       <input id="black-eyes" type="radio" name="eyes"/>
-                      <label for="black-eyes">Noir</label>
+                      <label class="label-text" for="black-eyes">Noir</label>
                       <input id="grey-eyes" type="radio" name="eyes"/>
-                      <label for="grey-eyes">Gris</label>
+                      <label class="label-text" for="grey-eyes">Gris</label>
                     </div>
                     </fieldset>
                   <!--ABOUT SKIN COLOR-->
@@ -451,8 +451,6 @@
                           <label for="black-skin"><i class="fa fa-circle" id="black-skin-fa" aria-hidden="true"></i></label>
                           <input class="circlecolor" id="brown-skin" type="radio" name="skin"/>
                           <label for="brown-skin"><i class="fa fa-circle" id="brown-skin-fa" aria-hidden="true"></i></label>
-                          <input class="circlecolor" id="metis-skin" type="radio" name="skin"/>
-                          <label for="metis-skin"><i class="fa fa-circle" id="metis-skin-fa" aria-hidden="true"></i></label>
                           <input class="circlecolor" id="white-skin" type="radio" name="skin"/>
                           <label for="white-skin"><i class="fa fa-circle" id="white-skin-fa" aria-hidden="true"></i></label>
                           <input class="circlecolor" id="pluswhite-skin" type="radio" name="skin"/>
@@ -465,12 +463,12 @@
                     <label class="question">Quelle taille de robes portez-vous ?</label>
                       <select class="form-control" name="">
                         <option value=""></option>
-                        <option value="1">XS - 34</option>
-                        <option value="2">S - 36</option>
-                        <option value="3">M - 38</option>
-                        <option value="4">L - 40</option>
-                        <option value="5">XL - 42</option>
-                        <option value="6">XXL - 44</option>
+                        <option value="1">34</option>
+                        <option value="2">36</option>
+                        <option value="3">38</option>
+                        <option value="4">40</option>
+                        <option value="5">42</option>
+                        <option value="6">44</option>
                       </select>
                     </div>
                   </fieldset>
@@ -478,16 +476,16 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">Quelle(s) longueurs de robes évitez-vous ?</legend>
-                        <input class="two-resp" id="short-dress" type="checkbox" name="dresses-length"/>
-                        <label for="short-dress">Courte</label>
-                        <input class="two-resp" id="thigh-dress" type="checkbox" name="dresses-length"/>
-                        <label for="thigh-dress">Mi-cuisses</label>
-                        <input class="two-resp" id="knees-dress" type="checkbox" name="dresses-length"/>
-                        <label for="knees-dress">Aux genoux</label>
-                        <input class="two-resp" id="calves-dress" type="checkbox" name="dresses-length"/>
-                        <label for="calves-dress">Mi-mollets</label>
-                        <input class="two-resp" id="ankle-dresses" type="checkbox" name="dresses-length"/>
-                        <label for="ankle-dresses">Aux chevilles</label>
+                        <input id="short-dress" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="short-dress">Courte</label>
+                        <input id="thigh-dress" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="thigh-dress">Mi-cuisses</label>
+                        <input id="knees-dress" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="knees-dress">Aux genoux</label>
+                        <input id="calves-dress" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="calves-dress">Mi-mollets</label>
+                        <input id="ankle-dresses" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="ankle-dresses">Aux chevilles</label>
                     </div>
                     </fieldset>
                     <!--ABOUT TOPS SIZE-->
@@ -496,11 +494,12 @@
                       <label class="question">Quelle taille de hauts portez-vous ?</label>
                         <select class="form-control" name="">
                           <option value=""></option>
-                          <option value="1">XS - 34</option>
-                          <option value="2">S - 36</option>
-                          <option value="3">M - 38</option>
-                          <option value="4">L - 40</option>
-                          <option value="5">XL - 42</option>
+                          <option value="1">34</option>
+                          <option value="2">36</option>
+                          <option value="3">38</option>
+                          <option value="4">40</option>
+                          <option value="5">42</option>
+                          <option value="6">44</option>
                         </select>
                       </div>
                     </fieldset>
@@ -508,16 +507,16 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Comment préfèrez-vous porter les vêtements sur le haut de votre corps ?</legend>
-                          <input id="skinny-top" type="radio" name="tops-style"/>
-                          <label for="skinny-top">Moulants</label>
-                          <input id="ajusted-top" type="radio" name="tops-style"/>
-                          <label for="ajusted-top">Ajustés</label>
-                          <input id="straight-top" type="radio" name="tops-style"/>
-                          <label for="straight-top">Droits</label>
-                          <input id="large-top" type="radio" name="tops-style"/>
-                          <label for="large-top">Larges</label>
-                          <input id="pluslarge-top" type="radio" name="tops-style"/>
-                          <label for="pluslarge-top">Très larges</label>
+                          <input id="skinny-top" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="skinny-top">Moulants</label>
+                          <input id="ajusted-top" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="ajusted-top">Ajustés</label>
+                          <input id="straight-top" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="straight-top">Droits</label>
+                          <input id="large-top" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="large-top">Larges</label>
+                          <input id="pluslarge-top" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="pluslarge-top">Très larges</label>
                       </div>
                       </fieldset>
                       <!--ABOUT PANTS SIZE-->
@@ -526,26 +525,28 @@
                         <legend class="question">Quelle taille de pantalons / jupes portez-vous ?</legend>
                         <!--Pants-->
                         <div class="col-md-6">
-                        <label class="">Pantalons</label>
+                        <label class="label-undertext">Pantalons</label>
                           <select class="form-control" name="">
                             <option value=""></option>
-                            <option value="1">XS - 34</option>
-                            <option value="2">S - 36</option>
-                            <option value="3">M - 38</option>
-                            <option value="4">L - 40</option>
-                            <option value="5">XL - 42</option>
+                            <option value="1">34</option>
+                            <option value="2">36</option>
+                            <option value="3">38</option>
+                            <option value="4">40</option>
+                            <option value="5">42</option>
+                            <option value="6">44</option>
                           </select>
                         </div>
                         <!--Skirts-->
                         <div class="col-md-6">
-                        <label class="">Jupes</label>
+                        <label class="label-undertext">Jupes</label>
                           <select class="form-control" name="">
                             <option value=""></option>
-                            <option value="1">XS - 34</option>
-                            <option value="2">S - 36</option>
-                            <option value="3">M - 38</option>
-                            <option value="4">L - 40</option>
-                            <option value="5">XL - 42</option>
+                            <option value="1">34</option>
+                            <option value="2">36</option>
+                            <option value="3">38</option>
+                            <option value="4">40</option>
+                            <option value="5">42</option>
+                            <option value="6">44</option>
                           </select>
                         </div>
                       </div>
@@ -557,7 +558,7 @@
                         <legend class="question">Quelle taille de jeans portez-vous ?</legend>
                         <!--Size-->
                         <div class="col-md-6">
-                        <label class="">Taille</label>
+                        <label class="label-undertext">Taille</label>
                         <select class="form-control" name="">
                           <option value=""></option>
                           <option value="1">23</option>
@@ -576,7 +577,7 @@
                         </div>
                         <!--Length-->
                         <div class="col-md-6">
-                        <label class="">Longueur</label>
+                        <label class="label-undertext">Longueur</label>
                         <select class="form-control" name="">
                           <option value=""></option>
                           <option value="1">30</option>
@@ -594,26 +595,26 @@
                             <legend class="question">Quelles coupes de pantalons et jeans préfèrez-vous ?</legend>
                             <!--Pants-->
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <span>Pantalons</span>
-                              <input id="up-size" type="radio" name="pants-size"/>
-                              <label for="up-size">Taille haute</label>
-                              <input id="middle-size" type="radio" name="pants-size"/>
-                              <label for="middle-size">Taille moyenne</label>
-                              <input id="down-size" type="radio" name="pants-size"/>
-                              <label for="down-size">Taille basse</label>
+                            <span class="span-undertext">Pantalons</span>
+                              <input id="up-size" type="checkbox" name="pants-size"/>
+                              <label class="label-text" for="up-size">Taille haute</label>
+                              <input id="middle-size" type="checkbox" name="pants-size"/>
+                              <label class="label-text" for="middle-size">Taille moyenne</label>
+                              <input id="down-size" type="checkbox" name="pants-size"/>
+                              <label class="label-text" for="down-size">Taille basse</label>
 
                             </div>
                             <!--Jeans-->
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <span>Jeans</span>
-                              <input id="slim-pant" type="radio" name="skirts-style"/>
-                              <label for="slim-pant">Slim</label>
-                              <input id="bootcut-pant" type="radio" name="skirts-style"/>
-                              <label for="bootcut-pant">Bootcut</label>
-                              <input id="tight-pant" type="radio" name="skirts-style"/>
-                              <label for="tight-pant">Étroit</label>
-                              <input id="l-pant" type="radio" name="skirts-style"/>
-                              <label for="l-pant">Évasé</label>
+                            <span class="span-undertext">Jeans</span>
+                              <input id="slim-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="slim-pant">Slim</label>
+                              <input id="bootcut-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="bootcut-pant">Bootcut</label>
+                              <input id="tight-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="tight-pant">Étroit</label>
+                              <input id="l-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="l-pant">Évasé</label>
                             </div>
 
                           </div>
@@ -624,27 +625,27 @@
                           <legend class="question">Comment préfèrez-vous porter les vêtements en bas du corps ?</legend>
                           <!--Pants-->
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <span>Pantalons</span>
-                            <input id="skinny-pant" type="radio" name="pants-style"/>
-                            <label for="skinny-pant">Moulants</label>
-                            <input id="ajusted-pant" type="radio" name="pants-style"/>
-                            <label for="ajusted-pant">Ajustés</label>
-                            <input id="straight-pant" type="radio" name="pants-style"/>
-                            <label for="straight-pant">Droit</label>
-                            <input id="large-pant" type="radio" name="pants-style"/>
-                            <label for="large-pant">Larges</label>
+                          <span class="span-undertext">Pantalons</span>
+                            <input id="skinny-pant" type="checkbox" name="pants-style"/>
+                            <label class="label-text" for="skinny-pant">Moulants</label>
+                            <input id="ajusted-pant" type="checkbox" name="pants-style"/>
+                            <label class="label-text" for="ajusted-pant">Ajustés</label>
+                            <input id="straight-pant" type="checkbox" name="pants-style"/>
+                            <label class="label-text" for="straight-pant">Droit</label>
+                            <input id="large-pant" type="checkbox" name="pants-style"/>
+                            <label class="label-text" for="large-pant">Larges</label>
                           </div>
                           <!--Skirts-->
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <span>Jupes</span>
-                            <input id="skinny-pant" type="radio" name="skirts-style"/>
-                            <label for="skinny-pant">Moulants</label>
-                            <input id="ajusted-pant" type="radio" name="skirts-style"/>
-                            <label for="ajusted-pant">Ajustés</label>
-                            <input id="straight-pant" type="radio" name="skirts-style"/>
-                            <label for="straight-pant">Droit</label>
-                            <input id="large-pant" type="radio" name="skirts-style"/>
-                            <label for="large-pant">Larges</label>
+                          <span class="span-undertext">Jupes</span>
+                            <input id="skinny-pant" type="checkbox" name="skirts-style"/>
+                            <label class="label-text" for="skinny-pant">Moulants</label>
+                            <input id="ajusted-pant" type="checkbox" name="skirts-style"/>
+                            <label class="label-text" for="ajusted-pant">Ajustés</label>
+                            <input id="straight-pant" type="checkbox" name="skirts-style"/>
+                            <label class="label-text" for="straight-pant">Droit</label>
+                            <input id="large-pant" type="checkbox" name="skirts-style"/>
+                            <label class="label-text" for="large-pant">Larges</label>
                           </div>
 
                         </div>
@@ -652,7 +653,7 @@
                         <!--ABOUT SHOE SIZE-->
                         <fieldset class="row question-block">
                           <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <label class="question">Quelle est votre pointure ?</label>
+                            <label class="question">Quelle est votre pointure / forme de pied ?</label>
                             <!--Size-->
                               <select class="form-control" name="">
                                 <option value=""></option>
@@ -681,24 +682,26 @@
                               <legend class="question">Que préfèrez-vous en matière de chaussures ?</legend>
                               <!--Size-->
                               <div class="col-md-6">
-                              <label class="">Plates</label>
+                              <label class="label-undertext">Plates</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Jamais</option>
-                                <option value="2">Très occasionnellement</option>
-                                <option value="3">Souvent</option>
-                                <option value="4">Tout le temps !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                               </div>
                               <!--Length-->
                               <div class="col-md-6">
-                              <label class="">Talons</label>
+                              <label class="label-undertext">Talons</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Jamais</option>
-                                <option value="2">Très occasionnellement</option>
-                                <option value="3">Souvent</option>
-                                <option value="4">Tout le temps !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                               </div>
                               </div>
@@ -710,7 +713,7 @@
                             <legend class="question">Comment caractérisez-vous vos proportions ?</legend>
                             <!--Shoulders-->
                             <div class="col-md-4">
-                            <label class="">Épaules</label>
+                            <label class="label-undertext">Épaules</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
                                 <option value="1">Étroites</option>
@@ -720,7 +723,7 @@
                             </div>
                             <!--Arms-->
                             <div class="col-md-4">
-                            <label class="">Bras</label>
+                            <label class="label-undertext">Bras</label>
                             <select class="form-control" name="">
                               <option value=""></option>
                               <option value="1">Petit</option>
@@ -730,7 +733,7 @@
                             </div>
                             <!--Chest-->
                             <div class="col-md-4">
-                            <label class="">Buste</label>
+                            <label class="label-undertext">Buste</label>
                             <select class="form-control" name="">
                               <option value=""></option>
                               <option value="1">Petit</option>
@@ -740,7 +743,7 @@
                           </div>
                           <!--Hips-->
                           <div class="col-md-4">
-                          <label class="">Hanches</label>
+                          <label class="label-undertext">Hanches</label>
                           <select class="form-control" name="">
                             <option value=""></option>
                             <option value="1">Étroites</option>
@@ -750,7 +753,7 @@
                           </div>
                           <!--Legs-->
                           <div class="col-md-4">
-                          <label class="">Jambes</label>
+                          <label class="label-undertext">Jambes</label>
                           <select class="form-control" name="">
                             <option value=""></option>
                             <option value="1">Petites</option>
@@ -760,7 +763,7 @@
                           </div>
                           <!--Ass-->
                           <div class="col-md-4">
-                          <label class="">Fesses</label>
+                          <label class="label-undertext">Fesses</label>
                           <select class="form-control" name="">
                             <option value=""></option>
                             <option value="1">Plates</option>
@@ -804,17 +807,17 @@
                                     <!--Responses-->
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                       <input id="verymuch" type="radio" name="morpho-type"/>
-                                      <label for="verymuch">Wahou j'adore !</label>
+                                      <label class="label-text" for="verymuch">Wahou j'adore !</label>
                                       <input id="like" type="radio" name="morpho-type"/>
-                                      <label for="like">J'aime bien</label>
+                                      <label class="label-text" for="like">J'aime bien</label>
                                       <input id="notreally" type="radio" name="morpho-type"/>
-                                      <label for="notreally">Mouais, bof</label>
+                                      <label class="label-text" for="notreally">Mouais, bof</label>
                                       <input id="notatall" type="radio" name="morpho-type"/>
-                                      <label for="notatall">Beurk c'est moche !</label>
+                                      <label class="label-text" for="notatall">Beurk c'est moche !</label>
                                     </div>
                                     <!--Wear it-->
                                     <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                      <label class="">Le porteriez-vous ?</label>
+                                      <label class="label-undertext">Le porteriez-vous ?</label>
                                       <select class="form-control" name="">
                                         <option value=""></option>
                                         <option value="1">Oui</option>
@@ -896,9 +899,9 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Des enfants ?</legend>
                                   <input id="mum-yes" type="radio" name="mum"/>
-                                  <label for="mum-yes">Oui</label>
+                                  <label class="label-text" for="mum-yes">Oui</label>
                                   <input id="mum-no" type="radio" name="mum"/>
-                                  <label for="mum-no">Non</label>
+                                  <label class="label-text" for="mum-no">Non</label>
                             </div>
                           </fieldset>
                           <!--ABOUT PREGNANCY-->
@@ -906,9 +909,9 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Êtes-vous actuellement enceinte ?</legend>
                                   <input id="pregnancy-yes" type="radio" name="mum"/>
-                                  <label for="pregnancy-yes">Oui</label>
+                                  <label class="label-text" for="pregnancy-yes">Oui</label>
                                   <input id="pregnancy-no" type="radio" name="mum"/>
-                                  <label for="pregnancy-no">Non</label>
+                                  <label class="label-text" for="pregnancy-no">Non</label>
                             </div>
                           </fieldset>
                           <!--ABOUT TYPE OF WEARING-->
@@ -917,46 +920,50 @@
                             <legend class="question">À quelle fréquence vous habillez vous pour ces occasions ?</legend>
                             <!--Business-->
                             <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <label class="">Business / Travail</label>
+                            <label class="label-undertext">Business / Travail</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">La plupart du temps</option>
-                                <option value="2">Une à deux fois par semaine</option>
-                                <option value="3">Une à deux fois par mois</option>
-                                <option value="4">Rarement</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Special occasions-->
                             <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <label class="">Gala / Mariage / Occasions spéciales</label>
+                            <label class="label-undertext">Gala / Mariage / Occasions spéciales</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">La plupart du temps</option>
-                                <option value="2">Une à deux fois par semaine</option>
-                                <option value="3">Une à deux fois par mois</option>
-                                <option value="4">Rarement</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Party-->
                             <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <label class="">Soirées / Sorties</label>
+                            <label class="label-undertext">Soirées / Sorties</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">La plupart du temps</option>
-                                <option value="2">Une à deux fois par semaine</option>
-                                <option value="3">Une à deux fois par mois</option>
-                                <option value="4">Rarement</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Casual-->
                             <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <label class="">Casual / Décontractée</label>
+                            <label class="label-undertext">Casual / Décontractée</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">La plupart du temps</option>
-                                <option value="2">Une à deux fois par semaine</option>
-                                <option value="3">Une à deux fois par mois</option>
-                                <option value="4">Rarement</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
 
@@ -969,90 +976,98 @@
                             <legend class="question">Qu'aimez-vous mettre en avant ?</legend>
                             <!--Put shoulders-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Épaules</label>
+                            <label class="label-undertext">Épaules</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put arms-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Bras</label>
+                            <label class="label-undertext">Bras</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put chest-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Buste</label>
+                            <label class="label-undertext">Buste</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Hips-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Hanches</label>
+                            <label class="label-undertext">Hanches</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put legs-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Jambes</label>
+                            <label class="label-undertext">Jambes</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put neckline-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Décolleté</label>
+                            <label class="label-undertext">Décolleté</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put ass-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Fesses</label>
+                            <label class="label-undertext">Fesses</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                             <!--Put middle/belly-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <label class="">Ventre</label>
+                            <label class="label-undertext">Ventre</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Souvent. C'est un atout !</option>
-                                <option value="2">De temps en temps</option>
-                                <option value="3">Parfois pour une occasion spéciale</option>
-                                <option value="4">Surtout pas !</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
 
@@ -1064,7 +1079,7 @@
                               <legend class="question">Quel est votre budget moyen pour les articles suivants ?</legend>
                               <!--About accesories budget-->
                               <div class="col-md-4">
-                              <label class="">Accessoires</label>
+                              <label class="label-undertext">Accessoires</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1076,7 +1091,7 @@
                               </div>
                               <!--About jewel budget-->
                               <div class="col-md-4">
-                              <label class="">Bijoux</label>
+                              <label class="label-undertext">Bijoux</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1088,7 +1103,7 @@
                               </div>
                               <!--About pants budget-->
                               <div class="col-md-4">
-                              <label class="">Pantalons / Jeans</label>
+                              <label class="label-undertext">Pantalons / Jeans</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1100,7 +1115,7 @@
                               </div>
                               <!--About dresses budget-->
                               <div class="col-md-4">
-                              <label class="">Robes / Combinaisons</label>
+                              <label class="label-undertext">Robes / Combinaisons</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1112,7 +1127,7 @@
                               </div>
                               <!--About skirts budget-->
                               <div class="col-md-4">
-                              <label class="">Jupes / Shorts</label>
+                              <label class="label-undertext">Jupes / Shorts</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1124,7 +1139,7 @@
                               </div>
                               <!--About tops budget-->
                               <div class="col-md-4">
-                              <label class="">Tops</label>
+                              <label class="label-undertext">Tops</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1136,7 +1151,7 @@
                               </div>
                               <!--About t-shirt budget-->
                               <div class="col-md-4">
-                              <label class="">Tee-shirts</label>
+                              <label class="label-undertext">Tee-shirts</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1148,7 +1163,7 @@
                               </div>
                               <!--About shirts / blouses budget-->
                               <div class="col-md-4">
-                              <label class="">Chemises / Blouses</label>
+                              <label class="label-undertext">Chemises / Blouses</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1161,7 +1176,7 @@
 
                               <!--About sweater/pull budget-->
                               <div class="col-md-4">
-                              <label class="">Pulls / Gilets</label>
+                              <label class="label-undertext">Pulls / Gilets</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1173,7 +1188,7 @@
                               </div>
                               <!--About jacket budget-->
                               <div class="col-md-4">
-                              <label class="">Vestes / Blousons</label>
+                              <label class="label-undertext">Vestes / Blousons</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1185,7 +1200,7 @@
                               </div>
                               <!--About purse budget-->
                               <div class="col-md-4">
-                              <label class="">Sacs</label>
+                              <label class="label-undertext">Sacs</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1197,7 +1212,7 @@
                               </div>
                               <!--About shoes budget-->
                               <div class="col-md-4">
-                              <label class="">Chaussures</label>
+                              <label class="label-undertext">Chaussures</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Moins de 50€</option>
@@ -1213,43 +1228,45 @@
                           <!--ABOUT NO CLOTHES ARTICLES-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Y a-t-il des articles que vous ne souhaitez pas dans votre sélection ?</legend>
-                                  <input id="want-all" type="checkbox" name="no-clothes"/>
-                                  <label for="want-all">Je veux de tout !</label>
-                                  <input id="no-top" type="checkbox" name="no-clothes"/>
-                                  <label for="no-top">Top</label>
-                                  <input id="no-shirt" type="checkbox" name="no-clothes"/>
-                                  <label for="no-shirt">Chemise</i></label>
-                                  <input id="no-jacket" type="checkbox" name="no-clothes"/>
-                                  <label for="no-jacket">Veste</i></label>
-                                  <input id="no-pant" type="checkbox" name="no-clothes"/>
-                                  <label for="no-pant">Pantalon / Jeans</i></label>
-                                  <input id="no-dress" type="checkbox" name="no-clothes"/>
-                                  <label for="no-dress">Robe</i></label>
-                                  <input id="no-skirt" type="checkbox" name="no-clothes"/>
-                                  <label for="no-skirt">Jupe</i></label>
+                              <legend class="question">Y a-t-il quelque chose que vous ne souhaitez absolument pas dans votre sélection ?</legend>
+                                  <input id="want-all" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="want-all">Je veux de tout !</label>
+                                  <input id="no-top" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="no-top">Top</label>
+                                  <input id="no-shirt" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="no-shirt">Chemise</i></label>
+                                  <input id="no-jacket" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="no-jacket">Veste</i></label>
+                                  <input id="no-pant" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="no-pant">Pantalon / Jeans</i></label>
+                                  <input id="no-dress" type="radio" name="no-clothes"/>
+                                  <label class="label-text" for="no-dress">Robe / Jupe</i></label>
                             </div>
                           </fieldset>
                           <!--ABOUT NO MATERIAL ARTICLES-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Y a-t-il des tissus ou matériaux que vous ne souhaitez pas dans votre sélection ?</legend>
+                              <legend class="question">Y a-t-il des tissus ou matériaux que vous ne souhaitez absolument pas dans votre sélection ?</legend>
+                                  <input id="want-all2" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="want-all2">Je veux de tout !</label>
                                   <input id="no-leather" type="checkbox" name="no-material"/>
-                                  <label for="no-leather">Cuir</label>
+                                  <label class="label-text" for="no-leather">Cuir</label>
                                   <input id="no-silk" type="checkbox" name="no-material"/>
-                                  <label for="no-silk">Soie</label>
+                                  <label class="label-text" for="no-silk">Soie</label>
                                   <input id="no-cotton" type="checkbox" name="no-material"/>
-                                  <label for="no-cotton">Coton</i></label>
+                                  <label class="label-text" for="no-cotton">Coton</i></label>
                                   <input id="no-woolen" type="checkbox" name="no-material"/>
-                                  <label for="no-woolen">Laine</i></label>
+                                  <label class="label-text" for="no-woolen">Laine</i></label>
                                   <input id="no-polyester" type="checkbox" name="no-material"/>
-                                  <label for="no-polyester">Polyester</i></label>
+                                  <label class="label-text" for="no-polyester">Polyester</i></label>
                                   <input id="no-fur" type="checkbox" name="no-material"/>
-                                  <label for="no-fur">Fourrure</i></label>
+                                  <label class="label-text" for="no-fur">Fourrure</i></label>
                                   <input id="no-fakefur" type="checkbox" name="no-material"/>
-                                  <label for="no-fakefur">Fausse fourrure</i></label>
+                                  <label class="label-text" for="no-fakefur">Fausse fourrure</i></label>
                                   <input id="no-linen" type="checkbox" name="no-material"/>
-                                  <label for="no-linen">Lin</i></label>
+                                  <label class="label-text" for="no-linen">Lin</i></label>
+                                  <input id="no-linen" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="no-linen">Cachemire / Mohair</i></label>
                             </div>
                           </fieldset>
                           <!--ABOUT FASHION BEHAVIOUR-->
@@ -1270,10 +1287,11 @@
                               <legend class="question">En matière de mode êtes-vous audacieuse ?</legend>
                               <select class="form-control" name="">
                                 <option value=""></option>
-                                <option value="1">Tout le temps: même pas peur !</option>
-                                <option value="2">Régulièrement: j'aime bien tester les nouveaux styles.</option>
-                                <option value="3">Parfois: une petit touche de temps en temps.</option>
-                                <option value="4">Jamais: je reste classique et dans les tendances.</option>
+                                <option value="1">Tout le temps !</option>
+                                <option value="2">Régulièrement</option>
+                                <option value="3">De temps en temps</option>
+                                <option value="4">Très occasionnellement</option>
+                                <option value="5">Jamais</option>
                               </select>
                             </div>
                           </fieldset>
@@ -1282,17 +1300,25 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Quels styles cherchez-vous à intégrer dans votre garde-robe ?</legend>
                                   <input id="bohem" type="checkbox" name="no-material"/>
-                                  <label for="bohem">Bohême</label>
+                                  <label class="label-text" for="bohem">Bohême</label>
                                   <input id="casual" type="checkbox" name="no-material"/>
-                                  <label for="casual">Casual / Décontracté</label>
+                                  <label class="label-text" for="casual">Casual / Décontracté</label>
                                   <input id="classic" type="checkbox" name="no-material"/>
-                                  <label for="classic">Classique</i></label>
+                                  <label class="label-text" for="classic">Classique</i></label>
                                   <input id="romantic" type="checkbox" name="no-material"/>
-                                  <label for="romantic">Romantique</i></label>
+                                  <label class="label-text" for="romantic">Romantique</i></label>
                                   <input id="trendy" type="checkbox" name="no-material"/>
-                                  <label for="trendy">Mode / Tendance</i></label>
+                                  <label class="label-text" for="trendy">Mode / Tendance</i></label>
                                   <input id="chic" type="checkbox" name="no-material"/>
-                                  <label for="chic">Chic</i></label>
+                                  <label class="label-text" for="chic">Chic</i></label>
+                                  <input id="sportswear" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="sportswear">Sportswear</i></label>
+                                  <input id="rock" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="rock">Rock</i></label>
+                                  <input id="streetwear" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="streetwear">Streetwear</i></label>
+                                  <input id="retro" type="checkbox" name="no-material"/>
+                                  <label class="label-text" for="retro">Retro</i></label>
                             </div>
                           </fieldset>
                           <!--ABOUT PIERCED EARS-->
@@ -1300,9 +1326,9 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Avez-vous les oreilles percées ?</legend>
                                   <input id="yes" type="radio" name="ears"/>
-                                  <label for="yes">Oui</label>
+                                  <label class="label-text" for="yes">Oui</label>
                                   <input id="no" type="radio" name="ears"/>
-                                  <label for="no">Non</label>
+                                  <label class="label-text" for="no">Non</label>
                             </div>
                           </fieldset>
                           <!--ABOUT JEWELRY PREFERENCES-->
@@ -1322,87 +1348,62 @@
                                 <option value="3">Les deux</option>
                               </select>
                               <input id="both" type="radio" name="ears-pref"/>
-                              <label for="both">Je suis allérgique à certaines matières</label>
+                              <label class="label-text" for="both">Je suis allérgique à certaines matières</label>
 
                             </div>
                           </fieldset>
-                          <!--ABOUT BRANDS-->
-                          <fieldset class="row question-block">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Où faites-vous votre shopping habituellement ?</legend>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/hm.png"></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/zara.jpg"></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/promod.png"></i></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/hm.png"></i></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/hm.png"></i></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/hm.png"></i></label>
-                                <input id="brand-hm" type="checkbox" name=""/>
-                                <label for="brand-hm"><img class="brand" src="images/form/brands/hm.png"></label>
-                            </div>
-                            </fieldset>
-
-
 
                     <!--ABOUT COLORS-->
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Quelles couleurs préférez-vous éviter ?</legend>
-                          <input class="color-circle" id="color-beige" type="checkbox" name="color"/>
-                          <label for="color-beige"><i class="fa fa-circle" id="color-beige-fa" aria-hidden="true"></i></label>
-
                           <input class="color-circle" id="color-black" type="checkbox" name="color"/>
                           <label for="color-black"><i class="fa fa-circle" id="color-black-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-blue" type="checkbox" name="color"/>
-                          <label for="color-blue"><i class="fa fa-circle" id="color-blue-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-brown" type="checkbox" name=""/>
-                          <label for="color-brown"><i class="fa fa-circle" id="color-brown-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-bordeaux" type="checkbox" name=""/>
-                          <label for="color-bordeaux"><i class="fa fa-circle" id="color-bordeaux-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-gold" type="checkbox" name=""/>
-                          <label for="color-gold"><img class="color-img" src="images/form/color/gold.jpg"></label>
-
-                          <input class="color-circle" id="color-green" type="checkbox" name=""/>
-                          <label  for="color-green"><i class="fa fa-circle" id="color-green-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-grey" type="checkbox" name=""/>
-                          <label  for="color-grey"><i class="fa fa-circle" id="color-grey-fa" aria-hidden="true"></i></label>
 
                           <input class="color-circle" id="color-marine" type="checkbox" name=""/>
                           <label  for="color-marine"><i class="fa fa-circle" id="color-marine-fa" aria-hidden="true"></i></label>
 
-                          <input class="color-circle" id="color-orange" type="checkbox" name=""/>
-                          <label  for="color-orange"><i class="fa fa-circle" id="color-orange-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle" id="color-blue" type="checkbox" name="color"/>
+                          <label for="color-blue"><i class="fa fa-circle" id="color-blue-fa" aria-hidden="true"></i></label>
 
-                          <input class="color-circle" id="color-pink" type="checkbox" name=""/>
-                          <label  for="color-pink"><i class="fa fa-circle" id="color-pink-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle" id="color-darkgreen" type="checkbox" name=""/>
+                          <label  for="color-darkgreen"><i class="fa fa-circle" id="color-darkgreen-fa" aria-hidden="true"></i></label>
 
-                          <input class="color-circle" id="color-purple" type="checkbox" name=""/>
-                          <label  for="color-purple"><i class="fa fa-circle" id="color-purple-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle" id="color-green" type="checkbox" name=""/>
+                          <label  for="color-green"><i class="fa fa-circle" id="color-green-fa" aria-hidden="true"></i></label>
 
-                          <input class="color-circle" id="color-red" type="checkbox" name=""/>
-                          <label  for="color-red"><i class="fa fa-circle" id="color-red-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-duck" type="checkbox" name=""/>
-                          <label  for="color-duck"><i class="fa fa-circle" id="color-duck-fa" aria-hidden="true"></i></label>
-
-                          <input class="color-circle" id="color-white" type="checkbox" name=""/>
-                          <label  for="color-white"><i class="fa fa-circle" id="color-white-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle" id="color-beige" type="checkbox" name="color"/>
+                          <label for="color-beige"><i class="fa fa-circle" id="color-beige-fa" aria-hidden="true"></i></label>
 
                           <input class="color-circle" id="color-yellow" type="checkbox" name=""/>
                           <label  for="color-yellow"><i class="fa fa-circle" id="color-yellow-fa" aria-hidden="true"></i></label>
 
-                          <input class="color-circle" id="color-silver" type="checkbox" name=""/>
-                          <label for="color-silver"><img class="color-img" src="images/form/color/silver.jpg"></label>
+                          <input class="color-circle" id="color-orange" type="checkbox" name=""/>
+                          <label  for="color-orange"><i class="fa fa-circle" id="color-orange-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-red" type="checkbox" name=""/>
+                          <label  for="color-red"><i class="fa fa-circle" id="color-red-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-bordeaux" type="checkbox" name=""/>
+                          <label for="color-bordeaux"><i class="fa fa-circle" id="color-bordeaux-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-purple" type="checkbox" name=""/>
+                          <label  for="color-purple"><i class="fa fa-circle" id="color-purple-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-fushia" type="checkbox" name=""/>
+                          <label  for="color-fushia"><i class="fa fa-circle" id="color-fushia-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-pink" type="checkbox" name=""/>
+                          <label  for="color-pink"><i class="fa fa-circle" id="color-pink-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-grey" type="checkbox" name=""/>
+                          <label  for="color-grey"><i class="fa fa-circle" id="color-grey-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-brown" type="checkbox" name=""/>
+                          <label for="color-brown"><i class="fa fa-circle" id="color-brown-fa" aria-hidden="true"></i></label>
+
+                          <input class="color-circle" id="color-white" type="checkbox" name=""/>
+                          <label  for="color-white"><i class="fa fa-circle-thin" id="color-white-fa" aria-hidden="true"></i></label>
 
                       </div>
                       </fieldset>
@@ -1430,14 +1431,34 @@
                       </div>
                       </fieldset>
 
+
+                      <!--ABOUT SOCIALS-->
+                      <fieldset class="row question-block">
+                        <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <p class="title">Les réseaux sociaux et vous ?</p>
+                          <p class="explain-form">Racontez-en nous davantage en partageant les liens vers vos profils de réseaux sociaux. Nous aurons une meilleure idée de ce que vous aimez, et de votre style. Rassurez vous, ces données sont confidentielles et uniquement utilisées pour mieux vous servir.</p>
+                          <p class="italic-explain">Cette étape est facultative.</p>
+                        </div>
+                        <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <label class="question"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</label>
+                          <input class="form-control" type="text" value="" name="" placeholder="https://www.instagram.com/_modames/">
+                        </div>
+                        <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <label class="question"><i class="fa fa-pinterest-square" aria-hidden="true"></i> Pinterest</label>
+                          <input class="form-control" type="text" value="" name="" placeholder="https://www.pinterest.com/modames/">
+                        </div>
+                        <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <label class="question"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</label>
+                          <input class="form-control" type="text" value="" name="" placeholder="https://www.linkedin.com/modames/">
+                        </div>
+                      </fieldset>
+
                   <!--ABOUT OTHER COMMENTS-->
                   <fieldset class="row question-block">
-                    <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <legend class="question">Des précisions à nous confier ?</legend>
-                        <div class="form-group">
-                          <label for="complex-text"></label>
-                          <textarea class="form-control" rows="3" id="complex-text" placeholder="Bien que je m'habille très souvent avec des couleurs foncées, j'aimerai dynamiser mon look sans en faire de trop."></textarea>
-                        </div>
+                    <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label class="question">Des précisions à nous confier ?</label>
+                            <textarea maxlength="500" class="form-control" placeholder="Bien que je m'habille très souvent avec des couleurs foncées, j'aimerai dynamiser mon look sans en faire de trop."></textarea>
+                          </div>
                     </div>
                   </fieldset>
 
@@ -1446,148 +1467,6 @@
 </form>
 
 
-
-
-
-
-
-
-
-
-
-  <section class="container">
-    <!--question one-->
-    <div class="col-md-12 col-sm-12 center">
-
-    <div class="questions-group-title">Une réponse possible avec texte</div>
-    <div class="radio">
-        <label>Moulant</label>
-        <input type="radio" name="color" />
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="color">Ajusté</label>
-      </div>
-      <div class="radio ">
-        <label><input type="radio" name="color">Large</label>
-      </div>
-
-    </div>
-
-
-  <!--question two-->
-  <div class="questions-group-title">Une réponse possible avec image</div>
-  <div class="radio">
-      <label><input type="radio" name="optradio"><img class="testquestion" src="images/boy.svg"></label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="optradio"><img class="testquestion" src="images/boy.svg"></label>
-    </div>
-    <div class="radio ">
-      <label><input type="radio" name="optradio"><img class="testquestion" src="images/boy.svg"></label>
-    </div>
-
-  <!--question three-->
-    <div class="questions-group-title">Choix multiples sans limite</div>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox1" value="option1"> <i class="fa fa-car" aria-hidden="true"></i>
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox2" value="option2"> <i class="fa fa-car" aria-hidden="true"></i>
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox3" value="option3"> <i class="fa fa-car" aria-hidden="true"></i>
-      </label>
-
-      <!--question four (avec jquery)-->
-        <div class="questions-group-title">Choix multiples avec limite</div>
-          <label class="checkbox-inline">
-            <input class="qfour" type="checkbox" id="inlineCheckbox1" value="option1"> <i class="fa fa-car" aria-hidden="true"></i>
-          </label>
-          <label class="checkbox-inline">
-            <input class="qfour" type="checkbox" id="inlineCheckbox2" value="option2"> <i class="fa fa-car" aria-hidden="true"></i>
-          </label>
-          <label class="checkbox-inline">
-            <input class="qfour" type="checkbox" id="inlineCheckbox3" value="option3"> <i class="fa fa-car" aria-hidden="true"></i>
-          </label>
-
-          <!--question five-->
-            <div class="questions-group-title">Une réponse menu déroulant</div>
-              <!--Day-->
-              <select name="select">
-                <option value="value1" selected>1</option>
-                <option value="value2">2</option>
-                <option value="value3">3</option>
-                <option value="value4">4</option>
-                <option value="value5">5</option>
-                <option value="value6">6</option>
-                <option value="value7">7</option>
-                <option value="value8">8</option>
-                <option value="value9">9</option>
-                <option value="value10">10</option>
-                <option value="value11">11</option>
-                <option value="value12">12</option>
-              </select>
-
-              <!--Month-->
-              <select name="select">
-                <option value="value1" selected>Janvier</option>
-                <option value="value2">Février</option>
-                <option value="value3">Mars</option>
-                <option value="value4">Avril</option>
-                <option value="pant">Un pantalon</option>
-                <option value="value6">Juin</option>
-                <option value="value7">Juillet</option>
-                <option value="value8">Août</option>
-                <option value="value9">Septembre</option>
-                <option value="value10">Octobre</option>
-                <option value="value11">Novembre</option>
-                <option value="value12">Décembre</option>
-              </select>
-
-
-        <!--question six-->
-        <div class="questions-group-title">Choix binaire</div>
-            <input class="btn" type="button" value="oui">
-            <input class="btn" type="button" value="non">
-
-        <!--question five-->
-          <div class="questions-group-title">Réponse texte</div>
-          <div class="form-group">
-              <input class="form-control" type="text" value="" placeholder="votre taille" id="example-text-input">
-            </div>
-          </div>
-          </div>
-
-<!--Picture insert-->
-<div class="questions-group-title">Insérer un fichier</div>
-      <div class="form-group">
-      <label for="exampleInputFile">Insérez une photo</label>
-      <input type="file" id="exampleInputFile">
-    </div>
-
-    <!--informations-->
-    <div class="questions-group-title">Nom, mail</div>
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="exampleInputName2">Prénom</label>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Votre nom">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputName2">Nom</label>
-        <input type="text" class="form-control" id="exampleInputName2" placeholder="Votre prénom">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-      </div>
-      <div class="form-group">
-  <label for="example-password-input">Mot de passe</label>
-    <input class="form-control" type="password" value="" placeholder="votre mot de passe" id="example-password-input">
-  </div>
-</div>
-
-
-  </section>
 
       <!--FOOTER-->
       <footer id="anchor_footer_1" class="big_block">
