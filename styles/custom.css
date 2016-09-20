@@ -522,6 +522,8 @@ Story
 =============================================== */
 #storiesbloc.container-fluid{
 	background: #F7F8F9;
+	overflow: hidden;
+	height: 500px;
 }
 .carousel{
 	margin: 30px 0 80px 0;
@@ -536,7 +538,7 @@ p.person{
 p.stories{
 	text-align: center;
 	max-width: 50%;
-	margin: auto;
+	margin: 0 auto;
 }
 img.icon{
 	width: 10%;
@@ -901,6 +903,7 @@ h2.title-ban{
 }
 .pic-team{
 	max-width: 30%;
+	min-width: 300px;
 }
 /*=== Text section ===*/
 #team{
@@ -928,13 +931,21 @@ a.link-team:hover{
 }
 /*=== Logo section ===*/
 img.logo-team{
-	max-width: 20%;
-	margin: auto;
+	max-width: 200px;
+
+
 }
-.logohist{
-	background: url(../images/backlogo.png) fixed;
-	height: 150px;
-	background-size: cover;
+
+#logohist {
+	padding: 9em 0 9em 0 ;
+	background-color: none;
+	background-attachment: fixed;
+	background-image: url("../images/backlogo.png");
+	background-position: center;
+	background-size: auto;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
 }
 
 /*==============================================
