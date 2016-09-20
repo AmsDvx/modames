@@ -294,12 +294,12 @@ i#color-white-fa.fa.fa-circle-thin{
   padding: 0px 3px;
 }
 
-/* BRANDS QUESTION DESIGN */
+/* BRANDS FASHION STYLES DESIGN */
 /*for image*/
-img.brand{
+img.fashion-styles{
   border: 1px solid #333333;
-  border-radius: 10px;
-  max-height: 50px;
+  max-width: 70%;
+  margin: 10px;
 }
 /* PATTERN QUESTION DESIGN */
 /*for image*/
@@ -308,4 +308,13 @@ img.pattern{
   border-radius: 10px;
   height: 50px;
   width: 50px;
+}
+/*===================================
+Medium devices
+===================================*/
+@media (@screen-sm-min) and (max-width: @screen-sm-max) {
+  img.fashion-styles{
+    max-width: 100%;
+  }
+
 }
