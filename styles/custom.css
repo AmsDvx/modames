@@ -605,14 +605,18 @@ input{
 	color: #333333 !important;
 }
 ::-webkit-input-placeholder {
-  color: #f8a700;
+  color: #333333;
 	text-decoration: underline;
+	font-weight: 200;
 }
+
+
 .arrow{
 	background: none;
-	border: none;
+	border: 1px red;
 	color: #f8a700 !important;
-	font-size: 20px;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400 !important;
 }
 /* ==============================================
 Contact Us
@@ -829,8 +833,9 @@ h3.sh3{
 .text-price{
 	margin-top: -15px;
 }
-i#icon-price{
+#icon-price{
 	color: #40B8C7;
+	width: 16%!important;
 }
 
 /* RECAP SECTION */
