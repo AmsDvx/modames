@@ -26,11 +26,27 @@ label.label-text{
 }
 label.label-undertext{
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 10px;
 }
 .span-undertext{
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* SELECT AUTO DESIGN SIZE */
+select.form-control{
+  width: auto;
+}
+/* CHECK OR RADIO SEVERAL DESIGN */
+.inline-checkbox{
+  margin-bottom: 20px;
+}
+/* SELECT COMPLEX BLOC DESIGN */
+div.select-margin-complex{
+  margin-bottom: 20px;
 }
 /* CHECKBOX CHECK DESIGN*/
 /*To hide first check */
@@ -135,16 +151,19 @@ label.label-undertext{
 img.haircolor{
   border-radius: 100%;
   max-height: 50px;
+  margin-bottom: 20px;
 }
 /* COLOUR QUESTION DESIGN */
 /*for color's circles*/
 i#black-skin-fa.fa.fa-circle{
   color: #5C4438;
   font-size: 3em;
+  margin-bottom: 20px;
 }
 i#brown-skin-fa.fa.fa-circle{
   color: #975A36;
   font-size: 3em;
+  margin-bottom: 20px;
 }
 i#white-skin-fa.fa.fa-circle{
   color: #E1B892;
@@ -310,11 +329,56 @@ img.pattern{
   width: 50px;
 }
 /*===================================
-Medium devices
+Mobile device
 ===================================*/
-@media (@screen-sm-min) and (max-width: @screen-sm-max) {
-  img.fashion-styles{
-    max-width: 100%;
-  }
+@media screen and (max-width:767px){
+/* Put inline select bloc */
+select.form-control.inline-select{
+  display: inline-block;
+}
+/* Margin bewteen select bloc in mobile */
+select.form-control.select-margin{
+  margin-bottom: 20px;
+}
+/* Margin bewteen select bloc with text in mobile */
+select.form-control.select-margin-text{
+  margin-bottom: 20px;
+}
+/* Margin bewteen select bloc in mobile */
+div.checkbox-column{
+  display: flex;
+  flex-direction: column;
+}
+/* SELECT COMPLEX BLOC DESIGN */
+div.select-margin-complex{
+  display: flex;
+  align-items: center;
+}
+
+}
+/*===================================
+Tablet device
+===================================*/
+@media screen and (min-width:768px) and (max-width:991px) {
+/* Fashion styles question */
+img.fashion-styles{
+  max-width: 100%;
+}
+/* Margin bewteen select bloc with text in mobile */
+select.form-control.select-margin-text{
+  margin-bottom: 20px;
+}
+
+
+
+}
+/*===================================
+Tablet & Desktop devices
+===================================*/
+@media screen and (min-width:768px){
+/* Birth question */
+select.form-control.select-birth{
+margin-right: 20px;
+}
 
 }

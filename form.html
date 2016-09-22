@@ -112,7 +112,7 @@
             <fieldset class="row question-block">
               <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <label class="question">Date de naissance</label>
-                <select class="form-control" name="">
+                <select class="form-control select-margin" name="">
                   <option value="">Jour</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -147,7 +147,7 @@
                   <option value="30">30</option>
                   <option value="31">31</option>
                 </select>
-                <select class="form-control" name="">
+                <select class="form-control select-margin" name="">
                   <option value="">Mois</option>
                   <option value="1">Janvier</option>
                   <option value="2">Février</option>
@@ -163,7 +163,7 @@
                   <option value="12">Décembre</option>
                 </select>
 
-                <select class="form-control" name="">
+                <select class="form-control select-margin" name="">
                   <option value="">Année</option>
                   <option value="2003">2003</option>
                   <option value="2002">2002</option>
@@ -246,8 +246,8 @@
             <!--ABOUT SIZE-->
             <fieldset class="row question-block">
               <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <label class="question" style="display:block">Votre taille</label>
-                  <select class="form-control" name="">
+                  <label class="question">Votre taille</label>
+                  <select class="form-control inline-select" name="">
                     <option value=""></option>
                     <option value="145">145</option>
                     <option value="146">146</option>
@@ -315,7 +315,7 @@
               <fieldset class="row question-block">
                 <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <label class="question" style="display:block">Votre poids</label>
-                    <select class="form-control" name="">
+                    <select class="form-control inline-select" name="">
                       <option value=""></option>
                       <option value="40">40</option>
                       <option value="41">41</option>
@@ -375,9 +375,9 @@
                 </fieldset>
                 <!--ABOUT BRA SIZE-->
                 <fieldset class="row question-block">
-                  <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <label class="question" style="display:block">Votre taille de poitrine</label>
-                      <select class="form-control" name="">
+                  <div class="row form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <label class="question">Votre taille de poitrine</label>
+                      <select class="form-control inline-select" name="">
                         <option value=""></option>
                         <option value="75">75</option>
                         <option value="80">80</option>
@@ -389,7 +389,7 @@
                         <option value="110">110</option>
                         <option value="115">115</option>
                       </select>
-                      <select class="form-control" name="">
+                      <select class="form-control inline-select" name="">
                         <option value=""></option>
                         <option value="A">A</option>
                         <option value="B">B</option>
@@ -407,6 +407,7 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">La couleur de vos cheveux</legend>
+
                         <input class="circlecolor"id="black-hair" type="radio" name="hair"/>
                         <label for="black-hair"><img class="haircolor" src="images/form/hair/black.jpg"></i></label>
 
@@ -431,18 +432,20 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">La couleur de vos yeux</legend>
-                      <input id="brown-eyes" type="radio" name="eyes"/>
-                      <label class="label-text" for="brown-eyes">Marron</label>
-                      <input id="green-eyes" type="radio" name="eyes"/>
-                      <label class="label-text" for="green-eyes">Vert</label>
-                      <input id="blue-eyes" type="radio" name="eyes"/>
-                      <label class="label-text" for="blue-eyes">Bleu</label>
-                      <input id="black-eyes" type="radio" name="eyes"/>
-                      <label class="label-text" for="black-eyes">Noir</label>
-                      <input id="grey-eyes" type="radio" name="eyes"/>
-                      <label class="label-text" for="grey-eyes">Gris</label>
+                        <div class="checkbox-column">
+                          <input id="brown-eyes" type="radio" name="eyes"/>
+                          <label class="label-text" for="brown-eyes">Marron</label>
+                          <input id="green-eyes" type="radio" name="eyes"/>
+                          <label class="label-text" for="green-eyes">Vert</label>
+                          <input id="blue-eyes" type="radio" name="eyes"/>
+                          <label class="label-text" for="blue-eyes">Bleu</label>
+                          <input id="black-eyes" type="radio" name="eyes"/>
+                          <label class="label-text" for="black-eyes">Noir</label>
+                          <input id="grey-eyes" type="radio" name="eyes"/>
+                          <label class="label-text" for="grey-eyes">Gris</label>
+                      </div>
                     </div>
-                    </fieldset>
+                  </fieldset>
                   <!--ABOUT SKIN COLOR-->
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -476,6 +479,7 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">Quelle(s) longueurs de robes évitez-vous ?</legend>
+                      <div class="checkbox-column">
                         <input id="short-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="short-dress">Courte</label>
                         <input id="thigh-dress" type="checkbox" name="dresses-length"/>
@@ -486,8 +490,9 @@
                         <label class="label-text" for="calves-dress">Mi-mollets</label>
                         <input id="ankle-dresses" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="ankle-dresses">Aux chevilles</label>
+                      </div>
                     </div>
-                    </fieldset>
+                  </fieldset>
                     <!--ABOUT TOPS SIZE-->
                   <fieldset class="row question-block">
                     <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -507,6 +512,7 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Comment préfèrez-vous porter les vêtements sur le haut de votre corps ?</legend>
+                        <div class="checkbox-column">
                           <input id="skinny-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="skinny-top">Moulants</label>
                           <input id="ajusted-top" type="checkbox" name="tops-style"/>
@@ -517,145 +523,154 @@
                           <label class="label-text" for="large-top">Larges</label>
                           <input id="pluslarge-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="pluslarge-top">Très larges</label>
+                        </div>
                       </div>
-                      </fieldset>
+                    </fieldset>
                       <!--ABOUT PANTS SIZE-->
                     <fieldset class="row question-block">
-                      <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Quelle taille de pantalons / jupes portez-vous ?</legend>
                         <!--Pants-->
-                        <div class="col-md-6">
-                        <label class="label-undertext">Pantalons</label>
-                          <select class="form-control" name="">
-                            <option value=""></option>
-                            <option value="1">34</option>
-                            <option value="2">36</option>
-                            <option value="3">38</option>
-                            <option value="4">40</option>
-                            <option value="5">42</option>
-                            <option value="6">44</option>
-                          </select>
-                        </div>
-                        <!--Skirts-->
-                        <div class="col-md-6">
-                        <label class="label-undertext">Jupes</label>
-                          <select class="form-control" name="">
-                            <option value=""></option>
-                            <option value="1">34</option>
-                            <option value="2">36</option>
-                            <option value="3">38</option>
-                            <option value="4">40</option>
-                            <option value="5">42</option>
-                            <option value="6">44</option>
-                          </select>
-                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                              <label class="label-undertext">Pantalons</label>
+                                  <select class="form-control inline-select select-margin" name="">
+                                    <option value=""></option>
+                                    <option value="1">34</option>
+                                    <option value="2">36</option>
+                                    <option value="3">38</option>
+                                    <option value="4">40</option>
+                                    <option value="5">42</option>
+                                    <option value="6">44</option>
+                                  </select>
+                          </div>
+                                <!--Skirts-->
+                                  <div class="col-sm-6 col-xs-12">
+                                    <label class="label-undertext">Jupes</label>
+                                      <select class="form-control inline-select select-margin" name="">
+                                        <option value=""></option>
+                                        <option value="1">34</option>
+                                        <option value="2">36</option>
+                                        <option value="3">38</option>
+                                        <option value="4">40</option>
+                                        <option value="5">42</option>
+                                        <option value="6">44</option>
+                                  </select>
+                                </div>
+
                       </div>
                     </fieldset>
 
                     <!--ABOUT JEANS SIZE-->
                     <fieldset class="row question-block">
-                      <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Quelle taille de jeans portez-vous ?</legend>
                         <!--Size-->
-                        <div class="col-md-6">
-                        <label class="label-undertext">Taille</label>
-                        <select class="form-control" name="">
-                          <option value=""></option>
-                          <option value="1">23</option>
-                          <option value="2">24</option>
-                          <option value="3">25</option>
-                          <option value="4">26</option>
-                          <option value="5">27</option>
-                          <option value="6">28</option>
-                          <option value="7">29</option>
-                          <option value="8">30</option>
-                          <option value="9">31</option>
-                          <option value="10">32</option>
-                          <option value="11">33</option>
-                          <option value="12">34</option>
-                        </select>
+                        <div class="col-sm-6 col-xs-12">
+                          <label class="label-undertext">Taille</label>
+                          <select class="form-control inline-select select-margin" name="">
+                            <option value=""></option>
+                            <option value="1">23</option>
+                            <option value="2">24</option>
+                            <option value="3">25</option>
+                            <option value="4">26</option>
+                            <option value="5">27</option>
+                            <option value="6">28</option>
+                            <option value="7">29</option>
+                            <option value="8">30</option>
+                            <option value="9">31</option>
+                            <option value="10">32</option>
+                            <option value="11">33</option>
+                            <option value="12">34</option>
+                          </select>
                         </div>
                         <!--Length-->
-                        <div class="col-md-6">
-                        <label class="label-undertext">Longueur</label>
-                        <select class="form-control" name="">
-                          <option value=""></option>
-                          <option value="1">30</option>
-                          <option value="2">32</option>
-                          <option value="3">34</option>
-                          <option value="4">36</option>
-                        </select>
+                        <div class="col-sm-6 col-xs-12">
+                          <label class="label-undertext">Longueur</label>
+                          <select class="form-control inline-select select-margin" name="">
+                            <option value=""></option>
+                            <option value="1">30</option>
+                            <option value="2">32</option>
+                            <option value="3">34</option>
+                            <option value="4">36</option>
+                          </select>
                         </div>
-                        </div>
-                      </fieldset>
+
+                      </div>
+                    </fieldset>
 
                         <!--ABOUT PANTS STYLE-->
                         <fieldset class="row question-block">
                           <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <legend class="question">Quelles coupes de pantalons et jeans préfèrez-vous ?</legend>
                             <!--Pants-->
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <span class="span-undertext">Pantalons</span>
-                              <input id="up-size" type="checkbox" name="pants-size"/>
-                              <label class="label-text" for="up-size">Taille haute</label>
-                              <input id="middle-size" type="checkbox" name="pants-size"/>
-                              <label class="label-text" for="middle-size">Taille moyenne</label>
-                              <input id="down-size" type="checkbox" name="pants-size"/>
-                              <label class="label-text" for="down-size">Taille basse</label>
-
+                            <div class="inline-checkbox col-sm-12 col-xs-12">
+                            <span class="span-undertext">PANTALONS</span>
+                              <div class="checkbox-column">
+                                <input id="up-size" type="checkbox" name="pants-size"/>
+                                <label class="label-text" for="up-size">Taille haute</label>
+                                <input id="middle-size" type="checkbox" name="pants-size"/>
+                                <label class="label-text" for="middle-size">Taille moyenne</label>
+                                <input id="down-size" type="checkbox" name="pants-size"/>
+                                <label class="label-text" for="down-size">Taille basse</label>
+                              </div>
                             </div>
                             <!--Jeans-->
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <span class="span-undertext">Jeans</span>
-                              <input id="slim-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="slim-pant">Slim</label>
-                              <input id="bootcut-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="bootcut-pant">Bootcut</label>
-                              <input id="tight-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="tight-pant">Étroit</label>
-                              <input id="l-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="l-pant">Évasé</label>
+                            <div class="inline-checkbox col-sm-12 col-xs-12">
+                            <span class="span-undertext">JEANS</span>
+                              <div class="checkbox-column">
+                                  <input id="slim-pant" type="checkbox" name="skirts-style"/>
+                                  <label class="label-text" for="slim-pant">Slim</label>
+                                  <input id="bootcut-pant" type="checkbox" name="skirts-style"/>
+                                  <label class="label-text" for="bootcut-pant">Bootcut</label>
+                                  <input id="tight-pant" type="checkbox" name="skirts-style"/>
+                                  <label class="label-text" for="tight-pant">Étroit</label>
+                                  <input id="l-pant" type="checkbox" name="skirts-style"/>
+                                  <label class="label-text" for="l-pant">Évasé</label>
+                              </div>
                             </div>
 
                           </div>
-                          </fieldset>
+                        </fieldset>
                       <!--ABOUT PANTS LENGTH-->
                       <fieldset class="row question-block">
                         <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <legend class="question">Comment préfèrez-vous porter les vêtements en bas du corps ?</legend>
                           <!--Pants-->
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <span class="span-undertext">Pantalons</span>
-                            <input id="skinny-pant" type="checkbox" name="pants-style"/>
-                            <label class="label-text" for="skinny-pant">Moulants</label>
-                            <input id="ajusted-pant" type="checkbox" name="pants-style"/>
-                            <label class="label-text" for="ajusted-pant">Ajustés</label>
-                            <input id="straight-pant" type="checkbox" name="pants-style"/>
-                            <label class="label-text" for="straight-pant">Droit</label>
-                            <input id="large-pant" type="checkbox" name="pants-style"/>
-                            <label class="label-text" for="large-pant">Larges</label>
+                          <div class="inline-checkbox col-sm-12 col-xs-12">
+                            <span class="span-undertext">Pantalons</span>
+                              <div class="checkbox-column">
+                                <input id="skinny-pant" type="checkbox" name="pants-style"/>
+                                <label class="label-text" for="skinny-pant">Moulants</label>
+                                <input id="ajusted-pant" type="checkbox" name="pants-style"/>
+                                <label class="label-text" for="ajusted-pant">Ajustés</label>
+                                <input id="straight-pant" type="checkbox" name="pants-style"/>
+                                <label class="label-text" for="straight-pant">Droit</label>
+                                <input id="large-pant" type="checkbox" name="pants-style"/>
+                                <label class="label-text" for="large-pant">Larges</label>
+                              </div>
                           </div>
                           <!--Skirts-->
-                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <span class="span-undertext">Jupes</span>
-                            <input id="skinny-pant" type="checkbox" name="skirts-style"/>
-                            <label class="label-text" for="skinny-pant">Moulants</label>
-                            <input id="ajusted-pant" type="checkbox" name="skirts-style"/>
-                            <label class="label-text" for="ajusted-pant">Ajustés</label>
-                            <input id="straight-pant" type="checkbox" name="skirts-style"/>
-                            <label class="label-text" for="straight-pant">Droit</label>
-                            <input id="large-pant" type="checkbox" name="skirts-style"/>
-                            <label class="label-text" for="large-pant">Larges</label>
-                          </div>
-
+                          <div class="inline-checkbox col-sm-12 col-xs-12">
+                            <span class="span-undertext">Jupes</span>
+                            <div class="checkbox-column">
+                              <input id="skinny-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="skinny-pant">Moulants</label>
+                              <input id="ajusted-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="ajusted-pant">Ajustés</label>
+                              <input id="straight-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="straight-pant">Droit</label>
+                              <input id="large-pant" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="large-pant">Larges</label>
+                            </div>
                         </div>
-                        </fieldset>
+                      </div>
+                    </fieldset>
                         <!--ABOUT SHOE SIZE-->
                         <fieldset class="row question-block">
                           <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label class="question">Quelle est votre pointure / forme de pied ?</label>
                             <!--Size-->
-                              <select class="form-control" name="">
+                              <select class="form-control inline-select" name="">
                                 <option value=""></option>
                                 <option value="1">35</option>
                                 <option value="2">36</option>
@@ -668,7 +683,7 @@
                                 <option value="9">43</option>
                               </select>
                               <!--Width-->
-                                <select class="form-control" name="">
+                                <select class="form-control inline-select" name="">
                                   <option value=""></option>
                                   <option value="1">Étroit</option>
                                   <option value="2">Normal</option>
@@ -681,9 +696,9 @@
                             <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Que préfèrez-vous en matière de chaussures ?</legend>
                               <!--Size-->
-                              <div class="col-md-6">
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <label class="label-undertext">Plates</label>
-                              <select class="form-control" name="">
+                              <select class="form-control select-margin-text inline-select" name="">
                                 <option value=""></option>
                                 <option value="1">Tout le temps !</option>
                                 <option value="2">Régulièrement</option>
@@ -693,9 +708,9 @@
                               </select>
                               </div>
                               <!--Length-->
-                              <div class="col-md-6">
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <label class="label-undertext">Talons</label>
-                              <select class="form-control" name="">
+                              <select class="form-control select-margin-text inline-select" name="">
                                 <option value=""></option>
                                 <option value="1">Tout le temps !</option>
                                 <option value="2">Régulièrement</option>
@@ -712,67 +727,80 @@
                           <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <legend class="question">Comment caractérisez-vous vos proportions ?</legend>
                             <!--Shoulders-->
-                            <div class="col-md-4">
-                            <label class="label-undertext">Épaules</label>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="select-margin-complex">
+                                <label class="label-undertext">Épaules</label>
+                                  <select class="form-control" name="">
+                                    <option value=""></option>
+                                    <option value="1">Étroites</option>
+                                    <option value="2">Moyennes</option>
+                                    <option value="3">larges</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <!--Arms-->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="select-margin-complex">
+                                <label class="label-undertext">Bras</label>
+                                <select class="form-control" name="">
+                                  <option value=""></option>
+                                  <option value="1">Petit</option>
+                                  <option value="2">Moyen</option>
+                                  <option value="3">Large</option>
+                                </select>
+                              </div>
+                            </div>
+                            <!--Chest-->
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                              <div class="select-margin-complex">
+                                <label class="label-undertext">Buste</label>
+                                <select class="form-control" name="">
+                                  <option value=""></option>
+                                  <option value="1">Petit</option>
+                                  <option value="2">Moyen</option>
+                                  <option value="3">Long</option>
+                                </select>
+                            </div>
+                          </div>
+                          <!--Hips-->
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="select-margin-complex">
+                              <label class="label-undertext">Hanches</label>
                               <select class="form-control" name="">
                                 <option value=""></option>
                                 <option value="1">Étroites</option>
                                 <option value="2">Moyennes</option>
-                                <option value="3">larges</option>
+                                <option value="3">Larges</option>
                               </select>
                             </div>
-                            <!--Arms-->
-                            <div class="col-md-4">
-                            <label class="label-undertext">Bras</label>
-                            <select class="form-control" name="">
-                              <option value=""></option>
-                              <option value="1">Petit</option>
-                              <option value="2">Moyen</option>
-                              <option value="3">Large</option>
-                            </select>
-                            </div>
-                            <!--Chest-->
-                            <div class="col-md-4">
-                            <label class="label-undertext">Buste</label>
-                            <select class="form-control" name="">
-                              <option value=""></option>
-                              <option value="1">Petit</option>
-                              <option value="2">Moyen</option>
-                              <option value="3">Long</option>
-                            </select>
-                          </div>
-                          <!--Hips-->
-                          <div class="col-md-4">
-                          <label class="label-undertext">Hanches</label>
-                          <select class="form-control" name="">
-                            <option value=""></option>
-                            <option value="1">Étroites</option>
-                            <option value="2">Moyennes</option>
-                            <option value="3">Larges</option>
-                          </select>
                           </div>
                           <!--Legs-->
-                          <div class="col-md-4">
-                          <label class="label-undertext">Jambes</label>
-                          <select class="form-control" name="">
-                            <option value=""></option>
-                            <option value="1">Petites</option>
-                            <option value="2">Moyennes</option>
-                            <option value="3">Longues</option>
-                          </select>
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="select-margin-complex">
+                              <label class="label-undertext">Jambes</label>
+                              <select class="form-control" name="">
+                                <option value=""></option>
+                                <option value="1">Petites</option>
+                                <option value="2">Moyennes</option>
+                                <option value="3">Longues</option>
+                              </select>
+                            </div>
                           </div>
                           <!--Ass-->
-                          <div class="col-md-4">
-                          <label class="label-undertext">Fesses</label>
-                          <select class="form-control" name="">
-                            <option value=""></option>
-                            <option value="1">Plates</option>
-                            <option value="2">Moyennes</option>
-                            <option value="3">Rebondies</option>
-                          </select>
-                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="select-margin-complex">
+                              <label class="label-undertext">Fesses</label>
+                              <select class="form-control" name="">
+                                <option value=""></option>
+                                <option value="1">Plates</option>
+                                <option value="2">Moyennes</option>
+                                <option value="3">Rebondies</option>
+                              </select>
                             </div>
-                          </fieldset>
+                            </div>
+
+                          </div>
+                      </fieldset>
 
                           <!--ABOUT MORPHOLOGY TYPE-->
                           <fieldset class="row question-block">
