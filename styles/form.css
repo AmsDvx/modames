@@ -308,6 +308,7 @@ i#color-white-fa.fa.fa-circle-thin{
   opacity: 0; /* coche invisible */
   transform: scale(0); /* mise à l'échelle à 0 */
 }
+/* for checked */
 .color-circle[type="checkbox"]:checked + label{
   border: 2px solid #ff8b80;
   padding: 0px 3px;
@@ -323,10 +324,32 @@ img.fashion-styles{
 /* PATTERN QUESTION DESIGN */
 /*for image*/
 img.pattern{
-  border: 1px solid #333333;
-  border-radius: 10px;
-  height: 50px;
-  width: 50px;
+  width: 70%;
+}
+p.description-img{
+  margin: auto;
+}
+label.pattern-label{
+  text-align: center;
+}
+/* PATTERN CHECKING DESIGN */
+/*for delete left checking*/
+.pattern-check[type="checkbox"]:not(:checked) + label:before ,
+.pattern-check[type="checkbox"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+}
+/* design just for the check label after*/
+/* for no checked */
+.pattern-check[type="checkbox"]:checked + label:after,
+.pattern-check[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+/* for checked */
+.pattern-check[type="checkbox"]:checked + label{
+  border: 2px solid #ff8b80;
+  padding: auto;
 }
 /*===================================
 Mobile device
