@@ -200,6 +200,28 @@ i#pluswhite-skin-fa.fa.fa-circle{
 img.morpho{
   border: 1px solid #333333;
   border-radius: 10px;
+  max-width: 50%;
+}
+label.morpho-type{
+  padding: 0px !important;
+  margin-right: -50px;
+}
+.morpho-check[type="radio"]:not(:checked) + label:before,
+.morpho-check[type="radio"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+}
+
+/* design just for the check label after*/
+/* for no checked */
+.morpho-check[type="radio"]:checked + label:after,
+.morpho-check[type="radio"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+.morpho-check[type="radio"]:checked + label{
+  border: 2px solid #ff8b80;
+  padding: 0px 3px;
 }
 /* VIBES QUESTION DESIGN */
 /*for image*/
