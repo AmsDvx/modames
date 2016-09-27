@@ -198,13 +198,13 @@ i#pluswhite-skin-fa.fa.fa-circle{
 /* MORPHO QUESTION DESIGN */
 /*for image*/
 img.morpho{
-  border: 1px solid #333333;
-  border-radius: 10px;
   max-width: 50%;
 }
 label.morpho-type{
   padding: 0px !important;
   margin-right: -50px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 .morpho-check[type="radio"]:not(:checked) + label:before,
 .morpho-check[type="radio"]:checked + label:before{
@@ -223,31 +223,12 @@ label.morpho-type{
   border: 2px solid #ff8b80;
   padding: 0px 3px;
 }
-/* VIBES QUESTION DESIGN */
-/*for image*/
-img.vibes{
-  width: 100%;
-  border: 1px solid #333333;
-}
-/* IMG CHECKING DESIGN */
-/*for delete left checking*/
-.img-check[type="checkbox"]:not(:checked) + label:before,
-.img-check[type="checkbox"]:checked + label:before{
-  position: absolute;
-  left: -9999px;
 
+/* COMPLEX SHARING QUESTION DESIGN */
+textarea#complex-text.form-control{
+  width: 400px;
 }
-/* design just for the check label after*/
-/* for no checked */
-.img-check[type="checkbox"]:checked + label:after,
-.img-check[type="checkbox"]:not(:checked) + label:after {
-  opacity: 0; /* coche invisible */
-  transform: scale(0); /* mise à l'échelle à 0 */
-}
-.img-check[type="checkbox"]:checked + label{
-  border: 2px solid #ff8b80;
-  padding: 0px 3px;
-}
+
 
 /* COLOUR QUESTION DESIGN */
 /*for color's circles*/
@@ -339,10 +320,17 @@ i#color-white-fa.fa.fa-circle-thin{
 /* BRANDS FASHION STYLES DESIGN */
 /*for image*/
 img.fashion-styles{
-  border: 1px solid #333333;
-  max-width: 70%;
-  margin: 10px;
+  max-width: 90%;
+  margin-top: 10px;
 }
+/*for slect wear it*/
+div.form-inline.wear-it{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
 /* PATTERN QUESTION DESIGN */
 /*for image*/
 img.pattern{
@@ -377,6 +365,10 @@ label.pattern-label{
 Mobile device
 ===================================*/
 @media screen and (max-width:767px){
+/* QUESTION BLOC DESIGN*/
+fieldset.row.question-block{
+  width: 100%;
+}
 /* Put inline select bloc */
 select.form-control.inline-select{
   display: inline-block;
@@ -389,7 +381,7 @@ select.form-control.select-margin{
 select.form-control.select-margin-text{
   margin-bottom: 20px;
 }
-/* Margin bewteen select bloc in mobile */
+/* Put checkbox bloc in column in mobile */
 div.checkbox-column{
   display: flex;
   flex-direction: column;
@@ -399,12 +391,36 @@ div.select-margin-complex{
   display: flex;
   align-items: center;
 }
+/* BRANDS FASHION STYLES DESIGN */
+/*for image*/
+img.fashion-styles{
+  max-width: 100%;
+}
+/* COMPLEX SHARING QUESTION DESIGN */
+textarea#complex-text.form-control{
+  width: 300px;
+}
+/* SPECIAL OCCASION QUESTION DESIGN */
+/*for mobile*/
+div.select-margin-complex.special-occasion{
+  display: block;
+}
+
 
 }
 /*===================================
 Tablet device
 ===================================*/
 @media screen and (min-width:768px) and (max-width:991px) {
+/* QUESTION BLOC DESIGN*/
+fieldset.row.question-block{
+  width: 90%;
+}
+/* Put checkbox type2 bloc in column in mobile */
+div.checkbox-column-large{
+  display: flex;
+  flex-direction: column;
+}
 /* Fashion styles question */
 img.fashion-styles{
   max-width: 100%;
@@ -413,8 +429,6 @@ img.fashion-styles{
 select.form-control.select-margin-text{
   margin-bottom: 20px;
 }
-
-
 
 }
 /*===================================
