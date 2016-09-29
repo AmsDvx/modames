@@ -699,37 +699,49 @@ HOW IT WORKS PAGE
 ===============================================*/
 /* EXPLAIN SECTION */
 .explain{
-	margin: 120px auto 80px auto;
+	margin: 150px auto 80px auto;
+
 }
 .title-explain-intro{
-	font-weight: bold;
-	font-size: 1.5em;
-	margin-bottom: 50px;
+	font-weight: lighter;;
+	font-size: 3em;
+	margin-bottom: 100px;
 }
 
 .title-explain{
 	font-weight: bold;
-	font-size: 1em;
-	color: #333333
-}
-.undertitle{
-	font-weight: 200;
-	font-size: 0.8em;
+	font-size: 1.4em;
 	color: #333333;
-	margin-top: -15px;
+}
+p.bloc-text{
+	font-weight: 300;
+	font-size: 1em;
+	color: #333333;
+	padding-top: -15px;
+	width:80%;
+	margin: auto;
+	line-height: normal;
+}
+.bold-words{
+	font-weight: 400;
+	font-size: 1em;
+	color: #ff8b80;
+	padding-top: -15px;
+	width:80%;
+	margin: auto;
+	line-height: normal;
 }
 .text-explain{
 	font-weight: 200;
 	font-size: 0.9em;
 	color: #333333
 }
-.explain1, .explain2{
-	margin-bottom: 50px;
-}
+
 /* STEPS SECTION */
 
 .howit{
 	background-color: #F7F8F9;
+	padding-top: 80px;
 }
 .stepimg{
 	width: 80%;
