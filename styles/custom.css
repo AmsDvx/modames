@@ -846,14 +846,16 @@ h3.sh3{
 /* PRICE SECTION */
 #pricebloc.row{
 	margin: 80px auto;
+	padding-left:180px;
+	padding-right: 180px;
 }
 .title-price{
 	color: #333333;
-	font-weight: bold;
+	font-weight: 300;
 }
 .text-price{
 	color: #333333;
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 1em;
 }
 .title-price-intro{
@@ -867,6 +869,7 @@ h3.sh3{
 }
 .text-price{
 	margin-top: -15px;
+	padding-bottom:30px;
 }
 #icon-price{
 	color: #40B8C7;
