@@ -719,7 +719,6 @@ HOW IT WORKS PAGE
 .title-explain-intro{
 	font-weight: lighter;;
 	font-size: 3em;
-	margin-bottom: 100px;
 }
 
 .title-explain{
@@ -779,12 +778,21 @@ h2.st1{
 }
 p.sp1{
 	text-align: left;
-	font-weight: 200;
+	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
+#benefits{
+	text-align: center;
+	font-weight: 400;
+	color: #ff8b80;
+}
+
 h3.sh1{
 	text-align: left;
 	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 1.7em;
+	padding-bottom: 40px;
 }
 
 /* step 2 */
@@ -798,13 +806,16 @@ h3.sh1{
 	background-size: contain;
 }
 p.sp2{
-	text-align: right;
-	font-weight: 200;
+	text-align: left;
+	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
 h3.sh2{
-	text-align: right;
+	text-align: left;
 	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 1.7em;
+	padding-bottom: 40px;
 }
 /* step 3 */
 .row.stepbloc3{
@@ -818,12 +829,15 @@ h3.sh2{
 }
 p.sp3{
 	text-align: left;
-	font-weight: 200;
+	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
 h3.sh3{
 	text-align: left;
 	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 1.7em;
+	padding-bottom: 40px;
 }
 
 /* PRICE SECTION */
