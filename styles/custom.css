@@ -372,7 +372,7 @@ img.logo-slider-grey{
 	margin-top: 20px;
 }
 div.baseline{
-	font-size: 2em;
+	font-size: 1.7em;
 }
 .line-seperate{
 	position: relative;
@@ -385,6 +385,7 @@ div.mission{
 	font-size: 1.8em;
 	width: 80%;
 	margin: auto;
+	line-height: 30px;
 }
 section.slider{
 	background-image: url("../images/test-slider.jpg");
