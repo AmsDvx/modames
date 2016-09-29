@@ -27,13 +27,11 @@ label.label-text{
 label.label-undertext{
   font-size: 1em;
   font-weight: 300;
-  text-transform: uppercase;
   margin-right: 10px;
 }
 .span-undertext{
   font-size: 1em;
   font-weight: 300;
-  text-transform: uppercase;
 }
 
 /* SELECT AUTO DESIGN SIZE */
@@ -226,11 +224,16 @@ label.morpho-type{
 
 /* COMPLEX SHARING QUESTION DESIGN */
 textarea#complex-text.form-control{
-  width: 400px;
+  width: 200%;
+}
+/* ACCESSORIES PREFERENCES QUESTION DESIGN */
+/* for the allergy*/
+div.jewel-allergy{
+  margin-top: 20px;
 }
 
-
 /* COLOUR QUESTION DESIGN */
+
 /*for color's circles*/
 i#color-black-fa.fa.fa-circle{
   color: #000000;
@@ -329,8 +332,6 @@ div.form-inline.wear-it{
   margin-bottom: 10px;
 }
 
-
-
 /* PATTERN QUESTION DESIGN */
 /*for image*/
 img.pattern{
@@ -361,6 +362,24 @@ label.pattern-label{
   border: 2px solid #ff8b80;
   padding: auto;
 }
+
+/* SOCIAL QUESTION DESIGN */
+/*for  explaining texts*/
+p.helper-text{
+  margin: 0px;
+}
+/*for area social links*/
+input.form-control.social-link{
+  width: 60%;
+}
+/* OTHER COMMENT DESIGN */
+/*for  area comments*/
+textarea.form-control.comment-story{
+  width: 60%;
+  height: 150px;
+}
+
+
 /*===================================
 Mobile device
 ===================================*/
@@ -386,6 +405,16 @@ div.checkbox-column{
   display: flex;
   flex-direction: column;
 }
+/* Put checkbox type2 bloc in column in mobile */
+div.checkbox-column-large{
+  display: flex;
+  flex-direction: column;
+}
+/* Put answers in center in mobile */
+div.responsive-center{
+  text-align: center;
+}
+
 /* SELECT COMPLEX BLOC DESIGN */
 div.select-margin-complex{
   display: flex;
@@ -405,6 +434,21 @@ textarea#complex-text.form-control{
 div.select-margin-complex.special-occasion{
   display: block;
 }
+label.pattern-label{
+  padding: 0px !important;
+  margin-bottom: 20px;
+}
+/* SOCIAL QUESTION DESIGN */
+/*for  social links*/
+input.form-control.social-link{
+  width: 100%;
+}
+/* OTHER COMMENT DESIGN */
+/*for  area comments*/
+textarea.form-control.comment-story{
+  width: 100%;
+  height: 150px;
+}
 
 
 }
@@ -416,7 +460,7 @@ Tablet device
 fieldset.row.question-block{
   width: 90%;
 }
-/* Put checkbox type2 bloc in column in mobile */
+/* Put checkbox type2 bloc in column in tablet */
 div.checkbox-column-large{
   display: flex;
   flex-direction: column;

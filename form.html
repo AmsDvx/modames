@@ -604,7 +604,7 @@
                             <legend class="question">Quelles coupes de pantalons et jeans préfèrez-vous ?</legend>
                             <!--Pants-->
                             <div class="inline-checkbox col-sm-12 col-xs-12">
-                            <span class="span-undertext">PANTALONS</span>
+                            <span class="span-undertext">Pantalons</span>
                               <div class="checkbox-column">
                                 <input id="up-size" type="checkbox" name="pants-size"/>
                                 <label class="label-text" for="up-size">Taille haute</label>
@@ -616,7 +616,7 @@
                             </div>
                             <!--Jeans-->
                             <div class="inline-checkbox col-sm-12 col-xs-12">
-                            <span class="span-undertext">JEANS</span>
+                            <span class="span-undertext">Jeans</span>
                               <div class="checkbox-column">
                                   <input id="slim-pant" type="checkbox" name="skirts-style"/>
                                   <label class="label-text" for="slim-pant">Slim</label>
@@ -819,14 +819,14 @@
                                 <input class="morpho-check" id="eight" type="radio" name="morpho-type"/>
                                 <label class="morpho-type" for="eight"><img class="morpho" src="images/form/morpho/eight.png"></label>
                             </div>
-                            </fieldset>
+                          </fieldset>
                             <!--ABOUT COMPLEX-->
                             <fieldset class="row question-block">
                               <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <legend class="question">Un petit complexe à partager ?</legend>
                                   <div class="form-group">
                                     <label for="complex-text"></label>
-                                    <textarea class="form-control" rows="3" id="complex-text" placeholder="Racontez-nous"></textarea>
+                                    <textarea class="form-control" rows="3" id="complex-text" placeholder=""></textarea>
                                   </div>
                               </div>
                             </fieldset>
@@ -1516,7 +1516,7 @@
                                   <label class="label-text" for="no-linen">Lin</i></label>
                                   <input id="no-linen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-linen">Cachemire / Mohair</i></label>
-                              </div>    
+                              </div>
                             </div>
                           </fieldset>
                           <!--ABOUT FASHION BEHAVIOUR-->
@@ -1549,6 +1549,7 @@
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Quels styles cherchez-vous à intégrer dans votre garde-robe ?</legend>
+                              <div class="checkbox-column-large">
                                   <input id="bohem" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="bohem">Bohême</label>
                                   <input id="casual" type="checkbox" name="no-material"/>
@@ -1569,6 +1570,7 @@
                                   <label class="label-text" for="streetwear">Streetwear</i></label>
                                   <input id="retro" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="retro">Retro</i></label>
+                              </div>
                             </div>
                           </fieldset>
                           <!--ABOUT PIERCED EARS-->
@@ -1584,22 +1586,23 @@
                           <!--ABOUT JEWELRY PREFERENCES-->
                           <fieldset class="row question-block">
                             <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Vous préférez les accessoires...</legend>
-                              <select class="form-control" name="">
-                                <option value=""></option>
-                                <option value="1">Discrets</option>
-                                <option value="2">Voyants</option>
-                                <option value="3">Les deux</option>
-                              </select>
-                              <select class="form-control" name="">
-                                <option value=""></option>
-                                <option value="1">Argent</option>
-                                <option value="2">Or</option>
-                                <option value="3">Les deux</option>
-                              </select>
-                              <input id="both" type="radio" name="ears-pref"/>
-                              <label class="label-text" for="both">Je suis allérgique à certaines matières</label>
-
+                                <legend class="question">Vous préférez les accessoires...</legend>
+                                <select class="form-control inline-select select-margin" name="">
+                                  <option value=""></option>
+                                  <option value="1">Discrets</option>
+                                  <option value="2">Voyants</option>
+                                  <option value="3">Les deux</option>
+                                </select>
+                                <select class="form-control inline-select select-margin" name="">
+                                  <option value=""></option>
+                                  <option value="1">Argent</option>
+                                  <option value="2">Or</option>
+                                  <option value="3">Les deux</option>
+                                </select>
+                                <div class="jewel-allergy">
+                                  <input id="allergy" type="radio" name="ears-pref"/>
+                                  <label class="label-text" for="allergy">Je suis allérgique à certaines matières</label>
+                                </div>
                             </div>
                           </fieldset>
 
@@ -1607,6 +1610,7 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Quelles couleurs préférez-vous éviter ?</legend>
+                        <div class="responsive-center">
                           <input class="color-circle" id="color-black" type="checkbox" name="color"/>
                           <label for="color-black"><i class="fa fa-circle" id="color-black-fa" aria-hidden="true"></i></label>
 
@@ -1654,9 +1658,10 @@
 
                           <input class="color-circle" id="color-white" type="checkbox" name=""/>
                           <label  for="color-white"><i class="fa fa-circle-thin" id="color-white-fa" aria-hidden="true"></i></label>
+                        </div>
 
                       </div>
-                      </fieldset>
+                    </fieldset>
 
                     <!--ABOUT PATTERNS-->
                     <fieldset class="row question-block">
@@ -1696,15 +1701,18 @@
                         </div>
                         <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <label class="question"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</label>
-                          <input class="form-control" type="text" value="" name="" placeholder="https://www.instagram.com/_modames/">
+                          <p class="helper-text">Ex: https://www.instagram.com/_modames</p>
+                          <input class="form-control social-link" type="text" value="" name="" placeholder="">
                         </div>
                         <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <label class="question"><i class="fa fa-pinterest-square" aria-hidden="true"></i> Pinterest</label>
-                          <input class="form-control" type="text" value="" name="" placeholder="https://www.pinterest.com/modames/">
+                          <p class="helper-text">Ex: https://www.pinterest.com/modames/</p>
+                          <input class="form-control social-link" type="text" value="" name="" placeholder="">
                         </div>
                         <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <label class="question"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</label>
-                          <input class="form-control" type="text" value="" name="" placeholder="https://www.linkedin.com/modames/">
+                          <p class="helper-text">Ex: https://www.pinterest.com/modames/</p>
+                          <input class="form-control social-link" type="text" value="" name="" placeholder="">
                         </div>
                       </fieldset>
 
@@ -1712,7 +1720,8 @@
                   <fieldset class="row question-block">
                     <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <label class="question">Des précisions à nous confier ?</label>
-                            <textarea maxlength="500" class="form-control" placeholder="Bien que je m'habille très souvent avec des couleurs foncées, j'aimerai dynamiser mon look sans en faire de trop."></textarea>
+                            <p class="helper-text">Ex: Bien que je m'habille très souvent avec des couleurs foncées, j'aimerai dynamiser mon look sans en faire de trop.</p>
+                            <textarea maxlength="500" class="form-control comment-story" placeholder=""></textarea>
                           </div>
                     </div>
                   </fieldset>
