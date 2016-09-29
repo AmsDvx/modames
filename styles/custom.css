@@ -489,13 +489,15 @@ a:hover.link-price{
 	overflow: hidden;
 	position: relative;
 	text-align: center;
+	opacity: 0.8;
 }
 .benefit{
 	color: white;
-	font-weight: 400;
+	font-weight: 300;
   letter-spacing: 0.05em;
-	font-size: 1.2em;
+	font-size: 2.5em;
 	padding: 15px 0px;
+	line-height: 50px;
 
 }
 
