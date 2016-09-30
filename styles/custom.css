@@ -749,7 +749,7 @@ p.bold-words{
 	color: #ff8b80;
 	padding-top: -15px;
 	width:80%;
-	margin: -10px auto 5px auto;
+	margin: -10px auto 50px auto;
 	line-height: normal;
 }
 .text-explain{
@@ -778,25 +778,26 @@ h2.st1{
 .row.stepbloc1{
 	margin-bottom: 80px;
 }
-#num{
+#num1{
 	background: url("../images/steps/01.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
+
 p.sp1{
-	text-align: left;
+	text-align: center;
 	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
 #benefits{
 	text-align: center;
 	font-weight: 400;
-	color: #ff8b80;
+	color: #FF8B80;
 }
 
 h3.sh1{
-	text-align: left;
+	text-align: center;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 1.7em;
@@ -807,19 +808,19 @@ h3.sh1{
 .row.stepbloc2{
 	margin-bottom: 80px;
 }
-.row.stepbloc2{
+#num2{
 	background: url("../images/steps/02.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
 p.sp2{
-	text-align: left;
+	text-align: center;
 	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
 h3.sh2{
-	text-align: left;
+	text-align: center;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 1.7em;
@@ -829,19 +830,19 @@ h3.sh2{
 .row.stepbloc3{
 	margin-bottom: 80px;
 }
-.row.stepbloc3{
+#num3{
 	background: url("../images/steps/03.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
 p.sp3{
-	text-align: left;
+	text-align: center;
 	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
 h3.sh3{
-	text-align: left;
+	text-align: center;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 1.7em;
@@ -887,6 +888,9 @@ h3.sh3{
 }
 .lastbloc-p2{
 	margin: 50px auto;
+}
+.title-recap{
+		color: #333333;
 }
 
 /*==============================================
