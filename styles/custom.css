@@ -790,11 +790,6 @@ p.sp1{
 	font-weight: 300;
 	font-family: "Lato", sans-serif;
 }
-#benefits{
-	text-align: center;
-	font-weight: 400;
-	color: #FF8B80;
-}
 
 h3.sh1{
 	text-align: center;
@@ -887,7 +882,7 @@ h3.sh3{
 	margin: 80px auto;
 }
 .lastbloc-p2{
-	margin: 50px auto;
+	margin: 40px auto;
 }
 .title-recap{
 		color: #333333;
