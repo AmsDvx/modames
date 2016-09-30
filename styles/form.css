@@ -15,6 +15,12 @@ fieldset.row.question-block{
   background: white;
   box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.1);
 }
+/* INTRO PART QUESTION DESIGN */
+p.intro-part{
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #FF8B80;
+}
 /* QUESTION DESIGN */
 .question{
   font-size: 1.2em;
@@ -48,6 +54,11 @@ select.form-control{
 /* SELECT COMPLEX BLOC DESIGN */
 div.select-margin-complex{
   margin-bottom: 20px;
+}
+/* SELECT MARGIN FOR ALL DEVICES */
+.select-margin-always{
+  margin-bottom: 20px;
+  align-items: center;
 }
 /* CHECKBOX CHECK DESIGN*/
 /*To hide first check */
@@ -153,57 +164,88 @@ img.haircolor{
   border-radius: 100%;
   max-height: 50px;
   margin-bottom: 20px;
+  margin-top: 4px;
 }
-/* COLOUR QUESTION DESIGN */
-/*for color's circles*/
-i#black-skin-fa.fa.fa-circle{
-  color: #5C4438;
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-i#brown-skin-fa.fa.fa-circle{
-  color: #975A36;
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-i#white-skin-fa.fa.fa-circle{
-  color: #E1B892;
-  font-size: 3em;
-}
-i#pluswhite-skin-fa.fa.fa-circle{
-  color: #FDDBBA;
-  font-size: 3em;
-}
-
-/* FONT-AWESOME CIRCLE CHECKING DESIGN */
+/* FONT-AWESOME HAIR CIRCLE CHECKING DESIGN */
 /*for delete left checking*/
-.circlecolor[type="radio"]:not(:checked) + label:before,
-.circlecolor[type="radio"]:checked + label:before{
+.circle-haircolor[type="radio"]:not(:checked) + label:before,
+.circle-haircolor[type="radio"]:checked + label:before{
   position: absolute;
   left: -9999px;
 
 }
 /* design just for the check label after*/
 /* for no checked */
-.circlecolor[type="radio"]:checked + label:after,
-.circlecolor[type="radio"]:not(:checked) + label:after {
+.circle-haircolor[type="radio"]:checked + label:after,
+.circle-haircolor[type="radio"]:not(:checked) + label:after {
   opacity: 0; /* coche invisible */
   transform: scale(0); /* mise à l'échelle à 0 */
 }
-.circlecolor[type="radio"]:checked + label{
-  border: 2px solid #ff8b80;
-  border-radius: 100%;
-  padding: 0px 3px;
+.circle-haircolor[type="radio"]:checked + label{
+  background-image: url("../images/form/checking-circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 58px;
+  }
+
+/* COLOUR QUESTION DESIGN */
+/*for color's circles*/
+i#black-skin-fa.fa.fa-circle{
+  color: #5C4438;
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin-top: 2px;
 }
+i#brown-skin-fa.fa.fa-circle{
+  color: #975A36;
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+i#white-skin-fa.fa.fa-circle{
+  color: #E1B892;
+  font-size: 3em;
+  margin-top: 2px;
+}
+i#pluswhite-skin-fa.fa.fa-circle{
+  color: #FDDBBA;
+  font-size: 3em;
+  margin-top: 2px;
+}
+/* FONT-AWESOME CIRCLE CHECKING DESIGN */
+/*for delete left checking*/
+.circle-skincolor[type="radio"]:not(:checked) + label:before,
+.circle-skincolor[type="radio"]:checked + label:before{
+  position: absolute;
+  left: -9999px;
+
+}
+/* design just for the check label after*/
+/* for no checked */
+.circle-skincolor[type="radio"]:checked + label:after,
+.circle-skincolor[type="radio"]:not(:checked) + label:after {
+  opacity: 0; /* coche invisible */
+  transform: scale(0); /* mise à l'échelle à 0 */
+}
+.circle-skincolor[type="radio"]:checked + label{
+  background-image: url("../images/form/checking-circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 46px;
+  }
+
 
 /* MORPHO QUESTION DESIGN */
 /*for image*/
 img.morpho{
-  max-width: 50%;
+  max-width: 100%;
+  margin: 2px 10px 20px 10px;
+
 }
 label.morpho-type{
   padding: 0px !important;
-  margin-right: -50px;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -221,8 +263,11 @@ label.morpho-type{
   transform: scale(0); /* mise à l'échelle à 0 */
 }
 .morpho-check[type="radio"]:checked + label{
-  border: 2px solid #ff8b80;
-  padding: 0px 3px;
+  background-image: url("../images/form/morpho/checking-morpho.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 132px;
 }
 
 /* COMPLEX SHARING QUESTION DESIGN */
@@ -368,6 +413,10 @@ label.pattern-label{
 }
 
 /* SOCIAL QUESTION DESIGN */
+/*for  margin bloc*/
+label.question.social-bloc{
+  margin-top: 10px;
+}
 /*for  explaining texts*/
 p.helper-text{
   margin: 0px;
@@ -382,6 +431,7 @@ textarea.form-control.comment-story{
   width: 60%;
   height: 150px;
 }
+
 
 
 /*===================================
