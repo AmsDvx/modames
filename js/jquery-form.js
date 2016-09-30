@@ -1,8 +1,8 @@
-/* testing code*/
+/* ABOUT NO MATERIAL ARTICLES 2 choices maximum*/
 $(function(){
-  $("input.qfour").change(function(){
+  $("input.limit-two").change(function(){
       limit=2;
-      nb=$("input.qfour:checked").length;
+      nb=$("input.limit-two:checked").length;
       if(nb>limit){
         $(this).attr("checked", false);
       }

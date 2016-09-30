@@ -96,13 +96,15 @@
       </nav>
     </header>
 <!--INTRO-->
-<section class="intro-form">
-  <div class="container">
-    <h1>Bienvenue !</h1>
-    <p>Bienvenue ! Nous sommes ravis de concocter une sélection rien que pour vous !
-      Confiez-nous vos envies, vos goûts, vos mensurations, en bref tout ce qui nous permet d'en savoir plus sur ce que vous aimez.
-      Promis, ça reste entre nous !</p>
-    <p>Nos tailles vont du XS au XL.</p>
+<section>
+  <div class="container intro-form">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p class="big-title">Bienvenue !</p>
+      <p class="intro-description">Nous sommes ravis de concocter une sélection rien que pour vous !
+        <br>Confiez-nous vos envies, vos goûts, vos mensurations, en bref tout ce qui nous permet d'en savoir plus sur ce que vous aimez.
+        <br>Promis, ça reste entre nous !</p>
+      <p class="intro-info">Nos tailles vont du 36 au 42.</p>
+    </div>
   </div>
 </section>
 
@@ -479,6 +481,7 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">Quelle(s) longueurs de robes évitez-vous ?</legend>
+                      <p class="optional-description">Plusieurs choix possibles</p>
                       <div class="checkbox-column">
                         <input id="short-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="short-dress">Courte</label>
@@ -512,6 +515,7 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Comment préfèrez-vous porter les vêtements sur le haut de votre corps ?</legend>
+                        <p class="optional-description">Plusieurs choix possibles</p>
                         <div class="checkbox-column">
                           <input id="skinny-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="skinny-top">Moulants</label>
@@ -602,6 +606,7 @@
                         <fieldset class="row question-block">
                           <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <legend class="question">Quelles coupes de pantalons et jeans préfèrez-vous ?</legend>
+                            <p class="optional-description">Plusieurs choix possibles</p>
                             <!--Pants-->
                             <div class="inline-checkbox col-sm-12 col-xs-12">
                             <span class="span-undertext">Pantalons</span>
@@ -653,14 +658,14 @@
                           <div class="inline-checkbox col-sm-12 col-xs-12">
                             <span class="span-undertext">Jupes</span>
                             <div class="checkbox-column">
-                              <input id="skinny-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="skinny-pant">Moulants</label>
-                              <input id="ajusted-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="ajusted-pant">Ajustés</label>
-                              <input id="straight-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="straight-pant">Droit</label>
-                              <input id="large-pant" type="checkbox" name="skirts-style"/>
-                              <label class="label-text" for="large-pant">Larges</label>
+                              <input id="skinny-skirt" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="skinny-skirt">Moulants</label>
+                              <input id="ajusted-skirt" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="ajusted-skirt">Ajustés</label>
+                              <input id="straight-skirt" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="straight-skirt">Droit</label>
+                              <input id="large-skirt" type="checkbox" name="skirts-style"/>
+                              <label class="label-text" for="large-skirt">Larges</label>
                             </div>
                         </div>
                       </div>
@@ -1495,26 +1500,27 @@
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <legend class="question">Y a-t-il des tissus ou matériaux que vous ne souhaitez absolument pas dans votre sélection ?</legend>
+                              <p class="optional-description">2 choix maximum</p>
                               <div class="checkbox-column-large">
-                                  <input id="want-all2" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="want-all2" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="want-all2">Je veux de tout !</label>
-                                  <input id="no-leather" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-leather" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-leather">Cuir</label>
-                                  <input id="no-silk" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-silk" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-silk">Soie</label>
-                                  <input id="no-cotton" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-cotton" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-cotton">Coton</i></label>
-                                  <input id="no-woolen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-woolen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-woolen">Laine</i></label>
-                                  <input id="no-polyester" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-polyester" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-polyester">Polyester</i></label>
-                                  <input id="no-fur" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-fur" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-fur">Fourrure</i></label>
-                                  <input id="no-fakefur" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-fakefur" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-fakefur">Fausse fourrure</i></label>
-                                  <input id="no-linen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-linen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-linen">Lin</i></label>
-                                  <input id="no-linen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two" id="no-linen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-linen">Cachemire / Mohair</i></label>
                               </div>
                             </div>

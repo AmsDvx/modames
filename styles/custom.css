@@ -1131,15 +1131,7 @@ a:hover#contactstyle4{
 	color: #333333;
 }
 
-/*==============================================
-FORMS PAGE
-===============================================*/
-.intro-form{
-	margin: 120px auto 80px auto;
-}
-.testquestion{
-	width: 30%;
-}
+
 
 
 
@@ -1212,6 +1204,7 @@ div.whitebox{
 	position:relative;
 	margin: auto;
 	padding: 10px;
+	left: 0%;
 }
 div.mission{
 	font-size: 1.5em;
