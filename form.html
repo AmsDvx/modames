@@ -1624,6 +1624,7 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Quelles couleurs préférez-vous éviter ?</legend>
+                        <p class="optional-description">Plusieurs choix possibles</p>
                         <div class="responsive-center">
                           <input class="color-circle" id="color-black" type="checkbox" name="color"/>
                           <label for="color-black"><i class="fa fa-circle" id="color-black-fa" aria-hidden="true"></i></label>
@@ -1681,30 +1682,73 @@
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <legend class="question">Y a-t-il des motifs que vous souhaitez absolument éviter ?</legend>
-                          <input class="pattern-check" id="pattern-panther" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-panther"><p class="description-img">Animaux</p><img class="pattern" src="images/form/pattern/animal.png"></label>
+
+                        <p class="optional-description">Plusieurs choix possibles</p>
+                        <div class="row">
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Animaux</p>
+                          <input class="pattern-check" id="pattern-animal" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-animal"><img class="pattern" src="images/form/pattern/animal.png"></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Fleurs</p>
                           <input class="pattern-check" id="pattern-flowers" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-flowers"><p class="description-img">Fleurs</p><img class="pattern" src="images/form/pattern/flowers.png"></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Liberty</p><img class="pattern" src="images/form/pattern/liberty.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Rayures</p><img class="pattern" src="images/form/pattern/rayures.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Carreaux</p><img class="pattern" src="images/form/pattern/carreaux.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Panthère</p><img class="pattern" src="images/form/pattern/panther.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Graphique</p><img class="pattern" src="images/form/pattern/graphic.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Cachemire</p><img class="pattern" src="images/form/pattern/cachemire.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Écriture</p><img class="pattern" src="images/form/pattern/writing.png"></i></label>
-                          <input class="pattern-check" id="pattern-vegetal" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-vegetal"><p class="description-img">Pois</p><img class="pattern" src="images/form/pattern/peas.png"></i></label>
+                          <label class="pattern-label" for="pattern-flowers"><img class="pattern" src="images/form/pattern/flowers.png"></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Liberty</p>
+                          <input class="pattern-check" id="pattern-liberty" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-liberty"><img class="pattern" src="images/form/pattern/liberty.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Rayures</p>
+                          <input class="pattern-check" id="pattern-stripe" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-stripe"><img class="pattern" src="images/form/pattern/rayures.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Carreaux</p>
+                          <input class="pattern-check" id="pattern-tile" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-tile"><img class="pattern" src="images/form/pattern/carreaux.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Panthère</p>
+                          <input class="pattern-check" id="pattern-panther" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-panther"><img class="pattern" src="images/form/pattern/panther.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Graphique</p>
+                          <input class="pattern-check" id="pattern-graphic" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-graphic"><img class="pattern" src="images/form/pattern/graphic.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Cachemire</p>
+                          <input class="pattern-check" id="pattern-cashmere" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-cashmere"><img class="pattern" src="images/form/pattern/cachemire.png"></i></label>
+                        </div>
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Écriture</p>
+                          <input class="pattern-check" id="pattern-writing" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-writing"><img class="pattern" src="images/form/pattern/writing.png"></i></label>
+                        </div>
+
+
+                        <div class="col-md-2 col-sm- 2 col-xs-4 center">
+                          <p class="description-img">Pois</p>
+                          <input class="pattern-check" id="pattern-peas" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-peas"><img class="pattern" src="images/form/pattern/peas.png"></i></label>
+                        </div>
 
                       </div>
-                      </fieldset>
-
+                    </fieldset>
 
                       <!--ABOUT SOCIALS-->
                       <fieldset class="row question-block">

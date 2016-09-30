@@ -240,7 +240,7 @@ i#pluswhite-skin-fa.fa.fa-circle{
   margin-top: 2px;
 }
 
-/* FONT-AWESOME CIRCLE CHECKING DESIGN */
+/* FONT-AWESOME CIRCLE CHECKING SKIN DESIGN */
 /*for delete left checking*/
 .circle-skincolor[type="radio"]:not(:checked) + label:before,
 .circle-skincolor[type="radio"]:checked + label:before{
@@ -389,8 +389,11 @@ i#color-white-fa.fa.fa-circle-thin{
 }
 /* for checked */
 .color-circle[type="checkbox"]:checked + label{
-  border: 2px solid #ff8b80;
-  padding: 0px 3px;
+  background-image: url("../images/form/checking-circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 56px;
 }
 
 /* BRANDS FASHION STYLES DESIGN */
@@ -406,9 +409,16 @@ div.form-inline.wear-it{
 }
 
 /* PATTERN QUESTION DESIGN */
+div.pattern-bloc{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
 /*for image*/
 img.pattern{
-  width: 70%;
+  width: 100%;
+  padding-top: 6px;
 }
 p.description-img{
   margin: auto;
@@ -433,8 +443,11 @@ label.pattern-label{
 }
 /* for checked */
 .pattern-check[type="checkbox"]:checked + label{
-  border: 2px solid #ff8b80;
-  padding: auto;
+  background-image: url("../images/form/checking-circle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 84px;
 }
 
 /* SOCIAL QUESTION DESIGN */
