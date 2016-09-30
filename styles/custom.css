@@ -719,18 +719,20 @@ HOW IT WORKS PAGE
 ===============================================*/
 /* EXPLAIN SECTION */
 .explain{
-	margin: 150px auto 80px auto;
+	margin: 150px auto 10px auto;
 
 }
 .title-explain-intro{
 	font-weight: lighter;;
 	font-size: 3em;
+	margin-bottom: 100px;
 }
 
 .title-explain{
-	font-weight: bold;
-	font-size: 1.4em;
+	font-weight: 400;
+	font-size: 1em;
 	color: #333333;
+	text-transform: uppercase;
 }
 p.bloc-text{
 	font-weight: 300;
@@ -741,13 +743,13 @@ p.bloc-text{
 	margin: auto;
 	line-height: normal;
 }
-.bold-words{
-	font-weight: 400;
+p.bold-words{
+	font-weight: 300;
 	font-size: 1em;
 	color: #ff8b80;
 	padding-top: -15px;
 	width:80%;
-	margin: auto;
+	margin: -10px auto 5px auto;
 	line-height: normal;
 }
 .text-explain{
