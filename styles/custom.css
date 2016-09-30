@@ -436,6 +436,9 @@ a#slider-btn.btn.btn-order{
 /* ==============================================
 Step how it works
 =============================================== */
+section#ancre.workprocess{
+	margin: 80px auto;
+}
 .workprocess .container .icon:before{
 	background: none;
 }
