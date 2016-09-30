@@ -436,7 +436,7 @@ a#slider-btn.btn.btn-order{
 /* ==============================================
 Step how it works
 =============================================== */
-section#ancre.workprocess{
+section.workprocess{
 	margin: 80px auto;
 }
 .workprocess .container .icon:before{
@@ -1153,84 +1153,18 @@ a.go-top{
 }
 
 
-/* ==============================================
-Mobile and Tablet Screen
-=============================================== */
-@media screen and (max-width:991px) {
-.navbar .navbar-default{
-	background: none !important;
-}
-.navbar-collapse .navbar-nav li a{
- 	font-size: 0.8em;
- }
- .navbar-collapse .navbar-nav .btn-order{
- 	font-size: 0.8em;
- 	width: 95%;
- 	text-align: center;
- }
- .bann_caption {
- 	margin-top: none!important;
- }
 
- /*=== HOME PAGE ===*/
-/* Background texte blocs etapes */
-.slider .banner .bann_caption{
- 	z-index: 10;
- 	position: absolute;
-}
-
-/*Malle section */
-.carousel .product{
-	width: 60%;
-}
-.carousel-control .fa{
-	color:#FF8B80;
-	font-size: 2em;
-	text-shadow: none;
-
-/*=== HOW IT WORKS PAGE ===*/
-.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
-	background: none;
-}
-p.sp1, p.sp2, p.sp3{
-	text-align: left;
-	max-width: 50%;
-  margin: auto;
-}
-
-h3.sh1, h3.sh2, h3.sh3{
-	text-align: left;
-	max-width: 50%;
-	margin: auto;
-}
-
-/*=== FAQ PAGE ===*/
-/*FAQ bloc 2*/
-#two {
-	padding-top: 80px;
-}
-/*Bandeau FAQ*/
-#cool{
-	margin-top: 0px;
-}
-
-}
 /* ==============================================
 Little Mobile Screen
 =============================================== */
 @media screen and (max-width:650px) {
-.bann_caption h1{
-	font-size: 20px;
-	text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25); /* NICO */
+/*=== HOME PAGE ===*/
+/* Slider */
+
+
+img.icon-first{
+	width: 20%;
 }
-	.slide li {
-		display: block;
-		font-size: 13px;
-		margin: 0;
-	}
-	img.icon-first{
-		width: 20%;
-	}
 /*=== HOW IT WORKS PAGE ===*/
 .row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
 	background: none;
@@ -1268,8 +1202,18 @@ Mobile Screen
 @media screen and (max-width:767px) {
 /*=== HOME PAGE ===*/
 /*Slider*/
-.slide li {
-	color: white;
+.slider{
+	height: 420px !important;
+}
+div.whitebox{
+	width: 300px;
+	height: 300px !important;
+	position:relative;
+	margin: auto;
+	padding: 10px;
+}
+div.mission{
+	font-size: 1.5em;
 }
 /* Step */
 img.icon-first{
@@ -1325,6 +1269,65 @@ img.stepimg{
 
 }
 /* ==============================================
+Mobile and Tablet Screen
+=============================================== */
+@media screen and (max-width:991px) {
+.navbar .navbar-default{
+	background: none !important;
+}
+.navbar-collapse .navbar-nav li a{
+ 	font-size: 0.8em;
+ }
+ .navbar-collapse .navbar-nav .btn-order{
+ 	font-size: 0.8em;
+ 	width: 95%;
+ 	text-align: center;
+ }
+ .bann_caption {
+ 	margin-top: none!important;
+ }
+
+ /*=== HOME PAGE ===*/
+ .slider{
+ 	height: 500px;
+ }
+/*Malle section */
+.carousel .product{
+	width: 60%;
+}
+.carousel-control .fa{
+	color:#FF8B80;
+	font-size: 2em;
+	text-shadow: none;
+
+/*=== HOW IT WORKS PAGE ===*/
+.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
+	background: none;
+}
+p.sp1, p.sp2, p.sp3{
+	text-align: left;
+	max-width: 50%;
+  margin: auto;
+}
+
+h3.sh1, h3.sh2, h3.sh3{
+	text-align: left;
+	max-width: 50%;
+	margin: auto;
+}
+
+/*=== FAQ PAGE ===*/
+/*FAQ bloc 2*/
+#two {
+	padding-top: 80px;
+}
+/*Bandeau FAQ*/
+#cool{
+	margin-top: 0px;
+}
+
+}
+/* ==============================================
 Tablet and Desktop Screen
 =============================================== */
 @media screen and (min-width:768px) {
@@ -1376,17 +1379,12 @@ footer img{
 Desktop and Large Desktop Screen
 =============================================== */
 @media screen and (min-width:992px) {
-
+/*=== HOME PAGE ===*/
+section.slider{
+	height: 640px !important;
+}
 /*Footer*/
 footer img{
 	width: 60%;
-}
-}
-/* ==============================================
-Desktop and Large Desktop Screen
-=============================================== */
-@media screen and (min-width:992px) {
-.wrapper > header .container-fluid {
-	margin: 0 0px;
 }
 }
