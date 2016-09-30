@@ -767,82 +767,57 @@ p.bold-words{
 .stepimg{
 	width: 80%;
 }
-h2.st1{
-	margin: 80px;
+h3.step-title{
+	text-align: left;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 1.7em;
+	padding-bottom: 40px;
 }
-#steptext{
-	vertical-align: middle;
+.row.stepbloc{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+div.row.number{
+	display: inline-flex;
+	flex-direction: row;
+	margin: auto;
+}
+p.step-p{
+	text-align: left;
 }
 
 /* step 1 */
-.row.stepbloc1{
-	margin-bottom: 80px;
-}
+
 #num1{
 	background: url("../images/steps/01.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-}
-
-p.sp1{
-	text-align: center;
-	font-weight: 300;
-	font-family: "Lato", sans-serif;
-}
-
-h3.sh1{
-	text-align: center;
-	font-family: "Lato", sans-serif;
-	font-weight: lighter;
-	font-size: 1.7em;
-	padding-bottom: 40px;
+	width: 30%;
 }
 
 /* step 2 */
-.row.stepbloc2{
-	margin-bottom: 80px;
-}
+
 #num2{
 	background: url("../images/steps/02.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	width: 30%;
 }
-p.sp2{
-	text-align: center;
-	font-weight: 300;
-	font-family: "Lato", sans-serif;
-}
-h3.sh2{
-	text-align: center;
-	font-family: "Lato", sans-serif;
-	font-weight: lighter;
-	font-size: 1.7em;
-	padding-bottom: 40px;
-}
+
 /* step 3 */
-.row.stepbloc3{
-	margin-bottom: 80px;
-}
+
 #num3{
 	background: url("../images/steps/03.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	width: 30%;
 }
-p.sp3{
-	text-align: center;
-	font-weight: 300;
-	font-family: "Lato", sans-serif;
-}
-h3.sh3{
-	text-align: center;
-	font-family: "Lato", sans-serif;
-	font-weight: lighter;
-	font-size: 1.7em;
-	padding-bottom: 40px;
-}
+
 
 /* PRICE SECTION */
 #pricebloc.row{
