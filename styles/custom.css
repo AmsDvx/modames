@@ -100,6 +100,7 @@ p{
 	font-weight: 300;
 	color: #333333;
 }
+
 .wrapper {
 	font: 14px/23px 'Lato', sans-serif;
 }
@@ -1176,11 +1177,23 @@ div.whitebox{
 	height: 300px !important;
 	position:relative;
 	margin: auto;
-	padding: 10px;
+	padding: none;
 	left: 0%;
 }
-div.mission{
+
+div.baseline p{
 	font-size: 1.5em;
+}
+
+div.mission p{
+	font-size: 1.2em;
+}
+div.sub-mission p{
+	font-size: 1em;
+}
+
+.whitebox button{
+	margin-top:30px;
 }
 /* Step */
 img.icon-first{
