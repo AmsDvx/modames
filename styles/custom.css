@@ -108,22 +108,22 @@ p{
 .btn-order{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-  padding: 5px 20px;
+  padding: 7px 45px;
 	margin-top: 12px;
 }
 
 .btn-order:hover{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 }
 
 .btn-header{
@@ -131,12 +131,13 @@ p{
 	border-color: rgba(255, 139, 128, 0.5);
 	color: rgba(255, 139, 128, 0.7) !important;
 	text-decoration: none !important;
-	padding: 1px 18px !important;
+	padding: 7px 45px !important;
 }
 .btn-header:hover{
 	border-radius: 2px;
 	border-color: rgb(255, 139,128) !important;
 	color: rgb(255, 139,128);
+	7px 45px
 }
 
 a.btn.btn-how{
@@ -248,22 +249,22 @@ Bootstrap Navbar
 .navbar-default .navbar-nav > li:last-child > a{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 	border-color: #FF8B80;
 }
 .navbar-default .navbar-nav > li:last-child > a:hover{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 	border-color: #ff7366;
 }
@@ -271,22 +272,22 @@ Bootstrap Navbar
 .navbar-default .navbar-nav > li:last-child > a#whitemenu{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 	border-color: #FF8B80;
 }
 .navbar-default .navbar-nav > li:last-child > a:hover#whitemenu{
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 	border-color: #ff7366;
 }
@@ -294,11 +295,11 @@ Bootstrap Navbar
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
 	color: white !important;
 	font-size: 1.2em !important;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 }
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a:hover {
@@ -308,7 +309,7 @@ Bootstrap Navbar
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 5px 20px;
+	padding: 7px 45px;
 	margin-top: 12px;
 }
 .navbar-nav {
