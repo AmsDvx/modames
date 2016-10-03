@@ -749,12 +749,19 @@ p.bold-words{
 	font-size: 0.9em;
 	color: #333333
 }
+.line{
+    position: relative;
+    width: 40%;
+    border-top: 1px solid #333333;
+		margin-bottom: 60px;
+}
+
 
 /* STEPS SECTION */
 
 .howit{
 	background-color: #F7F8F9;
-	padding-top: 80px;
+	padding-top: 10px;
 }
 .stepimg{
 	width: 80%;
