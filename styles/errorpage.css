@@ -33,7 +33,7 @@ div.baseline p{
 	padding: 10px 60px 10px 60px;
 }
 
-#title{
+p.title{
 	margin-bottom: 70px;
 	margin-top: -60px;
 }
@@ -58,7 +58,7 @@ div.textbox{
 	margin-top:20px;
 }
 
-#title{
+p.title{
 	margin-bottom: 0px;
-	margin-top: -70px;
+	margin-top: -60px;
 }
