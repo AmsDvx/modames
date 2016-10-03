@@ -100,10 +100,9 @@
   <div class="container intro-form">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <p class="big-title">Bienvenue !</p>
-      <p class="intro-description">Nous sommes ravis de concocter une sélection rien que pour vous !
-        <br>Confiez-nous vos envies, vos goûts, vos mensurations, en bref tout ce qui nous permet d'en savoir plus sur ce que vous aimez.
-        <br>Promis, ça reste entre nous !</p>
-      <p class="intro-info">Nos tailles vont du 36 au 42.</p>
+      <p class="intro-description">Nous sommes ravies de vous concocter une sélection personnalisée !
+        <br>Décrivez-nous vos envies, vos goûts, vos mensurations... Promis, ça reste entre nous !</p>
+      <p class="intro-info">Nos tailles vont du 36 au 44.</p>
     </div>
   </div>
 </section>
@@ -306,7 +305,7 @@
                   <!--ABOUT DRESSES SIZE-->
                 <fieldset class="row question-block">
                   <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label class="question">Votre taille de robe</label>
+                    <label class="question">Votre taille de robes</label>
                       <select class="form-control" name="">
                         <option value=""></option>
                         <option value="1">36</option>
@@ -321,17 +320,19 @@
                   <fieldset class="row question-block">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <legend class="question">Vous évitez les longueurs de robes...</legend>
-                      <p class="optional-description">Plusieurs choix possibles</p>
+                      <p class="optional-description">2 choix possibles</p>
                       <div class="checkbox-column">
-                        <input id="short-dress" type="checkbox" name="dresses-length"/>
+                        <input class="limit-two-dress" id="all-dresslength" type="checkbox" name="dresses-length"/>
+                        <label class="label-text" for="all-dresslength">Je porte de tout !</label>
+                        <input class="limit-two-dress" id="short-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="short-dress">Courte</label>
-                        <input id="thigh-dress" type="checkbox" name="dresses-length"/>
+                        <input class="limit-two-dress" id="thigh-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="thigh-dress">Mi-cuisses</label>
-                        <input id="knees-dress" type="checkbox" name="dresses-length"/>
+                        <input class="limit-two-dress" id="knees-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="knees-dress">Aux genoux</label>
-                        <input id="calves-dress" type="checkbox" name="dresses-length"/>
+                        <input class="limit-two-dress" id="calves-dress" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="calves-dress">Mi-mollets</label>
-                        <input id="ankle-dresses" type="checkbox" name="dresses-length"/>
+                        <input class="limit-two-dress" id="ankle-dresses" type="checkbox" name="dresses-length"/>
                         <label class="label-text" for="ankle-dresses">Aux chevilles</label>
                       </div>
                     </div>
@@ -339,7 +340,7 @@
                     <!--ABOUT TOPS SIZE-->
                   <fieldset class="row question-block">
                     <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <label class="question">Votre taille de haut</label>
+                      <label class="question">Votre taille de hauts</label>
                         <select class="form-control" name="">
                           <option value=""></option>
                           <option value="1">36</option>
@@ -353,18 +354,20 @@
                     <!--ABOUT TOPS LENGTH-->
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <legend class="question">Les vêtements en haut du corps vous les préférez plutôt...</legend>
-                        <p class="optional-description">Plusieurs choix possibles</p>
+                        <legend class="question">Vous évitez les vêtements en haut du corps plutôt...</legend>
+                        <p class="optional-description">2 choix possibles</p>
                         <div class="checkbox-column">
-                          <input id="skinny-top" type="checkbox" name="tops-style"/>
+                          <input class="limit-two-top" id="all-toplength" type="checkbox" name="tops-style"/>
+                          <label class="label-text" for="all-toplength">Je porte de tout !</label>
+                          <input class="limit-two-top" id="skinny-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="skinny-top">Moulants</label>
-                          <input id="ajusted-top" type="checkbox" name="tops-style"/>
+                          <input class="limit-two-top" id="ajusted-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="ajusted-top">Ajustés</label>
-                          <input id="straight-top" type="checkbox" name="tops-style"/>
+                          <input class="limit-two-top" id="straight-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="straight-top">Droits</label>
-                          <input id="large-top" type="checkbox" name="tops-style"/>
+                          <input class="limit-two-top" id="large-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="large-top">Larges</label>
-                          <input id="pluslarge-top" type="checkbox" name="tops-style"/>
+                          <input class="limit-two-top" id="pluslarge-top" type="checkbox" name="tops-style"/>
                           <label class="label-text" for="pluslarge-top">Très larges</label>
                         </div>
                       </div>
@@ -372,10 +375,10 @@
                     <!--ABOUT PANTS SIZE-->
                     <fieldset class="row question-block">
                       <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <legend class="question">Votre taille de pantalon / jupe</legend>
+                        <legend class="question">Votre taille de bas</legend>
                         <!--Pants-->
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                          <label class="label-undertext">Pantalon</label>
+                          <label class="label-undertext">Pantalons</label>
                           <select class="form-control inline-select select-margin" name="">
                             <option value=""></option>
                             <option value="1">36</option>
@@ -387,7 +390,7 @@
                         </div>
                         <!--Skirts-->
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                          <label class="label-undertext">Jupe</label>
+                          <label class="label-undertext">Jupes</label>
                           <select class="form-control inline-select select-margin" name="">
                             <option value=""></option>
                             <option value="1">36</option>
@@ -442,17 +445,17 @@
                         <!--ABOUT PANTS STYLE-->
                         <fieldset class="row question-block">
                           <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <legend class="question">Type(s) de coupe(s) de pantalon préférée(s)</legend>
-                            <p class="optional-description">Plusieurs choix possibles</p>
+                            <legend class="question">Coupe(s) préférée(s)</legend>
+                            <p class="optional-description">2 choix possibles</p>
                             <!--Pants-->
                             <div class="inline-checkbox col-sm-12 col-xs-12">
                             <span class="span-undertext">Pantalons</span>
                               <div class="checkbox-column">
-                                <input id="up-size" type="checkbox" name="pants-size"/>
+                                <input class="limit-two-pantstyle" id="up-size" type="checkbox" name="pants-size"/>
                                 <label class="label-text" for="up-size">Taille haute</label>
-                                <input id="middle-size" type="checkbox" name="pants-size"/>
+                                <input class="limit-two-pantstyle" id="middle-size" type="checkbox" name="pants-size"/>
                                 <label class="label-text" for="middle-size">Taille moyenne</label>
-                                <input id="down-size" type="checkbox" name="pants-size"/>
+                                <input class="limit-two-pantstyle" id="down-size" type="checkbox" name="pants-size"/>
                                 <label class="label-text" for="down-size">Taille basse</label>
                               </div>
                             </div>
@@ -460,13 +463,13 @@
                             <div class="inline-checkbox col-sm-12 col-xs-12">
                             <span class="span-undertext">Jeans</span>
                               <div class="checkbox-column">
-                                  <input id="slim-pant" type="checkbox" name="skirts-style"/>
+                                  <input class="limit-two-jeanstyle" id="slim-pant" type="checkbox" name="skirts-style"/>
                                   <label class="label-text" for="slim-pant">Slim</label>
-                                  <input id="bootcut-pant" type="checkbox" name="skirts-style"/>
+                                  <input class="limit-two-jeanstyle" id="bootcut-pant" type="checkbox" name="skirts-style"/>
                                   <label class="label-text" for="bootcut-pant">Bootcut</label>
-                                  <input id="tight-pant" type="checkbox" name="skirts-style"/>
+                                  <input class="limit-two-jeanstyle" id="tight-pant" type="checkbox" name="skirts-style"/>
                                   <label class="label-text" for="tight-pant">Étroit</label>
-                                  <input id="l-pant" type="checkbox" name="skirts-style"/>
+                                  <input class="limit-two-jeanstyle" id="l-pant" type="checkbox" name="skirts-style"/>
                                   <label class="label-text" for="l-pant">Évasé</label>
                               </div>
                             </div>
@@ -476,18 +479,18 @@
                       <!--ABOUT PANTS LENGTH-->
                       <fieldset class="row question-block">
                         <div class="form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <legend class="question">Les vêtements en bas du corps vous les préférez plutôt...</legend>
+                          <legend class="question">Vous évitez les vêtements en bas du corps plutôt...</legend>
                           <!--Pants-->
                           <div class="inline-checkbox col-sm-12 col-xs-12">
                             <span class="span-undertext">Pantalons</span>
                               <div class="checkbox-column">
-                                <input id="skinny-pant" type="checkbox" name="pants-style"/>
+                                <input id="skinny-pant" type="radio" name="pants-style"/>
                                 <label class="label-text" for="skinny-pant">Moulants</label>
-                                <input id="ajusted-pant" type="checkbox" name="pants-style"/>
+                                <input id="ajusted-pant" type="radio" name="pants-style"/>
                                 <label class="label-text" for="ajusted-pant">Ajustés</label>
-                                <input id="straight-pant" type="checkbox" name="pants-style"/>
+                                <input id="straight-pant" type="radio" name="pants-style"/>
                                 <label class="label-text" for="straight-pant">Droit</label>
-                                <input id="large-pant" type="checkbox" name="pants-style"/>
+                                <input id="large-pant" type="radio" name="pants-style"/>
                                 <label class="label-text" for="large-pant">Larges</label>
                               </div>
                           </div>
@@ -576,7 +579,7 @@
                                     <option value=""></option>
                                     <option value="1">Étroites</option>
                                     <option value="2">Moyennes</option>
-                                    <option value="3">larges</option>
+                                    <option value="3">Larges</option>
                                   </select>
                               </div>
                             </div>
@@ -586,9 +589,9 @@
                                 <label class="label-undertext">Bras</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
-                                  <option value="1">Petit</option>
-                                  <option value="2">Moyen</option>
-                                  <option value="3">Large</option>
+                                  <option value="1">Fins</option>
+                                  <option value="2">Moyens</option>
+                                  <option value="3">Larges</option>
                                 </select>
                               </div>
                             </div>
@@ -772,6 +775,16 @@
                                 <option value="88">88</option>
                                 <option value="89">89</option>
                                 <option value="90">90</option>
+                                <option value="91">91</option>
+                                <option value="92">92</option>
+                                <option value="93">93</option>
+                                <option value="94">94</option>
+                                <option value="95">95</option>
+                                <option value="96">96</option>
+                                <option value="97">97</option>
+                                <option value="98">98</option>
+                                <option value="99">99</option>
+                                <option value="100">100</option>
                               </select>
                               <span> kg</span>
                             </div>
@@ -842,14 +855,13 @@
                             <!--Style one-->
                             <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p class="intro-part">Mettre une phrase d'intro pour dire qu'elles vont devoir noter les 7 styles suivants</p>
-                                <legend class="question">Que vous évoque le style n°1 ?</legend>
+                                <legend class="question">Pour les 7 styles suivants, notez-les et précisez si vous le porteriez.</legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <!--Responses-->
                                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="checkbox-column">
                                         <input id="verymuch" type="radio" name="morpho-type"/>
-                                        <label class="label-text" for="verymuch">J'adore !</label>
+                                        <label class="label-text" for="verymuch">J'aime bien</label>
                                         <input id="like" type="radio" name="morpho-type"/>
                                         <label class="label-text" for="like">J'aime bien</label>
                                         <input id="notreally" type="radio" name="morpho-type"/>
@@ -873,12 +885,10 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
 
                             <!--Style two-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°2 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -908,12 +918,10 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
 
                             <!--Style three-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°3 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -943,11 +951,9 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
                             <!--Style four-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°4 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -977,11 +983,9 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
                             <!--Style five-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°5 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1011,11 +1015,9 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
                             <!--Style six-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°6 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1045,11 +1047,9 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
                             <!--Style seven-->
-                            <fieldset class="row question-block">
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <legend class="question">Que vous évoque le style n°7 ?</legend>
+                                <legend class="question fashion-margin"></legend>
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                   <!--Responses-->
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1079,8 +1079,9 @@
                                   </div>
                                 </div>
                               </div>
-                            </fieldset>
 
+
+                            </fieldset>
                           <!--ABOUT ACTIVITIES-->
                           <fieldset class="row question-block">
                           <div class=" form-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1193,7 +1194,7 @@
                             <!--Put shoulders-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Épaules</label>
+                                <label class="label-undertext">Les épaules</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1207,7 +1208,7 @@
                             <!--Put arms-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Bras</label>
+                                <label class="label-undertext">Les bras</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1221,7 +1222,7 @@
                             <!--Put chest-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Buste</label>
+                                <label class="label-undertext">Le buste</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1235,7 +1236,7 @@
                             <!--Hips-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Hanches</label>
+                                <label class="label-undertext">Les hanches</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1249,7 +1250,7 @@
                             <!--Put legs-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Jambes</label>
+                                <label class="label-undertext">Les jambes</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1263,7 +1264,7 @@
                             <!--Put neckline-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Décolleté</label>
+                                <label class="label-undertext">Le décolleté</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1277,7 +1278,7 @@
                             <!--Put ass-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Fesses</label>
+                                <label class="label-undertext">Les fesses</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1291,7 +1292,7 @@
                             <!--Put middle/belly-->
                             <div class=" form-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                               <div class="select-margin-complex select-mobile-complex">
-                                <label class="label-undertext">Ventre</label>
+                                <label class="label-undertext">Le ventre</label>
                                 <select class="form-control" name="">
                                   <option value=""></option>
                                   <option value="1">Tout le temps !</option>
@@ -1308,7 +1309,7 @@
                           <!--ABOUT PRICES BUDGET-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Votre budget MOYEN pour les articles suivants</legend>
+                              <legend class="question">Votre budget pour les articles suivants</legend>
                               <!--About accesories budget-->
                               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="select-margin-complex select-mobile-complex">
@@ -1483,7 +1484,7 @@
                           <!--ABOUT NO CLOTHES ARTICLES-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Il y a-t-il quelque chose que vous souhaitez ÉVITER absolument dans votre sélection ?</legend>
+                              <legend class="question">Quelque chose à éviter absolument dans votre sélection ?</legend>
                                 <div class="checkbox-column-large">
                                   <input id="want-all" type="radio" name="no-clothes"/>
                                   <label class="label-text" for="want-all">Je veux de tout !</label>
@@ -1503,28 +1504,28 @@
                           <!--ABOUT NO MATERIAL ARTICLES-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Il y a-t-il des tissus ou matériaux à ÉVITER absolument dans votre sélection ?</legend>
-                              <p class="optional-description">2 choix maximum</p>
+                              <legend class="question">Des tissus ou matériaux à éviter absolument dans votre sélection ?</legend>
+                              <p class="optional-description">2 choix possibles</p>
                               <div class="checkbox-column-large">
-                                  <input class="limit-two" id="want-all2" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="want-all2" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="want-all2">Je veux de tout !</label>
-                                  <input class="limit-two" id="no-leather" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-leather" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-leather">Cuir</label>
-                                  <input class="limit-two" id="no-silk" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-silk" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-silk">Soie</label>
-                                  <input class="limit-two" id="no-cotton" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-cotton" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-cotton">Coton</i></label>
-                                  <input class="limit-two" id="no-woolen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-woolen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-woolen">Laine</i></label>
-                                  <input class="limit-two" id="no-polyester" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-polyester" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-polyester">Polyester</i></label>
-                                  <input class="limit-two" id="no-fur" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-fur" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-fur">Fourrure</i></label>
-                                  <input class="limit-two" id="no-fakefur" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-fakefur" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-fakefur">Fausse fourrure</i></label>
-                                  <input class="limit-two" id="no-linen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-linen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-linen">Lin</i></label>
-                                  <input class="limit-two" id="no-linen" type="checkbox" name="no-material"/>
+                                  <input class="limit-two-material" id="no-linen" type="checkbox" name="no-material"/>
                                   <label class="label-text" for="no-linen">Cachemire / Mohair</i></label>
                               </div>
                             </div>
@@ -1558,27 +1559,29 @@
                           <!--ABOUT STYLE-->
                           <fieldset class="row question-block">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <legend class="question">Y a-t-il des styles que vous cherchez à intégrer davantage dans votre garde-robe ?</legend>
+                              <legend class="question">À la recherche d'un style en particulier ?</legend>
                               <div class="checkbox-column-large">
-                                  <input id="bohem" type="checkbox" name="no-material"/>
+                                  <input id="nevermind" type="radio" name="no-material"/>
+                                  <label class="label-text" for="nevermind">Non, peu m'importe</label>
+                                  <input id="bohem" type="radio" name="no-material"/>
                                   <label class="label-text" for="bohem">Bohême</label>
-                                  <input id="casual" type="checkbox" name="no-material"/>
+                                  <input id="casual" type="radio" name="no-material"/>
                                   <label class="label-text" for="casual">Casual / Décontracté</label>
-                                  <input id="classic" type="checkbox" name="no-material"/>
+                                  <input id="classic" type="radio" name="no-material"/>
                                   <label class="label-text" for="classic">Classique</i></label>
-                                  <input id="romantic" type="checkbox" name="no-material"/>
+                                  <input id="romantic" type="radio" name="no-material"/>
                                   <label class="label-text" for="romantic">Romantique</i></label>
-                                  <input id="trendy" type="checkbox" name="no-material"/>
+                                  <input id="trendy" type="radio" name="no-material"/>
                                   <label class="label-text" for="trendy">Mode / Tendance</i></label>
-                                  <input id="chic" type="checkbox" name="no-material"/>
+                                  <input id="chic" type="radio" name="no-material"/>
                                   <label class="label-text" for="chic">Chic</i></label>
-                                  <input id="sportswear" type="checkbox" name="no-material"/>
+                                  <input id="sportswear" type="radio" name="no-material"/>
                                   <label class="label-text" for="sportswear">Sportswear</i></label>
-                                  <input id="rock" type="checkbox" name="no-material"/>
+                                  <input id="rock" type="radio" name="no-material"/>
                                   <label class="label-text" for="rock">Rock</i></label>
-                                  <input id="streetwear" type="checkbox" name="no-material"/>
+                                  <input id="streetwear" type="radio" name="no-material"/>
                                   <label class="label-text" for="streetwear">Streetwear</i></label>
-                                  <input id="retro" type="checkbox" name="no-material"/>
+                                  <input id="retro" type="radio" name="no-material"/>
                                   <label class="label-text" for="retro">Retro</i></label>
                               </div>
                             </div>
@@ -1613,138 +1616,147 @@
                                   <option value="2">Or</option>
                                   <option value="3">Les deux</option>
                                 </select>
-                                <div class="jewel-allergy">
-                                  <input id="allergy" type="radio" name="ears-pref"/>
-                                  <label class="label-text" for="allergy">Je suis allérgique à certaines matières</label>
-                                </div>
                             </div>
                           </fieldset>
-
+                          <!--ABOUT ALLEGRY-->
+                          <fieldset class="row question-block">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <legend class="question">Allergies particulières ou matières non supportées ?</legend>
+                              <input id="yes" type="radio" name="allergy"/>
+                              <label class="label-text" for="yes">Oui</label>
+                              <input id="no" type="radio" name="allergy"/>
+                              <label class="label-text" for="no">Non</label>
+                              <br>
+                              <span class="span-undertext">Si oui, précisez.</span>
+                              <textarea class="form-control" rows="3" id="allergy-text" placeholder=""></textarea>
+                            </div>
+                          </fieldset>
                     <!--ABOUT COLORS-->
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <legend class="question">Quelles couleurs préférez-vous éviter ?</legend>
-                        <p class="optional-description">Plusieurs choix possibles</p>
+                        <legend class="question">Des couleurs à éviter absolument ?</legend>
+                        <p class="optional-description">2 choix possibles</p>
                         <div class="responsive-center">
-                          <input class="color-circle" id="color-black" type="checkbox" name="color"/>
-                          <label for="color-black"><i class="fa fa-circle" id="color-black-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-black" type="checkbox" name="color"/>
+                          <label for="color-black"><img class="colors" src="images/form/color/black.png"></label>
 
-                          <input class="color-circle" id="color-marine" type="checkbox" name=""/>
-                          <label  for="color-marine"><i class="fa fa-circle" id="color-marine-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-marine" type="checkbox" name=""/>
+                          <label  for="color-marine"><img class="colors" src="images/form/color/marine.png"></label>
 
-                          <input class="color-circle" id="color-blue" type="checkbox" name="color"/>
-                          <label for="color-blue"><i class="fa fa-circle" id="color-blue-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-blue" type="checkbox" name="color"/>
+                          <label for="color-blue"><img class="colors" src="images/form/color/blue.png"></i></label>
 
-                          <input class="color-circle" id="color-darkgreen" type="checkbox" name=""/>
-                          <label  for="color-darkgreen"><i class="fa fa-circle" id="color-darkgreen-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-darkgreen" type="checkbox" name=""/>
+                          <label  for="color-darkgreen"><img class="colors" src="images/form/color/darkgreen.png"></label>
 
-                          <input class="color-circle" id="color-green" type="checkbox" name=""/>
-                          <label  for="color-green"><i class="fa fa-circle" id="color-green-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-green" type="checkbox" name=""/>
+                          <label  for="color-green"><img class="colors" src="images/form/color/green.png"></label>
 
-                          <input class="color-circle" id="color-beige" type="checkbox" name="color"/>
-                          <label for="color-beige"><i class="fa fa-circle" id="color-beige-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-beige" type="checkbox" name="color"/>
+                          <label for="color-beige"><img class="colors" src="images/form/color/beige.png"></label>
 
-                          <input class="color-circle" id="color-yellow" type="checkbox" name=""/>
-                          <label  for="color-yellow"><i class="fa fa-circle" id="color-yellow-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-yellow" type="checkbox" name=""/>
+                          <label  for="color-yellow"><img class="colors" src="images/form/color/yellow.png"></label>
 
-                          <input class="color-circle" id="color-orange" type="checkbox" name=""/>
-                          <label  for="color-orange"><i class="fa fa-circle" id="color-orange-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-orange" type="checkbox" name=""/>
+                          <label  for="color-orange"><img class="colors" src="images/form/color/orange.png"></label>
 
-                          <input class="color-circle" id="color-red" type="checkbox" name=""/>
-                          <label  for="color-red"><i class="fa fa-circle" id="color-red-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-red" type="checkbox" name=""/>
+                          <label  for="color-red"><img class="colors" src="images/form/color/red.png"></label>
 
-                          <input class="color-circle" id="color-bordeaux" type="checkbox" name=""/>
-                          <label for="color-bordeaux"><i class="fa fa-circle" id="color-bordeaux-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-bordeaux" type="checkbox" name=""/>
+                          <label for="color-bordeaux"><img class="colors" src="images/form/color/bordeaux.png"></label>
 
-                          <input class="color-circle" id="color-purple" type="checkbox" name=""/>
-                          <label  for="color-purple"><i class="fa fa-circle" id="color-purple-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-purple" type="checkbox" name=""/>
+                          <label  for="color-purple"><img class="colors" src="images/form/color/purple.png"></label>
 
-                          <input class="color-circle" id="color-fushia" type="checkbox" name=""/>
-                          <label  for="color-fushia"><i class="fa fa-circle" id="color-fushia-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-fushia" type="checkbox" name=""/>
+                          <label  for="color-fushia"><img class="colors" src="images/form/color/fushia.png"></label>
 
-                          <input class="color-circle" id="color-pink" type="checkbox" name=""/>
-                          <label  for="color-pink"><i class="fa fa-circle" id="color-pink-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-pink" type="checkbox" name=""/>
+                          <label  for="color-pink"><img class="colors" src="images/form/color/pink.png"></label>
 
-                          <input class="color-circle" id="color-grey" type="checkbox" name=""/>
-                          <label  for="color-grey"><i class="fa fa-circle" id="color-grey-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-grey" type="checkbox" name=""/>
+                          <label  for="color-grey"><img class="colors" src="images/form/color/grey.png"></label>
 
-                          <input class="color-circle" id="color-brown" type="checkbox" name=""/>
-                          <label for="color-brown"><i class="fa fa-circle" id="color-brown-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-brown" type="checkbox" name=""/>
+                          <label for="color-brown"><img class="colors" src="images/form/color/brown.png"></label>
 
-                          <input class="color-circle" id="color-white" type="checkbox" name=""/>
-                          <label  for="color-white"><i class="fa fa-circle-thin" id="color-white-fa" aria-hidden="true"></i></label>
+                          <input class="color-circle limit-two-colors" id="color-white" type="checkbox" name=""/>
+                          <label  for="color-white"><img class="colors" src="images/form/color/white.png"></label>
                         </div>
 
                       </div>
                     </fieldset>
 
+
                     <!--ABOUT PATTERNS-->
                     <fieldset class="row question-block">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <legend class="question">Y a-t-il des motifs que vous souhaitez absolument éviter ?</legend>
+                        <legend class="question">Des motifs que vous souhaitez éviter absolument ?</legend>
 
-                        <p class="optional-description">Plusieurs choix possibles</p>
+                        <p class="optional-description">2 choix possibles</p>
                         <div class="row">
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Animaux</p>
-                          <input class="pattern-check" id="pattern-animal" type="checkbox" name=""/>
+                          <input class="pattern-check limit-two-pattern" id="pattern-animal" type="checkbox" name=""/>
                           <label class="pattern-label" for="pattern-animal"><img class="pattern" src="images/form/pattern/animal.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Fleurs</p>
-                          <input class="pattern-check" id="pattern-flowers" type="checkbox" name=""/>
+                          <input class="pattern-check limit-two-pattern" id="pattern-flowers" type="checkbox" name=""/>
                           <label class="pattern-label" for="pattern-flowers"><img class="pattern" src="images/form/pattern/flowers.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Liberty</p>
-                          <input class="pattern-check" id="pattern-liberty" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-liberty"><img class="pattern" src="images/form/pattern/liberty.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-liberty" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-liberty"><img class="pattern" src="images/form/pattern/liberty.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Rayures</p>
-                          <input class="pattern-check" id="pattern-stripe" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-stripe"><img class="pattern" src="images/form/pattern/rayures.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-stripe" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-stripe"><img class="pattern" src="images/form/pattern/rayures.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Carreaux</p>
-                          <input class="pattern-check" id="pattern-tile" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-tile"><img class="pattern" src="images/form/pattern/carreaux.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-tile" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-tile"><img class="pattern" src="images/form/pattern/carreaux.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Panthère</p>
-                          <input class="pattern-check" id="pattern-panther" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-panther"><img class="pattern" src="images/form/pattern/panther.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-panther" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-panther"><img class="pattern" src="images/form/pattern/panther.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Graphique</p>
-                          <input class="pattern-check" id="pattern-graphic" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-graphic"><img class="pattern" src="images/form/pattern/graphic.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-graphic" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-graphic"><img class="pattern" src="images/form/pattern/graphic.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Cachemire</p>
-                          <input class="pattern-check" id="pattern-cashmere" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-cashmere"><img class="pattern" src="images/form/pattern/cachemire.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-cashmere" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-cashmere"><img class="pattern" src="images/form/pattern/cachemire.png"></label>
                         </div>
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Écriture</p>
-                          <input class="pattern-check" id="pattern-writing" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-writing"><img class="pattern" src="images/form/pattern/writing.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-writing" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-writing"><img class="pattern" src="images/form/pattern/writing.png"></label>
                         </div>
 
 
                         <div class="col-md-2 col-sm- 2 col-xs-4 center">
                           <p class="description-img">Pois</p>
-                          <input class="pattern-check" id="pattern-peas" type="checkbox" name=""/>
-                          <label class="pattern-label" for="pattern-peas"><img class="pattern" src="images/form/pattern/peas.png"></i></label>
+                          <input class="pattern-check limit-two-pattern" id="pattern-peas" type="checkbox" name=""/>
+                          <label class="pattern-label" for="pattern-peas"><img class="pattern" src="images/form/pattern/peas.png"></label>
                         </div>
 
                       </div>

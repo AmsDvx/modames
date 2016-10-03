@@ -6,10 +6,7 @@ body{
 .intro-form{
   width: 80%;
   margin-top: 80px;
-  background-image: url("../images/form/test.png");
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #e6f4f5;
 }
 p.big-title{
   font-size: 1.5em;
@@ -119,7 +116,7 @@ div.select-margin-complex{
   content: '';
   border-radius: 6px;
   width: 17px; height: 17px;
-  background: #ff8b80;
+  background: #3DB7C6;
   position: absolute;
   top: 2px; left: 0px;
   font-size: 14px;
@@ -169,7 +166,7 @@ div.select-margin-complex{
   content: '';
   border-radius: 6px;
   width: 17px; height: 17px;
-  background: #ff8b80;
+  background: #3DB7C6;
   position: absolute;
   top: 2px; left: 0px;
   font-size: 14px;
@@ -301,75 +298,16 @@ textarea#complex-text.form-control{
 }
 /* ACCESSORIES PREFERENCES QUESTION DESIGN */
 /* for the allergy*/
-div.jewel-allergy{
-  margin-top: 20px;
+textarea#allergy-text.form-control{
+  width: auto;
 }
 
 /* COLOUR QUESTION DESIGN */
-
 /*for color's circles*/
-i#color-black-fa.fa.fa-circle{
-  color: #000000;
-  font-size: 4em;
-}
-i#color-marine-fa.fa.fa-circle{
-  color: #003C79;
-  font-size: 4em;
-}
-i#color-blue-fa.fa.fa-circle{
-  color: #00B2DE;
-  font-size: 4em;
-}
-i#color-darkgreen-fa.fa.fa-circle{
-  color: #1F5647;
-  font-size: 4em;
-}
-i#color-green-fa.fa.fa-circle{
-  color: #CBD34C;
-  font-size: 4em;
-}
-i#color-beige-fa.fa.fa-circle{
-  color: #ECD6AF;
-  font-size: 4em;
-}
-i#color-yellow-fa.fa.fa-circle{
-  color: #FFCE09;
-  font-size: 4em;
-}
-i#color-orange-fa.fa.fa-circle{
-  color: #F9964A;
-  font-size: 4em;
-}
-i#color-red-fa.fa.fa-circle{
-  color: #DC241F;
-  font-size: 4em;
-}
-i#color-bordeaux-fa.fa.fa-circle{
-  color: #6E2639;
-  font-size: 4em;
-}
-i#color-purple-fa.fa.fa-circle{
-  color: #7C6495;
-  font-size: 4em;
-}
-i#color-fushia-fa.fa.fa-circle{
-  color: #FF3485;
-  font-size: 4em;
-}
-i#color-pink-fa.fa.fa-circle{
-  color: #F5B0C1;
-  font-size: 4em;
-}
-i#color-grey-fa.fa.fa-circle{
-  color: #9D9D96;
-  font-size: 4em;
-}
-i#color-brown-fa.fa.fa-circle{
-  color: #975A36;
-  font-size: 4em;
-}
-i#color-white-fa.fa.fa-circle-thin{
-  font-size: 4em;
+img.colors{
+  width: 50px;
+  margin-bottom: 20px;
+  margin-top: 4px;
 }
 
 /* CHECKING DESIGN */
@@ -393,10 +331,15 @@ i#color-white-fa.fa.fa-circle-thin{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 56px;
+  height: 60px;
 }
 
-/* BRANDS FASHION STYLES DESIGN */
+/* FASHION STYLES DESIGN */
+
+legend.question.fashion-margin{
+  margin-top: 50px;
+  border-bottom: 1px solid #3DB7C6;
+}
 /*for image*/
 img.fashion-styles{
   max-width: 90%;
@@ -407,21 +350,19 @@ div.form-inline.wear-it{
   margin-top: 20px;
   margin-bottom: 10px;
 }
-
 /* PATTERN QUESTION DESIGN */
-div.pattern-bloc{
-  display: flex;
-  flex-direction: column;
-  width: 20%;
+div.one-pattern{
+  max-width: 200px;
 }
 
 /*for image*/
 img.pattern{
   width: 100%;
-  padding-top: 6px;
+  padding-top: 8px;
 }
 p.description-img{
   margin: auto;
+  text-align: center;
 }
 label.pattern-label{
   text-align: center;
@@ -447,7 +388,7 @@ label.pattern-label{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 84px;
+  height: 85px;
 }
 
 /* SOCIAL QUESTION DESIGN */
@@ -516,6 +457,8 @@ div.select-margin-complex{
 img.fashion-styles{
   max-width: 100%;
 }
+
+
 /* COMPLEX SHARING QUESTION DESIGN */
 textarea#complex-text.form-control{
   width: 300px;
@@ -525,10 +468,7 @@ textarea#complex-text.form-control{
 div.select-margin-complex.special-occasion{
   display: block;
 }
-label.pattern-label{
-  padding: 0px !important;
-  margin-bottom: 20px;
-}
+
 /* SOCIAL QUESTION DESIGN */
 /*for  social links*/
 input.form-control.social-link{
