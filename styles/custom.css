@@ -361,31 +361,40 @@ div.whitebox{
 	box-shadow: 11px 7px 56px 8px rgba(161,161,161,0.32);
 	width: 448px;
   height: 330px;
-  position: absolute;
+	margin: auto;
   background-color: #FFFFFF;
-  left: 4%;
   top: 22%;
   z-index: 1000;
 }
-img.logo-slider-grey{
-	width: 65%;
-	margin-top: 20px;
-}
-div.baseline{
-	font-size: 1.7em;
+
+div.baseline p{
+	font-size: 2em;
+	font-family: poiret one;
+	width: 100%;
+	padding-top: 30px;
+	text-transform: uppercase;
 }
 .line-seperate{
-	position: relative;
-    width: 78%;
-    border-top: 2px solid #F2F1F0;
+		position: relative;
+    width: 20%;
+    border-top: 1px solid #333333;
     padding-top: 0px;
     padding-bottom: 0px;
 }
-div.mission{
-	font-size: 1.8em;
+div.mission p{
+	font-size: 1.9em;
+	font-weight: 400;
 	width: 80%;
 	margin: auto;
-	line-height: 30px;
+	line-height: 60px;
+}
+
+div.sub-mission p{
+	font-size: 1.2em;
+  font-weight: 300;
+	width: 100%;
+	margin: auto;
+	line-height: 40px;
 }
 section.slider{
 	background-image: url("../images/test-slider.jpg");
@@ -394,26 +403,10 @@ section.slider{
 	background-size: cover;
 }
 
-a#slider-btn.btn.btn-order{
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	background: #FF8B80 !important;
-	border-radius: 100px!important;
-  padding: 5px 20px !important;
-	margin-top: 12px !important;
+.whitebox button{
+	margin-top:40px;
 }
-a#slider-btn.btn.btn-order{
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	background: #ff7366 !important;
-	border-radius: 100px!important;
-	padding: 5px 20px !important;
-	margin-top: 12px;
-}
+
 /*Scroll in slider*/
 .btn-scroll{
 	color: #333333;
