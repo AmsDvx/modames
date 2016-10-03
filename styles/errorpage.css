@@ -1,0 +1,64 @@
+
+
+/* ==============================================
+404 pages
+=============================================== */
+section.slider{
+	background-image: url("../images/backgrounderror.jpg");
+	max-height: 640px;
+	background-position: center;
+	background-size: cover;
+}
+
+/* text slider*/
+div.textbox{
+	width: 100%;
+  height: 330px;
+	margin: auto;
+  top: 22%;
+  z-index: 1000;
+}
+
+div.baseline p{
+	font-size: 3em;
+	font-family: poiret one, sans-serif;;
+	width: 100%;
+	padding-top: 30px;
+	text-transform: none;
+	color: white;
+}
+
+.textbox button{
+	margin-top:50px;
+	padding: 10px 60px 10px 60px;
+}
+
+#title{
+	margin-bottom: 70px;
+	margin-top: -60px;
+}
+
+/* ==============================================
+Mobile Screen
+=============================================== */
+@media screen and (max-width:767px) {
+/*=== 404 PAGE ===*/
+
+
+div.baseline p{
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+div.textbox{
+	width: 70%;
+}
+
+.textbox button{
+	margin-top:20px;
+}
+
+#title{
+	margin-bottom: 0px;
+	margin-top: -70px;
+}
