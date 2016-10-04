@@ -692,10 +692,12 @@ footer .social_icons a i {
 footer a:hover {
 	text-decoration: underline;
 }
-.foot_nav.style_2 li a {
+.footer-column li a {
     border: none;
+		padding: 0px;
+		color: #FFFFFF;
 }
-.foot_nav.style_2 li{
+.footer-column li{
     line-height: 30px;
 }
 .h6, h6 {
