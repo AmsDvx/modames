@@ -779,37 +779,47 @@ HOW IT WORKS PAGE
 	margin: 150px auto 10px auto;
 
 }
-.title-explain-intro{
-	font-weight: lighter;;
-	font-size: 3em;
-	margin-bottom: 100px;
+
+/* STEPS SECTION */
+section.container-fluid.steps-section{
+	background: #F7F8F9;
+}
+div.row.steps-bloc{
+	margin: 50px 80px 50px 80px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img.stepimg{
+	width: 60%;
 }
 
-.title-explain{
-	font-weight: 400;
-	font-size: 1em;
-	color: #333333;
-	text-transform: uppercase;
+.img-bloc-right{
+	text-align: right;
 }
-p.bloc-text{
-	font-weight: 300;
-	font-size: 1em;
-	color: #333333;
-	padding-top: -15px;
-	width:80%;
-	margin: auto;
-	line-height: normal;
+.img-bloc-left{
+	text-align: left;
+}
+
+p.number-three.title-left{
+	text-align: left;
+}
+p.number-three.title-right{
+	text-align: right;
+}
+p.editorial.step-p{
+	text-align: left;
+	width: 50%;
+}
+p.editorial.step-p-right{
+	text-align: right;
+	width: 50%;
 }
 p.bold-words{
 	padding-top: -15px;
 	width:80%;
 	margin: -10px auto 50px auto;
 	line-height: normal;
-}
-.text-explain{
-	font-weight: 200;
-	font-size: 0.9em;
-	color: #333333
 }
 .line{
     position: relative;
@@ -819,90 +829,56 @@ p.bold-words{
 }
 
 
-/* STEPS SECTION */
-
-.howit{
-	background-color: #F7F8F9;
-	padding-top: 10px;
-}
-.stepimg{
-	width: 80%;
-}
-h3.step-title{
-	text-align: left;
-	font-family: "Lato", sans-serif;
-	font-weight: lighter;
-	font-size: 1.7em;
-	padding-bottom: 40px;
-}
-.row.stepbloc{
-	width: 80%;
-	margin: auto;
-	margin-bottom: 50px;
-}
-div.row.number{
-	display: inline-flex;
-	flex-direction: row;
-	margin: auto;
-}
-p.editorial.step-p{
-	text-align: left;
-}
 
 /* step 1 */
 
 #num1{
-	background: url("../images/steps/01.png");
+	background-image: url("../images/steps/01.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left center;
 	background-size: contain;
-	width: 30%;
+
 }
 
 /* step 2 */
 
 #num2{
-	background: url("../images/steps/02.png");
+	background-image: url("../images/steps/02.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right center;
 	background-size: contain;
-	width: 30%;
+
 }
 
 /* step 3 */
 
 #num3{
-	background: url("../images/steps/03.png");
+	background-image: url("../images/steps/03.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left center;
 	background-size: contain;
-	width: 30%;
 }
 
 
 /* PRICE SECTION */
-#pricebloc.row{
-	margin: 80px auto;
-	padding-left:180px;
-	padding-right: 180px;
-}
-.title-price{
-	color: #333333;
-	font-weight: 300;
+div#pricehow{
+	margin: auto;
 }
 
-.title-price-intro{
-		color: #333333;
-}
 .text-price-intro{
 	text-align: center;
 	max-width: 50%;
 	margin: 20px auto 50px auto;
 }
-.text-price{
-	margin-top: -15px;
-	padding-bottom:30px;
+p.editorial.article-name{
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
+p.number-three.price-number{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
 #icon-price{
 	color: #40B8C7;
 	width: 16%!important;
@@ -1183,20 +1159,13 @@ img.icon-first{
 	width: 20%;
 }
 /*=== HOW IT WORKS PAGE ===*/
-.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
-	background: none;
+.img-bloc-right{
+	text-align: center;
 }
-p.sp1, p.sp2, p.sp3{
-	text-align: left;
-	max-width: 70%;
-  margin: auto;
+.img-bloc-left{
+	text-align: center;;
 }
 
-h3.sh1, h3.sh2, h3.sh3{
-	text-align: left;
-	max-width: 70%;
-	margin: auto;
-}
 /*=== HISTORY PAGE ===*/
 .row.banteam{
 	margin-top: 0px;
@@ -1266,23 +1235,15 @@ footer img{
 	width: 20%;
 }
 /*=== HOW IT WORKS PAGE ===*/
-.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
-	background: none;
-}
-p.sp1, p.sp2, p.sp3{
+/*=== HOW IT WORKS PAGE ===*/
+.img-bloc-right{
 	text-align: center;
-	max-width: 70%;
-  margin: auto;
 }
-
-h3.sh1, h3.sh2, h3.sh3{
-	text-align: center;
-	max-width: 70%;
-	margin-top: 50px;
-	margin-bottom: 20px;
+.img-bloc-left{
+	text-align: center;;
 }
 img.stepimg{
-	max-width: 50%;
+	max-width: 40%;
 }
 /*=== HISTORY PAGE ===*/
 .row.banteam{
