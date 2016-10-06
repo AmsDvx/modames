@@ -1,75 +1,76 @@
 jQuery(document).ready(function($) {
 	"use strict";
-	
+
 	/* ==============================================
      Adding Sticky menu in Tablet and Desktop devices
      =============================================== */
 	if($(window).width() > 767){
-		
+
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 110) {
 				$('.navbar.navbar-default').addClass('navbar-fixed-top');
 				$('.navbar.navbar-default').addClass('sticky');
-				
+
 			} else {
 				$('.navbar.navbar-default').removeClass('navbar-fixed-top');
 				$('.navbar.navbar-default').removeClass('sticky');
 			}
 		});
-		
+
 	}
-	
+
 	/* ==============================================
      Adding fade effect to Main Navigation dropdown
      =============================================== */
 	if( $(window).width() > 767){
-		
+
 	   $('.navbar-nav > li > a').click(function(){
 		   $('.navbar-nav > li > a').parent().removeClass('active');
 		   $(this).parent().addClass("active");
 	   });
-	
+
 	   $('.navbar-nav > li.dropdown a').mouseenter(function(){
 		   $(this).parent().children('.dropdown-menu').animate({'opacity':'1'},200).addClass('active');
 	   });
-	   
+
 	   $('.navbar-nav > li.dropdown a').mouseleave(function(){
 		   $(this).parent().children('.dropdown-menu').css({'opacity':'0'}).removeClass('active');
-		   
+
 	   });
-	   
+
 	   $('li.dropdown .dropdown-menu').mouseenter(function(){
 		   $(this).addClass('active').css({'opacity':'1'});
 	   });
-	   
+
 	   $('li.dropdown .dropdown-menu').mouseleave(function(){
 		   $(this).removeClass('active').css({'opacity':'0'});
 	   });
-	   
+
 	}
-	
+
 	/* ===================================================================
      Adding Click event to Main Navigation dropdown in Mobile devices
      ==================================================================== */
+
 	$('.dropdown-nested').click(function(event){
 		$('.navbar-collapse .dropdown .dropdown-nested .dropdown-menu').css('display','none');
     	event.stopPropagation();
       	var dropdown = $(this).children('.dropdown-menu');
      	 dropdown.toggle();
 	});
-	
+
 	/* ===============================================
      Adding scroll to navigation in One page
      =============================================== */
 	$('a.page_scroll').bind('click', function(event) {
-		
+
 		var $anchor = $(this);
 		$('html, body').stop().animate({
 			scrollTop: ($($anchor.attr('href')).offset().top)
 		}, 1500, 'easeInOutExpo');
 		event.preventDefault();
 	});
-	
+
 	/* ===============================================
      Adding scroll to back to top link
      =============================================== */
@@ -77,7 +78,7 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		$('html, body').animate({scrollTop: 0}, 1000);
 	});
-	
+
 	/* ===============================================
      Adding fade effect to back to top link
      =============================================== */
@@ -88,7 +89,7 @@ jQuery(document).ready(function($) {
 			$('.go-top').fadeOut(200);
 		}
 	});
-	
+
 	/* ===============================================
      Initializing Popup-Gallery
      =============================================== */
@@ -109,16 +110,16 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
-	
+
 	/* ===============================================
      Initializing Counter
      =============================================== */
-	
+
 	$('.counter').counterUp({
 		delay: 2,
 		time: 500
 	});
-	
+
 	/* ===============================================
      Adding Owl Slider to Home page Slider
      =============================================== */
@@ -131,14 +132,14 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	1000,
 		transitionStyle : "fade"
  	});
-	
+
 	/* ===============================================
      Adding Owl Slider Time intervel
      =============================================== */
     $('.carousel').carousel({
         interval: 3000
     });
-	
+
 	/* ===========================================================
      Adding Owl Slider to Testimonials block
      =========================================================== */
@@ -150,20 +151,20 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 1000,
 		transitionStyle : "fade"
  	});
-	
+
 	/* ===============================================
      Adding Owl Slider to Clients block
      =============================================== */
 	var owl_3 = $('#clients_carousel');
   	owl_3.owlCarousel({
-		items : 4,      
+		items : 4,
 		itemsDesktop : [1199,4],
      	itemsDesktopSmall : [979,3],
 		pagination : false,
 		autoPlay   : true,
 		rewindSpeed : 700
  	});
-	
+
 	/* ===============================================
      Adding Owl Slider to Blog items
      =============================================== */
@@ -177,7 +178,7 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	500,
 		transitionStyle : "goDown"
  	});
-	
+
 	/* ==========================================================
      Adding Owl Slider with fade Transition in shortcodes page
      ========================================================== */
@@ -191,7 +192,7 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	500,
 		transitionStyle : "fade"
  	});
-	
+
 	/* ==========================================================
      Adding Owl Slider with goDown Transition in shortcodes page
      ========================================================== */
@@ -205,7 +206,7 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	500,
 		transitionStyle : "goDown"
  	});
-	
+
 	/* ==========================================================
      Adding Owl Slider with fadeUp Transition in shortcodes page
      ========================================================== */
@@ -219,7 +220,7 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	500,
 		transitionStyle : "fadeUp"
  	});
-	
+
 	/* ==========================================================
      Adding Owl Slider with backSlide Transition in shortcodes page
      ========================================================== */
@@ -233,21 +234,21 @@ jQuery(document).ready(function($) {
 		rewindSpeed : 	500,
 		transitionStyle : "backSlide"
  	});
-	
+
 	/* ===============================================
      Initializing tooltips in shortcodes page
      =============================================== */
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();
 	});
-	
+
 	/* ===============================================
      Initializing popover in shortcodes page
      =============================================== */
 	$(function () {
 		$('[data-toggle="popover"]').popover();
 	});
-	
+
 	/* ===============================================
      Initializing tabs in shortcodes page
      =============================================== */
@@ -255,7 +256,7 @@ jQuery(document).ready(function($) {
 		e.preventDefault();
 		$(this).tab('show');
 	});
-	
+
 	/* ===============================================
      Initializing tabs style_2 in shortcodes page
      =============================================== */
@@ -263,5 +264,5 @@ jQuery(document).ready(function($) {
 		e.preventDefault();
 		$(this).tab('show');
 	});
-		
+
 })(jQuery);
