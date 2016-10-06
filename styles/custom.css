@@ -65,7 +65,7 @@ p.number-one{
 	text-transform: uppercase;
 }
 
-p#number-one-white.number-one{
+p#number-two-white.number-two-slider{
 	color: white;
 }
 /*Secondary and tertiary title slider */
@@ -743,9 +743,52 @@ footer a:hover {
 /*==============================================
 HOW IT WORKS PAGE
 ===============================================*/
+
+/* Cool banner */
+#how-ban {
+	overflow: hidden;
+	text-align: center;
+	color: #FFF;
+	background: #222;
+	position: relative;
+	background-size: 100%;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	margin-top: 70px;
+
+}
+
+#how-ban {
+  background: linear-gradient(270deg, #EB9E96, #FF8B80, #FB7366, #FD6060);
+  background-size: 800% 800%;
+
+  -webkit-animation: supergradient 20s ease infinite;
+  -moz-animation: supergradient 20s ease infinite;
+  animation: supergradient 20s ease infinite;
+}
+
+@-webkit-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
 /* EXPLAIN SECTION */
 .explain{
-	margin: 150px auto 10px auto;
+	margin: 50px auto 50px auto;
 }
 section.explain p.number-one {
 	margin-bottom: 50px;
@@ -1066,7 +1109,7 @@ a:hover#contactstyle4{
 }
 
 
-/* Breadcrumb */
+/* Cool banner */
 #cool {
 	overflow: hidden;
 	text-align: center;
@@ -1108,11 +1151,6 @@ a:hover#contactstyle4{
 }
 
 
-.breadcrumb_bg h4 {
-	text-align: left;
-	margin-left: 40px;
-	color: #333333;
-}
 
 
 
