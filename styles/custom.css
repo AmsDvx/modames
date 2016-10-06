@@ -777,7 +777,14 @@ HOW IT WORKS PAGE
 /* EXPLAIN SECTION */
 .explain{
 	margin: 150px auto 10px auto;
+}
+section.explain p.number-one {
+	margin-bottom: 50px;
+}
 
+section.explain p.editorial {
+	margin-top: -15px;
+	color: #ff8b80;
 }
 
 /* STEPS SECTION */
@@ -791,11 +798,12 @@ div.row.steps-bloc{
   justify-content: center;
 }
 img.stepimg{
-	width: 60%;
+	width: 50%;
 }
 
 .img-bloc-right{
 	text-align: right;
+	width: 50%;
 }
 .img-bloc-left{
 	text-align: left;
@@ -814,6 +822,7 @@ p.editorial.step-p{
 p.editorial.step-p-right{
 	text-align: right;
 	width: 50%;
+
 }
 p.bold-words{
 	padding-top: -15px;
@@ -837,6 +846,7 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
+	width: 50%;
 
 }
 
@@ -847,6 +857,7 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: contain;
+	width: 50%;
 
 }
 
@@ -857,6 +868,7 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
+	width: 50%;
 }
 
 
