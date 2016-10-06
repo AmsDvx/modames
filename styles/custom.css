@@ -190,18 +190,12 @@ p{
 	padding: 7px 45px;
 }
 
-.btn-header{
-	border-radius: 2px;
-	border-color: rgba(255, 139, 128, 0.5);
-	color: rgba(255, 139, 128, 0.7) !important;
-	text-decoration: none !important;
-	padding: 7px 45px !important;
+a.btn.btn-order.btn-header{
+	text-transform: none;
+	text-decoration: none;
 }
-.btn-header:hover{
-	border-radius: 2px;
-	border-color: rgb(255, 139,128) !important;
-	color: rgb(255, 139,128);
-	7px 45px
+a.btn.btn-order.btn-header:hover{
+	text-decoration: none;
 }
 
 a.btn.btn-how{
@@ -220,35 +214,6 @@ a.btn.btn-how:hover{
 }
 
 
-/* Old Order Button after refact
-.btn-order{
-	background: #FF8B80 !important;
-	border-radius: 2px !important;
-	border-bottom:1px solid #FF8B80 !important;
-	padding: 6px 20px !important;
-
-	font-size: 1em;
-	text-align: center;
-	font-weight: 300;
-}
-.btn-order:hover{
-	background-color:#FA7569 !important;
-	text-decoration: none !important;
-}
-.button{
-	background: #40B8C7 !important;
-	border-radius: 2px !important;
-	border-bottom:1px solid #FF8B80 !important;
-	padding: 6px 20px !important;
-	color: white !important;
-	font-size: 1em;
-	text-align: center;
-	font-weight: 300;
-}
-.button:hover{
-	background-color:#FDC85C !important;
-}
-*/
 
 /* ==============================================
 Short Codes & Form Elements
@@ -269,7 +234,7 @@ Short Codes & Form Elements
 Top Head Styles
 =============================================== */
 .wrapper > header {
-	background-color: #F8F8F8;
+	background-color: #FFFFFF;
 }
  .wrapper > header .navbar-default.sticky{
  	background-color: #FFFFFF
@@ -493,16 +458,18 @@ Step how it works
 section.workprocess{
 	margin: 80px auto;
 }
+
+div.block.home-step{
+	margin-bottom: 20px;
+}
 .workprocess .container .icon:before{
 	background: none;
 }
+
 img.icon-first{
 	width: 40%;
 }
 
-.workprocess .block h3 {
-	padding-top: 20px !important;
-}
 p.editorial.text-etape{
 	text-align: center;
 }
@@ -532,7 +499,7 @@ a.link-price{
 }
 a:hover.link-price{
 	text-align: center;
-	color: #ff7366;
+	color: #eee;
 	text-decoration: underline;
 }
 #home-benefit {
@@ -567,7 +534,9 @@ a:hover.link-price{
 p.editorial.fix-price{
 	line-height: 15px;
 }
-
+p.editorial.client-name-fix{
+	font-weight: 400;
+}
 
 /* ==============================================
 Gallery
@@ -1199,6 +1168,12 @@ Mobile Screen
 =============================================== */
 @media screen and (max-width:767px) {
 /*=== HOME PAGE ===*/
+/*Connexion button in the toggle menu*/
+a.btn.btn-user{
+	text-align: left;
+}
+
+
 /*Slider*/
 .slider{
 	height: 420px !important;
@@ -1227,6 +1202,11 @@ div.sub-mission p{
 	margin-top:30px;
 }
 /* Step */
+.workprocess .block p{
+		padding: 10px 20px;
+    width: 55%;
+    margin: auto;
+}
 img.icon-first{
 	width: 20%;
 }
@@ -1239,14 +1219,27 @@ p.stories{
 	margin: auto;
 	margin-bottom: 50px;
 }
+/* Price */
+p.homeprice {
+    max-width: 100%;
+}
+/*Recap*/
+ul.recap{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.recap li{
+	margin:auto;
+}
 /*Footer*/
+
 .wrapper > footer {
 	    text-align: -webkit-center;
 }
 footer img{
 	width: 20%;
 }
-/*=== HOW IT WORKS PAGE ===*/
 /*=== HOW IT WORKS PAGE ===*/
 .img-bloc-right{
 	text-align: center;
