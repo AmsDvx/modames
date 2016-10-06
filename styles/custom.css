@@ -1282,7 +1282,9 @@ Mobile and Tablet Screen
  .bann_caption {
  	margin-top: none!important;
  }
-
+ a.btn.btn-user{
+ 	text-align: left;
+ }
  /*=== HOME PAGE ===*/
  .slider{
  	height: 500px;
