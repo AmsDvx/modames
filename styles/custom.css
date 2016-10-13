@@ -805,17 +805,15 @@ section.container-fluid.steps-section{
 }
 div.row.steps-bloc{
 	margin: 50px 80px 50px 80px;
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
+/*For images*/
 img.stepimg{
-	width: 50%;
+	max-width : 90%;
+	heigth: auto;
+	margin-bottom: 20px;
 }
-
 .img-bloc-right{
 	text-align: right;
-	width: 50%;
 }
 .img-bloc-left{
 	text-align: left;
@@ -829,11 +827,9 @@ p.number-three.title-right{
 }
 p.editorial.step-p{
 	text-align: left;
-	width: 50%;
 }
 p.editorial.step-p-right{
 	text-align: right;
-	width: 50%;
 
 }
 p.bold-words{
@@ -858,7 +854,6 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
-	width: 50%;
 
 }
 
@@ -869,7 +864,6 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: contain;
-	width: 50%;
 
 }
 
@@ -880,11 +874,13 @@ p.bold-words{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
-	width: 50%;
 }
 
 
 /* PRICE SECTION */
+section.pricing-how{
+	margin: 50px auto;
+}
 div#pricehow{
 	margin: auto;
 }
@@ -898,26 +894,23 @@ p.editorial.article-name{
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
-p.number-three.price-number{
+p.editorial.price-number{
+	font-weight: 400;
 	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
 #icon-price{
-	color: #40B8C7;
-	width: 16%!important;
+	width: 54px;
+	height: 54px;
 }
 
 /* RECAP SECTION */
-#lastbloc.row{
-	margin: 80px auto;
+section.recap-how{
+background: rgb(255, 251, 241);
 }
-.lastbloc-p2{
-	margin: 40px auto;
-}
-.title-recap{
-		color: #333333;
-}
+
+
 
 /*==============================================
 OUR HISTORY PAGE
@@ -1172,8 +1165,6 @@ Little Mobile Screen
 @media screen and (max-width:650px) {
 /*=== HOME PAGE ===*/
 /* Slider */
-
-
 img.icon-first{
 	width: 20%;
 }
@@ -1183,6 +1174,9 @@ img.icon-first{
 }
 .img-bloc-left{
 	text-align: center;;
+}
+p.number-three.title-right{
+	text-align: left;
 }
 
 /*=== HISTORY PAGE ===*/
@@ -1273,20 +1267,27 @@ ul.recap{
 /*Footer*/
 
 .wrapper > footer {
-	    text-align: -webkit-center;
+	text-align: -webkit-center;
 }
 footer img{
 	width: 20%;
 }
 /*=== HOW IT WORKS PAGE ===*/
+
 .img-bloc-right{
 	text-align: center;
 }
 .img-bloc-left{
 	text-align: center;;
 }
-img.stepimg{
-	max-width: 40%;
+p.editorial.step-p{
+	text-align: left;
+}
+p.number-three.title-right{
+	text-align: left;
+}
+p.editorial.step-p-right{
+	text-align: left;
 }
 /*=== HISTORY PAGE ===*/
 .row.banteam{
@@ -1335,22 +1336,8 @@ Mobile and Tablet Screen
 	color:#FF8B80;
 	font-size: 2em;
 	text-shadow: none;
-
+}
 /*=== HOW IT WORKS PAGE ===*/
-.row.stepbloc1, .row.stepbloc2, .row.stepbloc3 {
-	background: none;
-}
-p.sp1, p.sp2, p.sp3{
-	text-align: left;
-	max-width: 50%;
-  margin: auto;
-}
-
-h3.sh1, h3.sh2, h3.sh3{
-	text-align: left;
-	max-width: 50%;
-	margin: auto;
-}
 
 /*=== FAQ PAGE ===*/
 /*FAQ bloc 2*/
@@ -1410,6 +1397,7 @@ Tablet Screen
 footer img{
 	width: 50%;
 }
+/*HOW IT WORKS PAGE*/
 
 /*toggle for tablet screen*/
 
@@ -1457,6 +1445,7 @@ footer img{
      -webkit-box-shadow: none;
      box-shadow: none;
   }
+
 }
 /* ==============================================
 Desktop and Large Desktop Screen
