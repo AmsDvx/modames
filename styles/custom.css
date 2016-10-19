@@ -79,7 +79,8 @@ p.number-three-slider{
 	font-size: 1.2em;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-	color: rgb (189, 189, 189);
+	color: rgb(194,194,194);
+
 }
 /* Title 2 */
 p.number-two{
@@ -237,7 +238,7 @@ Top Head Styles
 	background-color: #FFFFFF;
 }
  .wrapper > header .navbar-default.sticky{
- 	background-color: #FFFFFF
+ 	background-color: #FFFFFF;
 }
 
 /* ==============================================
@@ -248,6 +249,11 @@ Bootstrap Navbar
 	background-color: white;
 	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
 }
+nav.navbar.navbar-default{
+	background-color: #FFFFFF;
+	box-shadow: 0 0.3px 6px rgba(0,0,0,0.1);
+}
+
 /*Logo modames*/
 /*marge Logo modames*/
 .navbar-brand>img{
@@ -415,13 +421,7 @@ div.mission p{
 	line-height: 60px;
 }
 
-div.sub-mission p{
-	font-size: 1.2em;
-  font-weight: 300;
-	width: 100%;
-	margin: auto;
-	line-height: 40px;
-}
+
 section.slider{
 	background-image: url("../images/test-slider.jpg");
 	max-height: 640px;
@@ -503,10 +503,10 @@ a:hover.link-price{
 	text-decoration: underline;
 }
 #home-benefit {
-	padding: 3em 0 3em 0 ;
+	padding: 5em 0 5em 0 ;
 	background-color: none;
 	background-attachment: fixed;
-	background-image: url("../images/homebenefit.jpeg");
+	background-image: url("../images/testhp.png");
 	background-position: right;
 	background-size: cover;
 	overflow: hidden;
@@ -517,8 +517,8 @@ a:hover.link-price{
 .benefit{
 	color: white;
 	font-weight: 300;
-  letter-spacing: 0.05em;
-	font-size: 2.5em;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
 	padding: 15px 0px;
 	line-height: 50px;
 
