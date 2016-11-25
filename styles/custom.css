@@ -188,7 +188,6 @@ p{
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 7px 45px;
 }
 
 a.btn.btn-order.btn-header{
@@ -197,6 +196,12 @@ a.btn.btn-order.btn-header{
 }
 a.btn.btn-order.btn-header:hover{
 	text-decoration: none;
+}
+a.btn.btn-user{
+	color: #FF8B80 !important;
+}
+a.btn.btn-user:hover{
+	color: #ff7366 !important;
 }
 
 a.btn.btn-how{
@@ -301,7 +306,6 @@ nav.navbar.navbar-default{
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
 	border-radius: 100px!important;
-	padding: 7px 45px;
 	margin-top: 12px;
 	border-color: #ff7366;
 }
