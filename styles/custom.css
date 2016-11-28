@@ -520,10 +520,11 @@ a:hover.link-price{
 	color: white;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-	font-size: 2.5em;
+	font-size: 2em;
 	padding: 15px 0px;
 	line-height: 50px;
-
+	width: 80%;
+	margin: auto;
 }
 
 
