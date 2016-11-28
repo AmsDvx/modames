@@ -1145,9 +1145,14 @@ a:hover#contactstyle4{
     100%{background-position:0% 50%}
 }
 
-
-
-
+/*Link to pricing*/
+a.faq-link-price{
+	text-decoration: underline;
+	color: #333333;
+}
+a.faq-link-price:hover{
+	font-weight: 600;
+}
 
 
 /*==============================================
