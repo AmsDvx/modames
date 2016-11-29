@@ -122,53 +122,7 @@ div.editorial.panel-body{
 	color: #333333;
 }
 
-/*h1 {
-	font-family: 'Lato', sans-serif;
-	font-size: 30px;
-	color: #333333;
-	font-weight: 500;
-	text-align: center;
-	margin: auto;
-	line-height: 40px;
-	color: #333333;
-	text-transform: none;
-}
 
-.bann_caption h1 {
-	margin-bottom: 30px!important;
-	color: #ffffff!important;
-}
-
-h2{
-	font-family: 'Lato', sans-serif;
-	font-size: 1.4em;
-	color: #333333;
-	font-weight: 300;
-	text-align: center;
-	text-transform: initial;
-	margin: auto;
-}
-
-
-h3{
-	font-family: 'Lato', sans-serif;
-	font-size: 1.2em;
-	color: #333333;
-	font-weight: normal;
-	text-align: center;
-	text-transform: initial;
-	margin: auto;
-}
-
-p{
-	font-weight: 300;
-	color: #333333;
-}
-
-.wrapper {
-	font: 14px/23px 'Lato', sans-serif;
-}
-*/
 /* Button */
 .btn-order{
 	color: white !important;
@@ -177,7 +131,7 @@ p{
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
 	border-radius: 100px!important;
-  padding: 7px 45px;
+  padding: 7px 60px;
 	margin-top: 12px;
 }
 
@@ -196,6 +150,12 @@ a.btn.btn-order.btn-header{
 }
 a.btn.btn-order.btn-header:hover{
 	text-decoration: none;
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 400 !important;
+	font-family: 'Lato', sans-serif;
+	background: #ff7366 !important;
+	border-radius: 100px!important;
 }
 a.btn.btn-user{
 	color: #FF8B80 !important;
@@ -424,6 +384,21 @@ div.mission p{
 	margin: auto;
 	line-height: 60px;
 }
+/* whitebox slider link*/
+.bann_caption a{
+	color: white !important;
+	font-size: 1.2em !important;
+	font-weight: 400 !important;
+	font-family: 'Lato', sans-serif !important;
+	background: #ff8b80 !important;
+	border-radius: 100px !important;
+	padding: 8px!important;
+	margin: 0px;
+	margin-top: 20px;
+	height: 40px;
+	width: 185px;
+	line-height: normal;
+}
 
 
 section.slider{
@@ -433,9 +408,6 @@ section.slider{
 	background-size: cover;
 }
 
-.whitebox button{
-	margin-top:20px;
-}
 
 /*Scroll in slider*/
 .btn-scroll{
@@ -1233,6 +1205,7 @@ div.baseline p{
 
 div.mission p{
 	font-size: 1.2em;
+	line-height: 20px;
 }
 div.sub-mission p{
 	font-size: 1em;
