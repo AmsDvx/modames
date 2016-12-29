@@ -766,18 +766,8 @@ HOW IT WORKS PAGE
 }
 
 
-/* EXPLAIN SECTION */
-.explain{
-	margin: 50px auto 50px auto;
-}
-section.explain p.number-one {
-	margin-bottom: 50px;
-}
 
-section.explain p.editorial {
-	margin-top: -15px;
-	color: #ff8b80;
-}
+
 
 /* STEPS SECTION */
 section.container-fluid.steps-section{
@@ -788,8 +778,7 @@ div.row.steps-bloc{
 }
 /*For images*/
 img.stepimg{
-	max-width : 90%;
-	heigth: auto;
+	max-width : 180px;
 	margin-bottom: 20px;
 }
 .img-bloc-right{
@@ -856,6 +845,26 @@ p.bold-words{
 	background-size: contain;
 }
 
+/* EXPLAIN SECTION */
+.explain{
+	margin: 50px auto 50px auto;
+}
+
+div.explain-p{
+		margin: 50px auto;
+}
+
+section.explain p.number-one {
+	margin-bottom: 50px;
+}
+
+section.explain p.editorial {
+	max-width: 250px;
+	margin: auto;
+}
+#fa-explain{
+	color: #40B8C7;
+}
 
 /* PRICE SECTION */
 section.pricing-how{
