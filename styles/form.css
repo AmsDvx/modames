@@ -44,6 +44,9 @@ fieldset.row.question-block{
   font-weight: 400;
   display: block;
 }
+legend.question{
+  border-bottom:1px solid #b5e4e9;
+}
 /* OPTIONAL DESCRIPTION DESIGN */
 p.optional-description{
   font-size: 1em;
@@ -51,6 +54,9 @@ p.optional-description{
   margin-top: -20px;
   font-style: italic;
 }
+
+/* OPTIONAL SEPARATION DESIGN */
+
 /* ANSWER TEXT DESIGN */
 label.label-text{
   font-size: 1em;
@@ -65,7 +71,12 @@ label.label-undertext{
   font-size: 1em;
   font-weight: 300;
 }
-
+label.label-undertext-second{
+  font-size: 0.9em;
+  font-weight: 200;
+  color: #777777;
+  margin-right: 10px;
+}
 /* SELECT AUTO DESIGN SIZE */
 select.form-control{
   width: auto;
@@ -188,7 +199,16 @@ img.haircolor{
   max-height: 50px;
   margin-bottom: 20px;
   margin-top: 4px;
+  margin-left: 0px;
+  text-align: left;
 }
+.hair-left{
+  margin-left: -45px;
+}
+.skin-left{
+  margin-left: -32px;
+}
+
 /* HAIR CIRCLE CHECKING DESIGN */
 /*for delete left checking*/
 .circle-haircolor[type="radio"]:not(:checked) + label:before,
@@ -266,6 +286,10 @@ label.label-text.sizing{
   border-radius: 5px;
   padding: 5px 10px;
 }
+label.label-undertext-second.length-jeans{
+  margin-left: 10px;
+}
+
 /* SIZES CIRCLE CHECKING DESIGN */
 /*for delete left checking*/
 .circle-sizes[type="radio"]:not(:checked) + label:before,
@@ -287,16 +311,15 @@ label.label-text.sizing{
   background-color: #3DB7C6;
   }
 
-/* COMPLEX SHARING QUESTION DESIGN */
-textarea#complex-text.form-control{
-  width: 200%;
-}
 
 
 /* ACCESSORIES PREFERENCES QUESTION DESIGN */
+.fa.fa-caret-right.level-two{
+  color: #3DB7C6;
+}
 /* for the margin between under-question*/
-#bloc-pierced, #bloc-jewel-style{
-  margin-bottom: 40px;
+div.grey-margin.jewel{
+  margin: 20px auto;
 }
 
 /* for the allergy*/
@@ -338,9 +361,9 @@ img.colors{
 
 /* FASHION STYLES DESIGN */
 
-legend.question.fashion-margin{
-  margin-top: 50px;
-  border-bottom: 1px solid #3DB7C6;
+div.grey-margin.styles{
+  margin: 30px auto;
+  border-bottom:1px solid #cccccc;
 }
 /*for image*/
 img.fashion-styles{
@@ -470,7 +493,10 @@ textarea#complex-text.form-control{
 div.select-margin-complex.special-occasion{
   display: block;
 }
-
+/* SIZES QUESTIONS DESIGN */
+#length-jeans{
+  margin-left: -25px;
+}
 /* SOCIAL QUESTION DESIGN */
 /*for  social links*/
 input.form-control.social-link{
