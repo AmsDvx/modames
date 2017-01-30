@@ -182,14 +182,14 @@ div.select-margin-complex{
   opacity: 1; /* coche opaque */
   transform: scale(1); /* mise à l'échelle 1:1 */
 }
-/* HAIRCOLOR QUESTION DESIGN */
+/* HAIRCOLOR QUESTIONS DESIGN */
 img.haircolor{
   border-radius: 100%;
   max-height: 50px;
   margin-bottom: 20px;
   margin-top: 4px;
 }
-/* FONT-AWESOME HAIR CIRCLE CHECKING DESIGN */
+/* HAIR CIRCLE CHECKING DESIGN */
 /*for delete left checking*/
 .circle-haircolor[type="radio"]:not(:checked) + label:before,
 .circle-haircolor[type="radio"]:checked + label:before{
@@ -212,7 +212,7 @@ img.haircolor{
   height: 58px;
   }
 
-/* COLOUR QUESTION DESIGN */
+/* COLOUR QUESTIONS DESIGN */
 /*for color's circles*/
 i#black-skin-fa.fa.fa-circle{
   color: #5C4438;
@@ -237,7 +237,7 @@ i#pluswhite-skin-fa.fa.fa-circle{
   margin-top: 2px;
 }
 
-/* FONT-AWESOME CIRCLE CHECKING SKIN DESIGN */
+/* CIRCLE CHECKING SKIN DESIGN */
 /*for delete left checking*/
 .circle-skincolor[type="radio"]:not(:checked) + label:before,
 .circle-skincolor[type="radio"]:checked + label:before{
@@ -260,43 +260,45 @@ i#pluswhite-skin-fa.fa.fa-circle{
   height: 46px;
   }
 
-/* MORPHO QUESTION DESIGN */
-/*for image*/
-img.morpho{
-  max-width: 100%;
-  margin: 2px 10px 20px 10px;
+/* SIZES QUESTIONS DESIGN */
+label.label-text.sizing{
+  border: 1.5px solid #333;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
-label.morpho-type{
-  padding: 0px !important;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-.morpho-check[type="radio"]:not(:checked) + label:before,
-.morpho-check[type="radio"]:checked + label:before{
+/* SIZES CIRCLE CHECKING DESIGN */
+/*for delete left checking*/
+.circle-sizes[type="radio"]:not(:checked) + label:before,
+.circle-sizes[type="radio"]:checked + label:before{
   position: absolute;
   left: -9999px;
-}
 
+}
 /* design just for the check label after*/
 /* for no checked */
-.morpho-check[type="radio"]:checked + label:after,
-.morpho-check[type="radio"]:not(:checked) + label:after {
+.circle-sizes[type="radio"]:checked + label:after,
+.circle-sizes[type="radio"]:not(:checked) + label:after {
   opacity: 0; /* coche invisible */
   transform: scale(0); /* mise à l'échelle à 0 */
 }
-.morpho-check[type="radio"]:checked + label{
-  background-image: url("../images/form/morpho/checking-morpho.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 132px;
-}
+.circle-sizes[type="radio"]:checked + label{
+  border: 1.5px solid #3DB7C6;
+  color: white;
+  background-color: #3DB7C6;
+  }
 
 /* COMPLEX SHARING QUESTION DESIGN */
 textarea#complex-text.form-control{
   width: 200%;
 }
+
+
 /* ACCESSORIES PREFERENCES QUESTION DESIGN */
+/* for the margin between under-question*/
+#bloc-pierced, #bloc-jewel-style{
+  margin-bottom: 40px;
+}
+
 /* for the allergy*/
 textarea#allergy-text.form-control{
   width: auto;

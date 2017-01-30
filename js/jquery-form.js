@@ -43,6 +43,51 @@ $(function(){
   });
 
 });
+/* ABOUT PANTS LENGTH 2 choices maximum*/
+$(function(){
+  $("input.limit-two-pant").change(function(){
+      limit=2;
+      nb=$("input.limit-two-pant:checked").length;
+      if(nb>limit){
+        $(this).attr("checked", false);
+      }
+  });
+
+});
+/* for two responses code*/
+$(function(){
+  $("input.two-resp").change(function(){
+      limit=2;
+      nb=$("input.two-resp:checked").length;
+      if(nb>limit){
+        $(this).attr("checked", false);
+      }
+  });
+
+});
+
+/* ABOUT SKIRTS LENGTH 2 choices maximum*/
+$(function(){
+  $("input.limit-two-skirt").change(function(){
+      limit=2;
+      nb=$("input.limit-two-skirt:checked").length;
+      if(nb>limit){
+        $(this).attr("checked", false);
+      }
+  });
+
+});
+/* for two responses code*/
+$(function(){
+  $("input.two-resp").change(function(){
+      limit=2;
+      nb=$("input.two-resp:checked").length;
+      if(nb>limit){
+        $(this).attr("checked", false);
+      }
+  });
+
+});
 
 /* ABOUT  PANTS STYLE 2 choices maximum*/
 $(function(){
