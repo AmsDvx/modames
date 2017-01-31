@@ -1052,33 +1052,48 @@ PRICE PAGE
     100%{background-position:0% 50%}
 }
 /* PRICE SECTION */
-section.pricing-bloc{
-	background: #F7F8F9;
-}
+
 div.pricing-step{
 	margin: 50px;
 }
 div.pricing-square{
-	background: #FF8B80;
-	border-radius: 2px;
-	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.25);
-  padding: 20px 0;
+	background: #white;
+	border: 1px solid #ffe0dd;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 0 rgba(255,139,128,0.1);
   position: relative;
+	min-width: 300px;
+	min-height: 280px;
 	max-width: 300px;
-	max-height: 200px;
+	max-height: 280px;
 	margin: auto;
 }
-p.number-two-uppercase.title-price{
-	color: white;
+
+div.price-bloc-text{
+	max-width: 80%;
+	margin: auto;
+	margin-top: 0px;
 }
-p.euro{
+p.line-seperate-price{
+	border-bottom: 1px dotted #FF8B80;
+}
+p.number-two-uppercase.title-price{
+	color: #FF8B80;
+	text-transform: uppercase;
+	font-size: 1.6em;
 	font-weight: 400;
-	font-size: 1.5em;
-	color: white
+	text-align: center;
+	padding: 10px;
 }
 p.editorial.price-text{
-	color: white;
+	color: #333333;
+	font-size: 1.1em;
+	font-weight: 300;
 }
+i.fa.fa-caret-right.bullet-price{
+	color: #FF8B80;
+}
+
 
 /* Price for each article */
 #price-article{
