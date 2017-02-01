@@ -623,14 +623,13 @@ input{
 }
 ::-webkit-input-placeholder {
   color: #f8a700;
-	text-decoration: underline;
 	font-weight: 300;
 }
 
 
 .arrow{
 	background: none;
-	border: 1px red;
+	border: none;
 	color: #f8a700 !important;
   font-family: "Lato", sans-serif !important;
   font-weight: 400 !important;
@@ -697,7 +696,7 @@ footer p{
 }
 footer .social_icons a i {
 	border: none !important;
-	font-size: 2.5em;
+	font-size: 2.3em;
 	margin-top: 0px;
 	color: #FEEECE;
 }
@@ -712,7 +711,7 @@ footer a:hover {
 }
 a.footer-link {
 		color: #FFFFFF;
-		font-size: 1.1em;
+		font-size: 1em;
 }
 a.footer-link:hover {
 	color: #FFFFFF;
@@ -1536,7 +1535,7 @@ Tablet Screen
 	font-size: 0.8em;
 }
 footer img{
-	width: 50%;
+	width: 40%;
 }
 /*HOW IT WORKS PAGE*/
 
@@ -1598,6 +1597,6 @@ section.slider{
 }
 /*Footer*/
 footer img{
-	width: 60%;
+	width: 30%;
 }
 }
