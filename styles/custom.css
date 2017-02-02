@@ -65,9 +65,7 @@ p.number-one{
 	text-transform: uppercase;
 }
 
-p#number-two-white.number-two-slider{
-	color: white;
-}
+
 /*Secondary and tertiary title slider */
 p.number-two-slider{
 	font-family: 'Lato', sans-serif;
@@ -731,50 +729,21 @@ HOW IT WORKS PAGE
 #how-ban {
 	overflow: hidden;
 	text-align: center;
-	color: #FFF;
+	color: #FF8B80;
 	position: relative;
 	background-size: 100%;
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	margin-top: 70px;
 
 }
+p.number-two-slider.how-title{
+	color: #FF8B80;
 
-#how-ban {
-  background: linear-gradient(270deg, #FFDEDC, #FFC6C1, #FFA49C, #FF8B80);
-  background-size: 800% 800%;
-
-  -webkit-animation: supergradient 20s ease infinite;
-  -moz-animation: supergradient 20s ease infinite;
-  animation: supergradient 20s ease infinite;
 }
-
-@-webkit-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@-moz-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-
-
-
 
 /* STEPS SECTION */
-section.container-fluid.steps-section{
-	background: #F7F8F9;
-}
+
 div.row.steps-bloc{
 	margin: 50px 80px 50px 80px;
 }
@@ -856,6 +825,9 @@ OUR HISTORY PAGE
 	height: 300px;
 }
 /* Breadcrumb */
+p.number-two-slider.about-title{
+	color: #FFFFFF;
+}
 #banteam {
 	text-align: center;
 	color: #FFF;
@@ -1015,41 +987,17 @@ PRICE PAGE
 	overflow: hidden;
 	text-align: center;
 	color: #FFF;
-	background: #222;
 	position: relative;
 	background-size: 100%;
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	margin-top: 70px;
-
 }
 
-#price-ban {
-  background: linear-gradient(270deg, #fbda97, #f9e068, #FDC85C, #ffbf3e);
-  background-size: 800% 800%;
-
-  -webkit-animation: supergradient 20s ease infinite;
-  -moz-animation: supergradient 20s ease infinite;
-  animation: supergradient 20s ease infinite;
+p.number-two-slider.price-title{
+		color: #FF8B80;
 }
 
-@-webkit-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@-moz-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 /* PRICE SECTION */
 
 div.pricing-step{
