@@ -743,28 +743,6 @@ p.number-two-slider.how-title{
 }
 
 /* STEPS SECTION */
-/*For background*/
-
-div.step-bloc-how.num1{
-background-image: url("../images/steps/01.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: 350px;
-}
-
-div.step-bloc-how.num2{
-background-image: url("../images/steps/02.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: 350px;
-}
-div.step-bloc-how.num3{
-background-image: url("../images/steps/03.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: 350px;
-}
-
 /*For text*/
 .step-left{
 	text-align: left;
@@ -773,10 +751,11 @@ background-size: 350px;
 	text-align: right;
 }
 div.row.steps-bloc{
-	margin: 80px auto;
+	margin: 50px auto;
 }
 
 /*For images*/
+/* for vertical align: don't work
 div.step-bloc-how{
 	position: relative;
 }
@@ -789,6 +768,13 @@ div.step-right{
 	position: absolute;
 	top: 50%;
 	transform: translateY(50%);
+}*/
+
+img.step-number{
+	width: 40px;
+}
+img.stepimg{
+	border-radius: 10px;
 }
 /* EXPLAIN SECTION */
 .explain{
@@ -1352,12 +1338,7 @@ footer img{
 section#how-ban.container-fluid{
 	margin-top: auto;
 }
-.img-bloc-right{
-	text-align: center;
-}
-.img-bloc-left{
-	text-align: center;;
-}
+
 p.editorial.step-p{
 	text-align: left;
 }
@@ -1489,7 +1470,7 @@ Tablet Screen
 footer img{
 	width: 40%;
 }
-/*HOW IT WORKS PAGE*/
+
 
 /*toggle for tablet screen*/
 
