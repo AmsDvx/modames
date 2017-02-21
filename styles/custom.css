@@ -1,70 +1,17 @@
 /* ==============================================
-@Author: Inventive Templates
-@URL: http://inventivetemplates.com
-
-Styles contents are outlined below
-
-1. Default Styles
-2. Short Codes & Form Elements
-3. Top Head Styles
-4. Bootstrap Navbar
-5. For Mega Menu
-6. Banner
-7. Features
-8. Features_2 & Features_3
-9. Home_block 2 & 3
-10. Counters
-11. Services
-12. Workprocess
-13. Model Box
-14. Gallery
-15. News & Blog items
-16. Testimonials
-17. Team
-18. Subscribe
-19. Clients
-20. Contact Us
-21. Map
-22. Footer
-23. Sidebar
-24. Accordion
-25. Pricing
-26. 404
-27. Breadcrumb
-28. waypoints
-29. Buy_now
-
-Responsive Styles
-30. Mobile and Tablet Screen
-31. Mobile Screen
-32. Tablet and Desktop Screen
-33. Tablet Screen
-34. Desktop Screen
-35. Desktop and Large Desktop Screen
-36. Large Desktop Screen
-37. Custom Screens
-
-Animations
-38. Animations
-
-
-/* ==============================================
 Default Styles
 =============================================== */
-
-
 
 .center {
 	text-align: center!important;
 }
-/*Title 1*/
+/*Title 1 (home slider)*/
 p.number-one{
 	font-family: 'Poiret One', sans-serif;
 	font-size: 2em;
 	color: #333333;
 	text-transform: uppercase;
 }
-
 
 /*Secondary and tertiary title slider */
 p.number-two-slider{
@@ -78,7 +25,13 @@ p.number-three-slider{
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	color: rgb(194,194,194);
-
+}
+/* Ban title white */
+p.number-two-slider-white{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	color: #FFFFFF;
 }
 /* Title 2 */
 p.number-two{
@@ -120,7 +73,6 @@ div.editorial.panel-body{
 	color: #333333;
 }
 
-
 /* Button */
 .btn-order{
 	color: white !important;
@@ -128,8 +80,8 @@ div.editorial.panel-body{
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
-	border-radius: 100px!important;
-  padding: 7px 60px;
+	border-radius: 80px!important;
+  padding: 8px 30px;
 	margin-top: 12px;
 }
 
@@ -139,7 +91,7 @@ div.editorial.panel-body{
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
-	border-radius: 100px!important;
+	border-radius: 80px!important;
 }
 
 a.btn.btn-order.btn-header{
@@ -153,7 +105,7 @@ a.btn.btn-order.btn-header:hover{
 	font-weight: 400 !important;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
-	border-radius: 100px!important;
+	border-radius: 80px!important;
 }
 a.btn.btn-user{
 	color: #FF8B80 !important;
@@ -164,21 +116,20 @@ a.btn.btn-user:hover{
 
 a.btn.btn-how{
 	background: transparent !important;
-	border-radius: 100px !important;
-	border-color: rgba(255, 139, 128, 0.7) !important;
-	color: rgba(255, 139, 128, 0.7) !important;
-	padding: 5px 20px;
+	border-radius: 80px !important;
+	border-color: #FDC85C !important;
+	color: #FDC85C !important;
+	padding: 8px 30px;
 	font-size: 1.2em;
 }
 a.btn.btn-how:hover{
 	background: transparent !important;
-	border-radius: 100px !important;
-	border-color: rgba(255, 139, 128, 1)!important;
-	color: rgba(255, 139, 128, 1) !important;
-	padding: 5px 20px;
+	border-radius: 80px !important;
+	border-color: #FFBA2E !important;
+	color: #FFBA2E !important;
+	padding: 8px 30px;
 	font-size: 1.2em;
 }
-
 
 
 /* ==============================================
@@ -254,8 +205,8 @@ nav.navbar.navbar-default{
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
-	border-radius: 100px!important;
-	padding: 7px 45px;
+	border-radius: 80px!important;
+	padding: 8px 30px;
 	margin-top: 12px;
 	border-color: #FF8B80;
 }
@@ -265,42 +216,20 @@ nav.navbar.navbar-default{
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
-	border-radius: 100px!important;
+	border-radius: 80px!important;
 	margin-top: 12px;
 	border-color: #ff7366;
 }
-/*Menu order button just for page with white background*/
-.navbar-default .navbar-nav > li:last-child > a#whitemenu{
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 400;
-	font-family: 'Lato', sans-serif;
-	background: #FF8B80 !important;
-	border-radius: 100px!important;
-	padding: 7px 45px;
-	margin-top: 12px;
-	border-color: #FF8B80;
-}
-.navbar-default .navbar-nav > li:last-child > a:hover#whitemenu{
-	color: white !important;
-	font-size: 1.2em !important;
-	font-weight: 400;
-	font-family: 'Lato', sans-serif;
-	background: #ff7366 !important;
-	border-radius: 100px!important;
-	padding: 7px 45px;
-	margin-top: 12px;
-	border-color: #ff7366;
-}
-/*How have a different CTA in scrolling menu*/
+
+/*CTA in scrolling menu*/
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a {
 	color: white !important;
 	font-size: 1.2em !important;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	background: #FF8B80 !important;
-	border-radius: 100px!important;
-	padding: 7px 45px;
+	border-radius: 80px!important;
+	padding: 8px 30px;
 	margin-top: 12px;
 }
 .wrapper > header .navbar-default.sticky .navbar-nav > li:last-child > a:hover {
@@ -309,8 +238,8 @@ nav.navbar.navbar-default{
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	background: #ff7366 !important;
-	border-radius: 100px!important;
-	padding: 7px 45px;
+	border-radius: 80px!important;
+	padding: 8px 30px;
 	margin-top: 12px;
 }
 .navbar-nav {
@@ -353,8 +282,15 @@ For Mega Menu
  }
 
 /* ==============================================
-Banner
+Slider
 =============================================== */
+section.slider{
+	background-image: url("../images/test-slider.jpg");
+	max-height: 640px;
+	background-position: center;
+	background-size: cover;
+}
+
 /* whitebox slider*/
 div.whitebox{
 	box-shadow: 11px 7px 56px 8px rgba(161,161,161,0.32);
@@ -386,28 +322,15 @@ div.mission p{
 }
 /* whitebox slider link*/
 .bann_caption a{
-	color: white !important;
+	color: #FFF !important;
 	font-size: 1.2em !important;
 	font-weight: 400 !important;
 	font-family: 'Lato', sans-serif !important;
 	background: #ff8b80 !important;
-	border-radius: 100px !important;
-	padding: 8px!important;
-	margin: 0px;
+	border-radius: 80px !important;
+	padding: 8px 30px !important;
 	margin-top: 20px;
-	height: 40px;
-	width: 185px;
-	line-height: normal;
 }
-
-
-section.slider{
-	background-image: url("../images/test-slider.jpg");
-	max-height: 640px;
-	background-position: center;
-	background-size: cover;
-}
-
 
 /*Scroll in slider*/
 .btn-scroll{
@@ -457,28 +380,9 @@ p.editorial.text-etape{
 .btn-how{
 	margin-top: 40px;
 }
-/* === Price section === */
-.price .container-fluid{
-	padding: 80px;
-	background: rgba(61, 183, 198, 0.5);
-}
-
-p.homeprice{
-	max-width: 80%;
-	text-align: center;
-	margin: 50px auto 50px;
-}
-a.link-price{
-	text-align: center;
-	color: white;
-	text-decoration: underline;
-	font-size: 1.1em;
-}
-a:hover.link-price{
-	text-align: center;
-	color: #eee;
-	text-decoration: underline;
-}
+/* ==============================================
+Ban benefit
+=============================================== */
 #home-benefit {
 	padding: 5em 0 5em 0 ;
 	background-color: none;
@@ -513,15 +417,6 @@ p.editorial.fix-price{
 p.editorial.client-name-fix{
 	font-weight: 400;
 }
-
-/* ==============================================
-Gallery
-=============================================== */
-.gallery{
-	background-color: #ffffff ;
-	margin-bottom: -15px;
-}
-
 
 /* ==============================================
 Story
@@ -631,39 +526,6 @@ input{
 	color: #f8a700 !important;
   font-family: "Lato", sans-serif !important;
   font-weight: 400 !important;
-}
-/* ==============================================
-Contact Us
-=============================================== */
-.contact {
-	background : none;
-}
-.contact_info li a, .contact_info p {
-	color: #333333;
-}
-.contact_info li {
-	color: #333333;
-}
-.contact_info h3 {
-	color: #333333;
-}
-#contact-description {
-	margin-top: 50px;
-	background-color: #f8f8f8;
-}
-.contact label {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #FFFFFF;
-}
-.indicates-required{
-	color:#ffffff;
-}
-.contact input.form-control {
-	background: #F8F8F8;
-}
-.contact textarea.form-control {
-	background: #F8F8F8;
 }
 
 /* ==============================================
@@ -904,131 +766,41 @@ img.logo-team{
 	position: relative;
 	text-align: center;
 }
-/*==============================================
-OUR HISTORY PAGE
-===============================================*/
-/*=== Banner pictures section ===*/
-.row.bancontact{
-	margin-top: 80px;
-	background: #FDC85C;
-	height: 300px;
-}
-/* Breadcrumb */
-#bancontact {
-	text-align: center;
-	color: #FFF;
-	background: #222;
-	position: relative;
-	background-size: 100%;
-	padding-bottom: 60px;
-	padding-top: 60px;
-	margin-top: 60px;
-	max-height: 150px;
-}
-
-#bancontact {
-  background: linear-gradient(270deg, #8FD6DE, #5EC3D0, #40B8C7, #0CB0C5);
-  background-size: 800% 800%;
-
-  -webkit-animation: supergradient 20s ease infinite;
-  -moz-animation: supergradient 20s ease infinite;
-  animation: supergradient 20s ease infinite;
-}
-
-@-webkit-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@-moz-keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@keyframes supergradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-/* Paragraphe */
-section.container.contact-detail{
-	margin: 50px auto;
-}
-div.contact-bloc{
-	margin: 30px auto;
-}
-p.editorial.contact-p{
-	max-width: 65%;
-	margin: auto;
-}
-a.contact-link{
-	color: #FF8B80;
-}
-a.contact-link:hover{
-	color: #ff7366;
-}
 
 /*==============================================
 PRICE PAGE
 ===============================================*/
-#price-ban {
-	overflow: hidden;
-	text-align: center;
-	color: #FFF;
-	position: relative;
-	background-size: 100%;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	margin-top: 70px;
-}
 
-p.number-two-slider.price-title{
-		color: #FF8B80;
-}
+/* test price */
 
-/* PRICE SECTION */
+div.all{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+div.test-bloc1{
+	background-color: #ffdad7;
+	height: 200px;
 
-div.pricing-step{
-	margin: 50px;
 }
-div.pricing-square{
-	background: #white;
-	border: 1px solid #ffe0dd;
-	border-radius: 10px;
-	box-shadow: 0 2px 10px 0 rgba(255,139,128,0.1);
-  position: relative;
-	min-width: 300px;
-	min-height: 280px;
-	max-width: 300px;
-	max-height: 280px;
-	margin: auto;
+div.test-bloc1:hover{
+	background-color: #FF8B80;
+	height: 200px;
 }
-
-div.price-bloc-text{
-	max-width: 80%;
-	margin: auto;
-	margin-top: 0px;
+div.test-bloc2{
+	background-color: #fff0d1;
+	height: 200px;
 }
-p.line-seperate-price{
-	border-bottom: 1px dotted #FF8B80;
+div.test-bloc2:hover{
+	background-color: #FDC85C;
+	height: 200px;
 }
-p.number-two-uppercase.title-price{
-	color: #FF8B80;
-	text-transform: uppercase;
-	font-size: 1.6em;
-	font-weight: 400;
-	text-align: center;
-	padding: 10px;
+div.test-bloc3{
+	background-color: #e2f6f8;
+	height: 200px;
 }
-p.editorial.price-text{
-	color: #333333;
-	font-size: 1.1em;
-	font-weight: 300;
-}
-i.fa.fa-caret-right.bullet-price{
-	color: #FF8B80;
+div.test-bloc3:hover{
+	background-color: #0CB0C5;
+	height: 200px;
 }
 
 
@@ -1142,12 +914,6 @@ p.number-two.title-faq{
 #contactstyle2 a:hover{
 	color: #FF8B80;
 }
-a#contactstyle4{
-	color: #333333;
-}
-a:hover#contactstyle4{
-	color: #FF8B80;
-}
 
 .contactinfo .fa{
 	color: #FF8B80
@@ -1230,14 +996,15 @@ img.icon-first{
 	width: 20%;
 }
 /*=== HOW IT WORKS PAGE ===*/
-.img-bloc-right{
+img.stepimg{
+	width: 75%;
+	margin-bottom: 20px;
+}
+.step-right{
 	text-align: center;
 }
-.img-bloc-left{
-	text-align: center;;
-}
-p.number-three.title-right{
-	text-align: left;
+.step-left{
+	text-align: center;
 }
 
 /*=== HISTORY PAGE ===*/
@@ -1338,16 +1105,18 @@ footer img{
 section#how-ban.container-fluid{
 	margin-top: auto;
 }
+img.stepimg{
+	width: 75%;
+	margin-bottom: 20px;
+}
+.step-right{
+	text-align: center;
+}
+.step-left{
+	text-align: center;
+}
 
-p.editorial.step-p{
-	text-align: left;
-}
-p.number-three.title-right{
-	text-align: left;
-}
-p.editorial.step-p-right{
-	text-align: left;
-}
+
 /*=== HISTORY PAGE ===*/
 div#banteam.row{
 	margin-top: auto;
@@ -1403,6 +1172,18 @@ Mobile and Tablet Screen
 section#how-ban.container-fluid{
 	margin-top: auto;
 }
+img.stepimg{
+	max-width: 75%;
+	margin-bottom: 20px;
+}
+.step-right{
+	text-align: center;
+
+}
+.step-left{
+	text-align: center;
+}
+
 /*=== HISTORY PAGE ===*/
 div#banteam.row{
 	margin-top: auto;
@@ -1430,7 +1211,6 @@ Tablet and Desktop Screen
 
 /*Marge droite dernière élément menu */
 .navbar-default .navbar-nav > li:last-child > a {
-	padding-right: 40px;
 	margin-right: 40px;
 }
 .navbar-default {
