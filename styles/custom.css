@@ -956,6 +956,71 @@ ul.contactinfo{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+/*==============================================
+CONTACT PAGE
+===============================================*/
+/*=== Banner pictures section ===*/
+.row.bancontact{
+	margin-top: 80px;
+	background: #FDC85C;
+	height: 300px;
+}
+/* Breadcrumb */
+#bancontact {
+	text-align: center;
+	color: #FFF;
+	background: #222;
+	position: relative;
+	background-size: 100%;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	margin-top: 60px;
+	max-height: 150px;
+}
+
+#bancontact {
+  background: linear-gradient(270deg, #8FD6DE, #5EC3D0, #40B8C7, #0CB0C5);
+  background-size: 800% 800%;
+
+  -webkit-animation: supergradient 20s ease infinite;
+  -moz-animation: supergradient 20s ease infinite;
+  animation: supergradient 20s ease infinite;
+}
+
+@-webkit-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes supergradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/* Paragraphe */
+section.container.contact-detail{
+	margin: 50px auto;
+}
+div.contact-bloc{
+	margin: 30px auto;
+}
+p.editorial.contact-p{
+	max-width: 65%;
+	margin: auto;
+}
+a.contact-link{
+	color: #FF8B80;
+}
+a.contact-link:hover{
+	color: #ff7366;
+}
 
 
 /*==============================================
