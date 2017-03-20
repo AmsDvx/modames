@@ -320,6 +320,11 @@ div.mission p{
 	margin: auto;
 	line-height: 60px;
 }
+div.sub-mission{
+	line-height: 10px;
+}
+
+
 /* whitebox slider link*/
 .bann_caption a{
 	color: #FFF !important;
@@ -839,15 +844,19 @@ p.editorial.price-number{
 /*==============================================
 FAQ PAGE
 ===============================================*/
-.faq_block{
-	display: inline;
+div.container.faq-contain{
+	margin-bottom: 50px;
+}
+div.faq_block{
+	margin-top: 30px;
 }
 p.number-two.title-faq{
 	font-family: "Lato", sans-serif;
 	font-size: 1.4em;
 	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #333333;
+	text-transform: none;
 }
 .panel-title > a.collapsed{
 	font-family: "Lato", sans-serif;
@@ -860,7 +869,7 @@ p.number-two.title-faq{
 	font-family: 'Lato', sans-serif;
 
 }
-#heading_1.panel-heading, #heading_2.panel-heading, #heading_3.panel-heading, #heading_4.panel-heading, #heading_5.panel-heading, #heading_6.panel-heading, #heading_7.panel-heading, #heading_8.panel-heading, #heading_9.panel-heading, #heading_10.panel-heading, #heading_11.panel-heading, #heading_12.panel-heading, #heading_13.panel-heading, #heading_14.panel-heading, #heading_15.panel-heading, #heading_16.panel-heading, #heading_17.panel-heading, #heading_18.panel-heading, #heading_19.panel-heading, #heading_20.panel-heading, #heading_21.panel-heading, #heading_22.panel-heading, #heading_23.panel-heading{
+#heading-1-1.panel-heading, #heading-1-2.panel-heading, #heading-1-3.panel-heading, #heading-1-4.panel-heading, #heading-1-5.panel-heading, #heading-2-1.panel-heading, #heading-2-2.panel-heading, #heading-2-3.panel-heading, #heading-2-4.panel-heading, #heading-3-1.panel-heading, #heading-3-2.panel-heading, #heading-3-3.panel-heading, #heading-3-4.panel-heading, #heading-3-5.panel-heading, #heading-3-6.panel-heading, #heading-4-1.panel-heading, #heading-4-2.panel-heading, #heading-4-3.panel-heading{
 	color: #ff8b80;
 }
 
@@ -872,56 +881,39 @@ p.number-two.title-faq{
 .panel-group {
 	background-color: #F8F8F8;
 }
-#three {
-	padding-top: 80px;
-}
-#four {
-	padding-top: 80px;
+
+section.container-fluid.contact-faq{
+	padding: 50px;
+	background-color: rgb(255, 251, 241);
 }
 
-.contactinfo{
-	margin-bottom: 60px;
-}
-
-#contactstyle2{
-	font-family: 'Lato', sans-serif;
+p.contact-faq-text{
 	font-weight: 300;
-	background-color: rgba(248, 248, 248, 0.7) !important;
-	border-radius: 2px;
-	min-width: 200px;
-	min-height: 40px;
-	max-width: 200px;
-	max-height: 40px;
-	padding: 10px;
-	margin: 10px;
-}
-#contactstyle3{
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	background-color: rgba(248, 248, 248, 0.7) !important;
-	border-radius: 2px;
-	min-width: 200px;
-	min-height: 40px;
-	max-width: 200px;
-	max-height: 40px;
-	padding: 10px;
-	margin: 10px;
-	color: #333333
-}
-#contactstyle2 a{
 	color: #333333;
-}
-#contactstyle2 a:hover{
-	color: #FF8B80;
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;
 }
 
 .contactinfo .fa{
-	color: #FF8B80
+	color: #FDC85C;
 }
 .contactinfo li{
 	display: inline-block;
+	padding: 10px;
 }
 
+ul.contactinfo{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+}
+.contactinfo a{
+	color: #333333;
+
+}
+.contactinfo a:hover{
+	text-decoration: underline;
+}
 
 /* Cool banner */
 #cool {
@@ -965,15 +957,6 @@ p.number-two.title-faq{
     100%{background-position:0% 50%}
 }
 
-/*Link to pricing*/
-a.faq-link-price{
-	text-decoration: underline;
-	color: #333333;
-}
-a.faq-link-price:hover{
-	font-weight: 600;
-}
-
 
 /*==============================================
 go-top link
@@ -995,6 +978,7 @@ Little Mobile Screen
 img.icon-first{
 	width: 20%;
 }
+
 /*=== HOW IT WORKS PAGE ===*/
 img.stepimg{
 	width: 75%;
@@ -1057,6 +1041,9 @@ div.mission p{
 }
 div.sub-mission p{
 	font-size: 1em;
+}
+div.sub-mission{
+	line-height: 15px;
 }
 
 .whitebox button{
