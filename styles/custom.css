@@ -592,7 +592,7 @@ a.footer-link:hover {
 HOW IT WORKS PAGE
 ===============================================*/
 
-/* Cool banner */
+/* How banner */
 #how-ban {
 	overflow: hidden;
 	text-align: center;
@@ -606,7 +606,6 @@ HOW IT WORKS PAGE
 }
 p.number-two-slider.how-title{
 	color: #FF8B80;
-
 }
 
 /* STEPS SECTION */
@@ -775,53 +774,63 @@ img.logo-team{
 /*==============================================
 PRICE PAGE
 ===============================================*/
+/* Title banner */
+#price-ban {
+	position: fixed;
+	text-align: center;
+	top: 72px;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(64, 184, 199, 1);
+	color: white;
+	font-size: 1.1em;
+	line-height: 30px;
+	z-index: 1;
+}
+/* Explain princing bloc*/
 
-/* test price */
-
-div.all{
-	padding-right: 5px;
-	padding-left: 5px;
+.explain-pricing{
+	background-color: #F7F8F9;
 }
-div.test-bloc1{
-	background-color: #ffdad7;
-	height: 200px;
-
+.explain-pricing-bloc{
+	margin: 130px auto 20px auto;
 }
-div.test-bloc1:hover{
-	background-color: #FF8B80;
-	height: 200px;
+p.title-explain-pricing{
+	font-size: 1.2em;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
 }
-div.test-bloc2{
-	background-color: #fff0d1;
-	height: 200px;
+.grey-margin-price{
+	border-bottom: 2px solid #40b8c7;
+	width: 30%;
+	margin: auto;
 }
-div.test-bloc2:hover{
-	background-color: #FDC85C;
-	height: 200px;
+i.fa.fa-times{
+	color: #40b8c7;
+	font-size: 0.8em;
+	position: absolute;
+	left: 100%;
 }
-div.test-bloc3{
-	background-color: #e2f6f8;
-	height: 200px;
+div.explain-pricing-p{
+	width: 80%;
+	margin: auto;
 }
-div.test-bloc3:hover{
-	background-color: #0CB0C5;
-	height: 200px;
+#sub-text-pricing{
+	margin-top: -20px;
+	font-style: italic;
+	color: #40b8c7;
 }
-
-
 /* Price for each article */
-#price-article{
-	margin-bottom: 50px;
-}
 
-section.pricing-how{
-	margin: 50px auto;
-}
 div#pricehow{
 	margin: auto;
 }
+p#price-article.number-two{
+	margin: 35px auto;
+}
 
-.text-price-intro{
+.pricing-how-description{
 	text-align: center;
 	max-width: 50%;
 	margin: 20px auto 50px auto;
