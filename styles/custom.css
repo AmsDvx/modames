@@ -416,8 +416,12 @@ Ban benefit
 .fix-ex{
 	margin: 80px auto;
 }
+.fix-img{
+	max-width: 80%;
+}
 p.editorial.fix-price{
-	line-height: 15px;
+	line-height: 20px;
+	font-size: 1em;
 }
 p.editorial.client-name-fix{
 	font-weight: 400;
@@ -793,12 +797,15 @@ PRICE PAGE
 section.styling-fees{
 	margin: 72px auto 0px auto;
 	background-color: #F7F8F9;
+	background: url("../images/price/pricing.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-bottom: 50px;
 }
 .title-fees{
 	background: #40b8c7;
 	background-size: contain;
-	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.25);
+	box-shadow: 0 30px 20px 0 rgba(0,0,0,0.25);
 	border-radius: 5px;
 	padding: 50px 20px;
 	width: 25%;
@@ -810,13 +817,25 @@ section.styling-fees{
 	font-weight: 400;
 	text-align: center;
 	color: white;
-	padding-bottom: 50px;
+	text-decoration: line-through;
+	text-decoration-style: solid 0.5px;
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
 }
 span.little-star{
 	font-size: 0.3em;
 	position: absolute;
 	margin-top: -15px;
 	margin-left: 3px;
+	font-family: 'Lato', sans-serif;
+}
+.fees-free{
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	font-family: 'Lato', sans-serif;
 }
 .fees-text{
 	text-align: center;
@@ -844,11 +863,14 @@ span.little-star{
 	background: rgba(255, 255, 255, 0.55);
 
 }
-
+.test-promo{
+	margin-top: -30px;
+}
 .promo-mention{
-	color: #40b8c7;
+	color: #FFF;
 	text-align: center;
-	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	font-size: 0.8em;
 	margin-top: -10px;
@@ -874,29 +896,44 @@ i.fa.fa-times{
 }
 
 
-/* test explic */
-.test-fees{
-	background: white;
-	background-size: contain;
-	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.25);
-	border: 1px solid #CCCCCC
-	border-radius: 5px;
-	padding: 50px 20px;
-	width: 20%;
-	margin: 30px 10px;
-	text-align: center;
+/* Pricing case */
+.pricing-event{
+	background-color: #F7F8F9;
 }
-.test-amount{
-	font-size: 1.1em;
-	font-weight: 400;
-	text-align: center;
-	color: #333333;
-	padding-bottom: 50px;
+
+.pricing-event-title{
+	padding-top: 50px;
 }
-.fees-text-test{
+
+.pricing-event-title{
+	padding-bottom: 30px;
+}
+
+.princing-event-explain{
+	margin: 20px auto 60px auto;
+}
+.pricing-event-bloc{
+	width: 70%;
+	margin: auto;
+}
+.title-pricing-event{
 	color: #333333;
 	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	text-align: left;
 }
+
+.event-text{
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	text-align: left;
+}
+
+
+
 /* Price for each article */
 
 div#pricehow{
@@ -1141,6 +1178,25 @@ img.stepimg{
 	text-align: center;
 }
 
+/*=== PRICING PAGE ===*/
+div.title-fees{
+	width: 80%;
+}
+div.title-explain-pricing{
+	padding: 20px 0px;
+}
+i.fa.fa-times{
+	top:100%;
+	right: 50%;
+	left: 50%;
+}
+.pricing-event-title{
+	padding-bottom: 0px;
+}
+.pricing-event-bloc{
+	width: 70%;
+	margin: 20px auto;
+}
 /*=== HISTORY PAGE ===*/
 .row.banteam{
 	margin-top: 0px;
@@ -1435,7 +1491,10 @@ footer img{
    -webkit-box-shadow: none;
    box-shadow: none;
 }
-
+/*=== PRICING PAGE ===*/
+div.title-fees{
+	width: 40%;
+}
 }
 /* ==============================================
 Desktop and Large Desktop Screen
