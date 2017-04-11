@@ -1163,6 +1163,42 @@ a.contact-link:hover{
 	color: #ff7366;
 }
 
+/*==============================================
+LEGAL PAGE
+===============================================*/
+div.legal-bloc{
+	width: 90%;
+	margin: 30px auto;
+}
+.title-legal-one{
+	color: #FF8B80;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 70px;
+}
+div.title-legal{
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	margin: 10px auto;
+	text-align: left;
+}
+
+p.text-legal{
+	text-align: left;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	font-weight: 300;
+	margin: 0px auto;
+}
+a.legal-link{
+	color: #FF8B80;
+}
+
 
 /*==============================================
 go-top link
