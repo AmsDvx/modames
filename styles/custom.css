@@ -24,7 +24,7 @@ p.number-three-slider{
 	font-size: 1.2em;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-	color: rgb(194,194,194);
+	color: #777;
 }
 /* Ban title white */
 p.number-two-slider-white{
@@ -285,7 +285,7 @@ For Mega Menu
 Slider
 =============================================== */
 section.slider{
-	background-image: url("../images/test-slider.jpg");
+	background-image: url("../images/test-slider.png");
 	max-height: 640px;
 	background-position: center;
 	background-size: cover;
@@ -297,7 +297,7 @@ div.whitebox{
 	width: 448px;
   height: 330px;
 	margin: auto;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.7);
   top: 22%;
   z-index: 1000;
 }
@@ -803,7 +803,7 @@ section.styling-fees{
 	padding-bottom: 50px;
 }
 .title-fees{
-	background: #40b8c7;
+	background: rgba(64, 184, 199, 0.70);
 	background-size: contain;
 	box-shadow: 0 30px 20px 0 rgba(0,0,0,0.25);
 	border-radius: 5px;
@@ -819,23 +819,43 @@ section.styling-fees{
 	color: white;
 	text-decoration: line-through;
 	text-decoration-style: solid 0.5px;
+	font-family: 'Lato', sans-serif;
 	padding-bottom: 20px;
-	font-family: 'Lato', sans-serif;
 }
-span.little-star{
-	font-size: 0.3em;
-	position: absolute;
-	margin-top: -15px;
-	margin-left: 3px;
+
+.fees-style{
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 1.1em;
 	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	padding-bottom: 10px;
+
+}
+.fees-text-bold{
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 2.5em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.5px;
 }
 .fees-free{
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 300;
+	font-style: italic;
 	text-align: center;
 	color: white;
-	padding-bottom: 50px;
 	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+	padding-bottom: 35px;
+
 }
 .fees-text{
 	text-align: center;
@@ -843,8 +863,18 @@ span.little-star{
 	color: white;
 	font-size: 1.1em;
 	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+.under-description-pricing{
+	font-size: 0.8em;
 	font-weight: 300;
-	line-height: 30px;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
 }
 
 .btn.btn-price-page{
@@ -863,18 +893,7 @@ span.little-star{
 	background: rgba(255, 255, 255, 0.55);
 
 }
-.test-promo{
-	margin-top: -30px;
-}
-.promo-mention{
-	color: #FFF;
-	text-align: center;
-	font-style: italic;
-	font-weight: 400;
-	font-family: 'Lato', sans-serif;
-	font-size: 0.8em;
-	margin-top: -10px;
-}
+
 /* Explain princing bloc*/
 .explain-pricing{
 	padding: 20px 0px 20px 0px;
