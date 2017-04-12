@@ -812,16 +812,6 @@ section.styling-fees{
 	margin: 30px auto;
 	text-align: center;
 }
-.fees-amount{
-	font-size: 4em;
-	font-weight: 400;
-	text-align: center;
-	color: white;
-	text-decoration: line-through;
-	text-decoration-style: solid 0.5px;
-	font-family: 'Lato', sans-serif;
-	padding-bottom: 20px;
-}
 
 .fees-style{
 	text-align: center;
@@ -840,22 +830,22 @@ section.styling-fees{
 	text-align: center;
 	margin: auto;
 	color: white;
-	font-size: 2.5em;
+	font-size: 2.8em;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.5px;
+	padding-bottom: 5px;
 }
 .fees-free{
 	font-size: 1em;
-	font-weight: 300;
-	font-style: italic;
+	font-weight: 400;
 	text-align: center;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.5px;
 	padding-bottom: 35px;
-
+	text-transform: uppercase;
 }
 .fees-text{
 	text-align: center;
@@ -899,8 +889,8 @@ section.styling-fees{
 	padding: 20px 0px 20px 0px;
 }
 
-p.title-explain-pricing{
-	font-size: 1.2em;
+div.title-explain-pricing{
+	font-size: 1.1em;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	color: #333333;
