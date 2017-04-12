@@ -287,7 +287,7 @@ For Mega Menu
 Slider
 =============================================== */
 section.slider{
-	background-image: url("../images/test-slider.png");
+	background-image: url("../images/img-slider.jpg");
 	max-height: 640px;
 	background-position: center;
 	background-size: cover;
@@ -805,7 +805,7 @@ PRICE PAGE
 section.styling-fees{
 	margin: 72px auto 0px auto;
 	background-color: #F7F8F9;
-	background: url("../images/price/pricing.png");
+	background: url("../images/price/pricing.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 50px;
