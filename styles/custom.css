@@ -11,6 +11,8 @@ p.number-one{
 	font-size: 2em;
 	color: #333333;
 	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 3px;
 }
 
 /*Secondary and tertiary title slider */
@@ -295,23 +297,27 @@ section.slider{
 div.whitebox{
 	box-shadow: 11px 7px 56px 8px rgba(161,161,161,0.32);
 	width: 448px;
-  height: 330px;
+  height: 335px;
 	margin: auto;
   background-color: rgba(255, 255, 255, 0.7);
   top: 22%;
   z-index: 1000;
 }
 
-div.baseline p{
+div.baseline{
 	width: 100%;
 	padding-top: 30px;
 }
-.line-seperate{
+hr{
+	margin-top: 40px;
+	margin-bottom: -15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+hr.line-seperate{
 		position: relative;
     width: 20%;
     border-top: 1px solid #333333;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 div.mission p{
 	font-size: 1.7em;
@@ -803,7 +809,7 @@ section.styling-fees{
 	padding-bottom: 50px;
 }
 .title-fees{
-	background: rgba(64, 184, 199, 0.70);
+	background: rgba(64, 184, 199, 0.85);
 	background-size: contain;
 	box-shadow: 0 30px 20px 0 rgba(0,0,0,0.25);
 	border-radius: 5px;
@@ -858,7 +864,7 @@ section.styling-fees{
 	letter-spacing: 0.5px;
 }
 .under-description-pricing{
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-weight: 300;
 	font-style: italic;
 	text-align: center;
@@ -868,19 +874,18 @@ section.styling-fees{
 }
 
 .btn.btn-price-page{
-	color: white !important;
+	color: #40b8c7 !important;
   font-size: 1.2em !important;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  background: rgba(255, 255, 255, 0.27);
-	border: 1px solid white;
+  background: white;
   border-radius: 80px!important;
   padding: 8px 30px;
   margin-top: 50px;
 }
 
 .btn.btn-price-page:hover{
-	background: rgba(255, 255, 255, 0.55);
+	background: rgba(255, 255, 255, 0.9);
 
 }
 
@@ -1254,6 +1259,14 @@ img.icon-first{
 	width: 20%;
 }
 
+hr{
+	margin-top: 0px;
+	margin-bottom: -35px;
+}
+
+#slider-cta{
+	margin-top: 10px;
+}
 /*=== HOW IT WORKS PAGE ===*/
 img.stepimg{
 	width: 75%;
@@ -1324,7 +1337,10 @@ div.whitebox{
 	padding: none;
 	left: 0%;
 }
-
+hr{
+	margin-top: 0px;
+	margin-bottom: -35px;
+}
 div.baseline p{
 	font-size: 1.5em;
 }
