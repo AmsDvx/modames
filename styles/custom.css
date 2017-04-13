@@ -764,6 +764,14 @@ a.link-team:hover{
 	color: #ff7366;
 	text-decoration: underline;
 }
+
+span.bold-def{
+	font-weight: 400;
+}
+span.italic-def{
+	font-style: italic;
+}
+
 /*=== Logo section ===*/
 img.logo-team{
 	max-width: 200px;
