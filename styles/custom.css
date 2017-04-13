@@ -1615,3 +1615,15 @@ footer img{
 	width: 30%;
 }
 }
+/* ==============================================
+Desktop and Large Desktop Screen
+=============================================== */
+@media screen and (min-width: 1600px){
+.bann_caption{
+	top: 200px !important;
+}
+
+
+
+
+}
